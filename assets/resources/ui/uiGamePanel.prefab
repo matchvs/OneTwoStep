@@ -543,7 +543,7 @@
     },
     "_enabled": true,
     "_spriteFrame": {
-      "__uuid__": "abe9e69f-4885-4179-8a5e-f871b3e063b8"
+      "__uuid__": "a1f831c4-a74d-47c7-a93b-834262794511"
     },
     "_type": 0,
     "_sizeMode": 2,
@@ -555,7 +555,7 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-    "_isTrimmedMode": true,
+    "_isTrimmedMode": false,
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_atlas": null
@@ -578,7 +578,10 @@
     "node": {
       "__id__": 6
     },
-    "_enabled": true
+    "_enabled": true,
+    "stoneSp": null,
+    "normalSf": null,
+    "clickSf": null
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -2907,7 +2910,7 @@
     },
     "offsetX": 180,
     "offsetY": 320,
-    "stoneSpeed": 300,
+    "stoneSpeed": 0,
     "accDurTime": 10,
     "speedUpPercent": 1.1,
     "waterBG": {

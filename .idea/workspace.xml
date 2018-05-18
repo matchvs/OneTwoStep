@@ -23,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/assets/basic/gameManager.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="21" column="17" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="21" selection-end-column="17" />
+              <caret line="21" column="17" selection-start-line="17" selection-start-column="8" selection-end-line="21" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -64,7 +64,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uiGamePanel.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="uiGamePanel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/common/script/uiGamePanel.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
@@ -73,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stone.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="stone.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/oneTwoStep/script/stone.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="41" selection-start-line="41" selection-end-line="45" selection-end-column="48" />
+            <state relative-caret-position="373">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -135,13 +135,13 @@
         <option value="$USER_HOME$/EduGames/write/assets/common/script/uiVictoryPanel.js" />
         <option value="$USER_HOME$/EduGames/write/assets/basic/gameManager.js" />
         <option value="$PROJECT_DIR$/assets/oneTwoStep/script/playerManager.js" />
-        <option value="$PROJECT_DIR$/assets/oneTwoStep/script/stone.js" />
         <option value="$PROJECT_DIR$/assets/oneTwoStep/script/roadManager.js" />
         <option value="$PROJECT_DIR$/assets/basic/Glb.js" />
         <option value="$PROJECT_DIR$/assets/oneTwoStep/script/player.js" />
         <option value="$PROJECT_DIR$/assets/oneTwoStep/script/rival.js" />
         <option value="$PROJECT_DIR$/assets/basic/gameManager.js" />
         <option value="$PROJECT_DIR$/assets/common/script/uiGamePanel.js" />
+        <option value="$PROJECT_DIR$/assets/oneTwoStep/script/stone.js" />
       </list>
     </option>
   </component>
@@ -244,12 +244,12 @@
       <updated>1526520095235</updated>
       <workItem from="1526520098422" duration="10799000" />
       <workItem from="1526538194026" duration="1581000" />
-      <workItem from="1526546254647" duration="32368000" />
+      <workItem from="1526546254647" duration="33051000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44748000" />
+    <option name="totallyTimeSpent" value="45431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="23" width="1907" height="977" extended-state="0" />
@@ -525,13 +525,6 @@
         <state relative-caret-position="-1354" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/oneTwoStep/script/stone.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="41" selection-start-line="41" selection-end-line="45" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/oneTwoStep/script/roadManager.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="533">
@@ -570,7 +563,7 @@
     <entry file="file://$PROJECT_DIR$/assets/basic/gameManager.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="21" selection-end-column="17" />
+          <caret line="21" column="17" selection-start-line="17" selection-start-column="8" selection-end-line="21" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -578,6 +571,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/oneTwoStep/script/stone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>

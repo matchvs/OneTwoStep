@@ -15,6 +15,18 @@ cc.Class({
         clickAudio: {
             default: null,
             url: cc.AudioClip
+        },
+        stoneSp: {
+            default: null,
+            type: cc.Sprite
+        },
+        normalSf: {
+            default: null,
+            type: cc.SpriteFrame
+        },
+        clickSf: {
+            default: null,
+            type: cc.SpriteFrame
         }
     },
 
@@ -25,6 +37,7 @@ cc.Class({
 
     init: function(data) {
         this.data = data;
+        this.stoneSp.spriteFrame = this.normalSf;
     },
 
     onClick: function() {
@@ -38,7 +51,7 @@ cc.Class({
             if (!exist) {
                 Game.PlayerManager.player.jumpPos.push(this.data);
                 cc.audioEngine.play(this.clickAudio, false, 1);
-
+                this.stoneSp.spriteFrame = this.clickSf;
                 var msg = {
                     action: GLB.PLAYER_STEP_DATA,
                     data: this.data

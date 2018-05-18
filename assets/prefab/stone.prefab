@@ -315,7 +315,7 @@
     },
     "_enabled": true,
     "_spriteFrame": {
-      "__uuid__": "abe9e69f-4885-4179-8a5e-f871b3e063b8"
+      "__uuid__": "a1f831c4-a74d-47c7-a93b-834262794511"
     },
     "_type": 0,
     "_sizeMode": 2,
@@ -327,7 +327,7 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-    "_isTrimmedMode": true,
+    "_isTrimmedMode": false,
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_atlas": null
@@ -353,6 +353,15 @@
     "_enabled": true,
     "clickAudio": {
       "__uuid__": "a1e6a6a1-086a-49e3-b388-5adcf6b0862c"
+    },
+    "stoneSp": {
+      "__id__": 9
+    },
+    "normalSf": {
+      "__uuid__": "a1f831c4-a74d-47c7-a93b-834262794511"
+    },
+    "clickSf": {
+      "__uuid__": "a21b2c05-9932-4cb5-8251-4aa42c0eb9b6"
     }
   },
   {

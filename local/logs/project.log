@@ -260,3 +260,8 @@ Missing uuid: "c334eaf9-e53b-4d9e-8cb0-ea9d658c9d20"
 2018-05-18T07:07:23.820Z - normal: Introduced global variable while editing: l
 2018-05-18T07:29:24.402Z - normal: Introduced global variable while editing: i
 2018-05-18T07:29:24.404Z - normal: Introduced global variable while editing: l
+2018-05-18T14:03:03.084Z - warn: The Asset used by component "cc.Sprite" in prefab "uiGamePanel.prefab" is missing. Detailed information:
+Node path: "uiGamePanel/roadManager/stone/stone2"
+Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
+Missing uuid: "abe9e69f-4885-4179-8a5e-f871b3e063b8"
+
