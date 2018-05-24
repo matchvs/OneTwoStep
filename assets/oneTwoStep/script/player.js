@@ -51,6 +51,7 @@ cc.Class({
         if (this.heart <= 0) {
             // 游戏结束--
             clientEvent.dispatch(clientEvent.eventType.gameOver);
+            Game.GameManager.result = false;
         } else {
             Game.GameManager.gameState = GameState.Pause;
             // 进入复活--
@@ -80,7 +81,9 @@ cc.Class({
         this.anim.play("reborn");
 
         setTimeout(function() {
-            Game.GameManager.gameState = GameState.Play;
+            if (Game.GameManager.gameState === GameState.Pause) {
+                Game.GameManager.gameState = GameState.Play;
+            }
         }, 1000);
 
         this.jumpPos = [];

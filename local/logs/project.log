@@ -1,207 +1,85 @@
-2018-05-16T09:06:27.501Z - normal: Load ~/.CocosCreator/settings.json
-2018-05-16T09:06:27.505Z - normal: checking language setting...
-2018-05-16T09:06:27.506Z - normal: Language: zh
-2018-05-16T09:06:28.308Z - success: protocol editor-framework registered
-2018-05-16T09:06:28.308Z - success: protocol app registered
-2018-05-16T09:06:28.308Z - success: protocol theme registered
-2018-05-16T09:06:28.308Z - success: protocol packages registered
-2018-05-16T09:06:28.308Z - success: protocol unpack registerred
-2018-05-16T09:06:28.308Z - success: protocol disable-commonjs registerred
-2018-05-16T09:06:28.605Z - normal: connected!
-2018-05-16T09:06:28.607Z - normal: Check project /Users/mac/MatchVsGames/oneTwoStep
-2018-05-16T09:06:28.608Z - normal: Initializing Cocos2d
-2018-05-16T09:06:28.845Z - normal: Initializing Asset Database
-2018-05-16T09:06:28.880Z - success: protocol uuid registerred
-2018-05-16T09:06:28.880Z - success: protocol db registerred
-2018-05-16T09:06:28.880Z - success: protocol thumbnail registerred
-2018-05-16T09:06:28.880Z - normal: Loading editor/builtin packages
-2018-05-16T09:06:28.898Z - success: anysdk loaded
-2018-05-16T09:06:29.019Z - success: assets loaded
-2018-05-16T09:06:29.024Z - success: builder loaded
-2018-05-16T09:06:29.028Z - success: cocos-analytics loaded
-2018-05-16T09:06:29.033Z - success: console loaded
-2018-05-16T09:06:29.081Z - success: fb-instant-games loaded
-2018-05-16T09:06:29.085Z - success: hierarchy loaded
-2018-05-16T09:06:29.092Z - success: inspector loaded
-2018-05-16T09:06:29.093Z - success: keystore loaded
-2018-05-16T09:06:29.101Z - success: node-library loaded
-2018-05-16T09:06:29.103Z - success: package-asset loaded
-2018-05-16T09:06:29.106Z - success: preferences loaded
-2018-05-16T09:06:29.109Z - success: project-exporter loaded
-2018-05-16T09:06:29.125Z - success: project-importer loaded
-2018-05-16T09:06:29.128Z - success: project-settings loaded
-2018-05-16T09:06:29.132Z - success: ui-kit loaded
-2018-05-16T09:06:29.137Z - success: ui-grid loaded
-2018-05-16T09:06:29.142Z - success: scene loaded
-2018-05-16T09:06:29.143Z - success: sprite-editor loaded
-2018-05-16T09:06:29.147Z - success: store loaded
-2018-05-16T09:06:29.153Z - success: timeline loaded
-2018-05-16T09:06:29.153Z - normal: Loading builtin packages
-2018-05-16T09:06:29.158Z - success: asset-db-debugger loaded
-2018-05-16T09:06:29.158Z - success: color-picker loaded
-2018-05-16T09:06:29.162Z - success: package-manager loaded
-2018-05-16T09:06:29.167Z - success: sdkbox loaded
-2018-05-16T09:06:29.174Z - success: tester loaded
-2018-05-16T09:06:29.177Z - success: ui-kit-preview-extra loaded
-2018-05-16T09:06:29.180Z - success: ui-kit-preview loaded
-2018-05-16T09:06:29.183Z - success: ui-tree loaded
-2018-05-16T09:06:30.149Z - normal: Initializing project /Users/mac/MatchVsGames/oneTwoStep
-2018-05-16T09:06:30.152Z - normal: Loading packages
-2018-05-16T09:06:30.163Z - success: plugin-matchvs loaded
-2018-05-16T09:06:30.163Z - normal: Watching packages
-2018-05-16T09:06:30.204Z - normal: Run Application
-2018-05-16T09:06:30.919Z - success: preview server running at http://localhost:7456
-2018-05-16T09:06:38.034Z - normal: 1.9.0
-2018-05-16T09:09:11.976Z - warn: The Asset used by component "uiGamePanel" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "86dbe7b6-53fe-40c8-b737-95dd9fe5572f"
+2018-05-24T10:50:08.330Z - normal: Load ~/.CocosCreator/settings.json
+2018-05-24T10:50:08.334Z - normal: checking language setting...
+2018-05-24T10:50:08.334Z - normal: Language: zh
+2018-05-24T10:50:09.054Z - success: protocol editor-framework registered
+2018-05-24T10:50:09.054Z - success: protocol app registered
+2018-05-24T10:50:09.054Z - success: protocol theme registered
+2018-05-24T10:50:09.054Z - success: protocol packages registered
+2018-05-24T10:50:09.054Z - success: protocol unpack registerred
+2018-05-24T10:50:09.055Z - success: protocol disable-commonjs registerred
+2018-05-24T10:50:09.357Z - normal: connected!
+2018-05-24T10:50:09.360Z - normal: Check project /Users/mac/MatchVsGames/oneTwoStep
+2018-05-24T10:50:09.370Z - normal: Initializing Cocos2d
+2018-05-24T10:50:09.572Z - normal: Initializing Asset Database
+2018-05-24T10:50:09.605Z - success: protocol uuid registerred
+2018-05-24T10:50:09.605Z - success: protocol db registerred
+2018-05-24T10:50:09.605Z - success: protocol thumbnail registerred
+2018-05-24T10:50:09.605Z - normal: Loading editor/builtin packages
+2018-05-24T10:50:09.622Z - success: anysdk loaded
+2018-05-24T10:50:09.726Z - success: assets loaded
+2018-05-24T10:50:09.730Z - success: builder loaded
+2018-05-24T10:50:09.731Z - success: cocos-analytics loaded
+2018-05-24T10:50:09.735Z - success: console loaded
+2018-05-24T10:50:09.766Z - success: fb-instant-games loaded
+2018-05-24T10:50:09.770Z - success: hierarchy loaded
+2018-05-24T10:50:09.775Z - success: inspector loaded
+2018-05-24T10:50:09.777Z - success: keystore loaded
+2018-05-24T10:50:09.784Z - success: node-library loaded
+2018-05-24T10:50:09.786Z - success: package-asset loaded
+2018-05-24T10:50:09.788Z - success: preferences loaded
+2018-05-24T10:50:09.791Z - success: project-exporter loaded
+2018-05-24T10:50:09.806Z - success: project-importer loaded
+2018-05-24T10:50:09.809Z - success: project-settings loaded
+2018-05-24T10:50:09.812Z - success: ui-kit loaded
+2018-05-24T10:50:09.816Z - success: ui-grid loaded
+2018-05-24T10:50:09.821Z - success: scene loaded
+2018-05-24T10:50:09.822Z - success: sprite-editor loaded
+2018-05-24T10:50:09.827Z - success: store loaded
+2018-05-24T10:50:09.832Z - success: timeline loaded
+2018-05-24T10:50:09.832Z - normal: Loading builtin packages
+2018-05-24T10:50:09.836Z - success: asset-db-debugger loaded
+2018-05-24T10:50:09.837Z - success: color-picker loaded
+2018-05-24T10:50:09.840Z - success: package-manager loaded
+2018-05-24T10:50:09.845Z - success: sdkbox loaded
+2018-05-24T10:50:09.851Z - success: tester loaded
+2018-05-24T10:50:09.854Z - success: ui-kit-preview-extra loaded
+2018-05-24T10:50:09.858Z - success: ui-kit-preview loaded
+2018-05-24T10:50:09.860Z - success: ui-tree loaded
+2018-05-24T10:50:10.703Z - normal: Initializing project /Users/mac/MatchVsGames/oneTwoStep
+2018-05-24T10:50:10.705Z - normal: Loading packages
+2018-05-24T10:50:10.716Z - success: plugin-matchvs loaded
+2018-05-24T10:50:10.716Z - normal: Watching packages
+2018-05-24T10:50:10.756Z - normal: Run Application
+2018-05-24T10:50:11.480Z - success: preview server running at http://localhost:7456
+2018-05-24T10:50:17.638Z - normal: 1.9.0
+2018-05-24T10:55:30.747Z - error: Failed to load meta 7c5b03cc-e46c-4be3-9e30-b50dae244750: Failed to query meta info by 7c5b03cc-e46c-4be3-9e30-b50dae244750
+    at asset.e._loadMeta (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6323)
+    at Editor.assetdb.queryMetaInfoByUuid (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:8973)
+    at EventEmitter.ipcRenderer.on.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:4493)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:194:7)
+2018-05-24T10:55:32.138Z - error: Error: The id already added in the tree: 3870698f-4030-4272-af2a-8ccbaa407563
+    at HTMLElement.addItem (packages://ui-tree/widget/id-tree.js:1:406)
+    at HTMLElement.addNewItemById (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/assets/panel/assets-tree.js:1:5207)
+    at s.forEach.e (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/assets/panel/panel.js:1:4578)
+    at Array.forEach (native)
+    at HTMLElement.asset-db:assets-created (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/assets/panel/panel.js:1:4402)
+    at EventEmitter.e.on.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/polymer-utils.js:1:353)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:194:7)
+2018-05-24T13:21:17.503Z - warn: Script attached to "uiJoinRoomPanel" in prefab "uiJoinRoomPanel.prefab" is missing or invalid. Detailed information:
+Node path: "uiJoinRoomPanel"
+Asset url: "db://assets/resources/ui/uiJoinRoomPanel.prefab"
+Script UUID: "0911d9d5-432d-434c-8a73-fe3599f66620"
+Class ID: "0911dnVQy1DTIpz/jWZ9mYg"
 
-2018-05-16T09:09:11.978Z - warn: The Asset used by component "uiGamePanel" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "06793d01-9df7-42ff-bf76-e640073316c7"
-
-2018-05-16T09:18:33.487Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/resources/data/sampleTemplate.csv.meta
-2018-05-16T09:19:51.436Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:14542
-2018-05-16T09:56:54.206Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:47445
-2018-05-16T09:56:54.209Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:47448
-2018-05-16T09:56:54.210Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:47450
-2018-05-16T09:56:54.210Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:47452
-2018-05-16T09:56:54.211Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:47454
-2018-05-16T12:17:05.814Z - warn: Cannot place directory into itself - d6ee5412-e066-4a85-adcb-63e22ac88956
-2018-05-16T12:17:09.705Z - warn: Cannot place directory into itself - d6ee5412-e066-4a85-adcb-63e22ac88956
-2018-05-16T12:17:14.067Z - warn: Cannot place directory into itself - d6ee5412-e066-4a85-adcb-63e22ac88956
-2018-05-16T12:26:19.901Z - warn: The Asset used by component "bulletManager" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/bulletManager"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "8feaa305-3792-4bdd-b8e7-b6ae660515f1"
-
-2018-05-16T12:26:19.903Z - warn: The Asset used by component "bulletManager" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/bulletManager"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "b284167e-a909-4cf6-b887-0e85b332a773"
-
-2018-05-16T12:27:41.079Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:116013
-2018-05-16T12:27:42.960Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:116016
-2018-05-16T13:59:13.587Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:211767
-2018-05-16T13:59:28.487Z - normal: Introduced global variable while editing: i
-2018-05-16T13:59:28.488Z - normal: Introduced global variable while editing: l
-2018-05-16T13:59:28.995Z - warn: The Asset used by component "bulletManager" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/bulletManager"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "8feaa305-3792-4bdd-b8e7-b6ae660515f1"
-
-2018-05-16T13:59:28.995Z - warn: The Asset used by component "bulletManager" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/bulletManager"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "b284167e-a909-4cf6-b887-0e85b332a773"
-
-2018-05-16T13:59:37.824Z - warn: The Asset used by component "bulletManager" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/bulletManager"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "8feaa305-3792-4bdd-b8e7-b6ae660515f1"
-
-2018-05-16T13:59:37.825Z - warn: The Asset used by component "bulletManager" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/bulletManager"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "b284167e-a909-4cf6-b887-0e85b332a773"
-
-2018-05-16T13:59:43.851Z - warn: The Asset used by component "bulletManager" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/bulletManager"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "8feaa305-3792-4bdd-b8e7-b6ae660515f1"
-
-2018-05-16T13:59:43.851Z - warn: The Asset used by component "bulletManager" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/bulletManager"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "b284167e-a909-4cf6-b887-0e85b332a773"
-
-2018-05-17T01:10:44.557Z - warn: The Asset used by component "bulletManager" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/bulletManager"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "8feaa305-3792-4bdd-b8e7-b6ae660515f1"
-
-2018-05-17T01:10:44.558Z - warn: The Asset used by component "bulletManager" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/bulletManager"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "b284167e-a909-4cf6-b887-0e85b332a773"
-
-2018-05-17T01:10:47.407Z - warn: The Asset used by component "bulletManager" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/bulletManager"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "8feaa305-3792-4bdd-b8e7-b6ae660515f1"
-
-2018-05-17T01:10:47.407Z - warn: The Asset used by component "bulletManager" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/bulletManager"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "b284167e-a909-4cf6-b887-0e85b332a773"
-
-2018-05-17T01:21:00.033Z - warn: The Asset used by component "bulletManager" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/bulletManager"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "8feaa305-3792-4bdd-b8e7-b6ae660515f1"
-
-2018-05-17T01:21:00.035Z - warn: The Asset used by component "bulletManager" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/bulletManager"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "b284167e-a909-4cf6-b887-0e85b332a773"
-
-2018-05-17T01:34:33.409Z - warn: The Asset used by component "bulletManager" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/bulletManager"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "8feaa305-3792-4bdd-b8e7-b6ae660515f1"
-
-2018-05-17T01:34:33.411Z - warn: The Asset used by component "bulletManager" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/bulletManager"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "b284167e-a909-4cf6-b887-0e85b332a773"
-
-2018-05-17T01:38:20.829Z - warn: The Asset used by component "bulletManager" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/bulletManager"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "8feaa305-3792-4bdd-b8e7-b6ae660515f1"
-
-2018-05-17T01:38:20.830Z - warn: The Asset used by component "bulletManager" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/bulletManager"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "b284167e-a909-4cf6-b887-0e85b332a773"
-
-2018-05-17T01:38:38.193Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:377300
-2018-05-17T01:38:38.208Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:377303
-2018-05-17T01:40:19.636Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:379262
-2018-05-17T01:59:32.828Z - warn: Script attached to "bulletManager" in prefab "uiGamePanel.prefab" is missing or invalid. Detailed information:
-Node path: "uiGamePanel/bulletManager"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Script UUID: "07e38502-cc31-4d58-b32d-310bce319380"
-Class ID: "07e38UCzDFNWLMtMQvOMZOA"
-
-2018-05-17T02:12:11.230Z - warn: Script attached to "bulletManager" in prefab "uiGamePanel.prefab" is missing or invalid. Detailed information:
-Node path: "uiGamePanel/bulletManager"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Script UUID: "07e38502-cc31-4d58-b32d-310bce319380"
-Class ID: "07e38UCzDFNWLMtMQvOMZOA"
-
-2018-05-17T02:27:52.217Z - warn: Script attached to "bulletManager" in prefab "uiGamePanel.prefab" is missing or invalid. Detailed information:
-Node path: "uiGamePanel/bulletManager"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Script UUID: "07e38502-cc31-4d58-b32d-310bce319380"
-Class ID: "07e38UCzDFNWLMtMQvOMZOA"
-
-2018-05-17T02:28:46.473Z - warn: Script attached to "bulletManager" in prefab "uiGamePanel.prefab" is missing or invalid. Detailed information:
-Node path: "uiGamePanel/bulletManager"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Script UUID: "07e38502-cc31-4d58-b32d-310bce319380"
-Class ID: "07e38UCzDFNWLMtMQvOMZOA"
-
-2018-05-17T03:22:45.651Z - failed: [db-task][sync-changes] Failed to import asset /Users/mac/MatchVsGames/oneTwoStep/assets/oneTwoStep/script/roadManager.js, message: Compile error: SyntaxError: /Users/mac/MatchVsGames/oneTwoStep/assets/oneTwoStep/script/roadManager.js: Unexpected token (71:11)
-  69 |         }
-  70 |         this.node.y -= this.stoneSpeed * dt;
-> 71 |         if()
-     |            ^
-  72 |     }
-  73 | 
-  74 | });
+2018-05-24T14:29:52.632Z - failed: [db-task][sync-changes] Failed to import asset /Users/mac/MatchVsGames/oneTwoStep/assets/common/script/uiVsResult.js, message: Compile error: SyntaxError: /Users/mac/MatchVsGames/oneTwoStep/assets/common/script/uiVsResult.js: Unexpected token (19:4)
+  17 |         // step by step
+  18 |         if (Game.PlayerManager.player.heart) 
+> 19 |     }
+     |     ^
+  20 | });
+  21 | 
     at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
     at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
     at Parser.pp$3.parseExprAtom (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3750:12)
@@ -211,57 +89,4 @@ Class ID: "07e38UCzDFNWLMtMQvOMZOA"
     at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
     at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3344:19)
     at Parser.pp$3.parseExpression (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3306:19)
-    at Parser.pp$3.parseParenExpression (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3789:18)
-2018-05-17T08:46:11.222Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:791480
-2018-05-17T08:46:11.224Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:791482
-2018-05-17T08:46:11.224Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:791484
-2018-05-17T10:02:14.738Z - warn: Can not select this node in Animation Edit Mode
-2018-05-17T10:02:15.480Z - warn: Can not select this node in Animation Edit Mode
-2018-05-17T10:05:02.920Z - warn: The Node referenced is invalid. Detailed information:
-
-2018-05-17T10:05:20.522Z - warn: The Node referenced is invalid. Detailed information:
-
-2018-05-17T12:30:46.655Z - warn: The Node referenced is invalid. Detailed information:
-
-2018-05-17T13:29:20.993Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1082050
-2018-05-17T13:30:32.159Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1084177
-2018-05-17T14:38:49.597Z - warn: The Asset used is missing. Detailed information:
-Missing uuid: "c334eaf9-e53b-4d9e-8cb0-ea9d658c9d20"
-
-2018-05-18T01:44:30.003Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1445915
-2018-05-18T01:44:30.006Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1445923
-2018-05-18T01:44:30.006Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1445927
-2018-05-18T01:44:30.007Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1445931
-2018-05-18T01:44:30.008Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1445935
-2018-05-18T01:44:30.009Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1445939
-2018-05-18T01:44:30.010Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1445943
-2018-05-18T01:44:30.011Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1445947
-2018-05-18T01:44:30.011Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1445951
-2018-05-18T01:44:30.012Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1445955
-2018-05-18T01:44:30.012Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1445959
-2018-05-18T01:44:30.014Z - error: Window "main" unresponsive: [object Object]
-    at BrowserWindow.Window.nativeWin.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:2470)
-    at emitOne (events.js:96:13)
-    at BrowserWindow.emit (events.js:191:7)
-2018-05-18T01:48:53.070Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1454360
-2018-05-18T01:54:33.116Z - normal: Introduced global variable while editing: i
-2018-05-18T01:54:33.118Z - normal: Introduced global variable while editing: l
-2018-05-18T06:58:48.108Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1806825
-2018-05-18T06:58:48.112Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1806832
-2018-05-18T06:59:49.951Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1808001
-2018-05-18T06:59:49.953Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1808006
-2018-05-18T06:59:49.954Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1808011
-2018-05-18T06:59:49.955Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1808015
-2018-05-18T06:59:49.955Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1808019
-2018-05-18T06:59:58.105Z - warn: Key frame already exists
-2018-05-18T06:59:59.160Z - warn: Key frame already exists
-2018-05-18T07:00:03.984Z - warn: Key frame already exists
-2018-05-18T07:07:23.816Z - normal: Introduced global variable while editing: i
-2018-05-18T07:07:23.820Z - normal: Introduced global variable while editing: l
-2018-05-18T07:29:24.402Z - normal: Introduced global variable while editing: i
-2018-05-18T07:29:24.404Z - normal: Introduced global variable while editing: l
-2018-05-18T14:03:03.084Z - warn: The Asset used by component "cc.Sprite" in prefab "uiGamePanel.prefab" is missing. Detailed information:
-Node path: "uiGamePanel/roadManager/stone/stone2"
-Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
-Missing uuid: "abe9e69f-4885-4179-8a5e-f871b3e063b8"
-
+    at Parser.pp$1.parseStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1906:19)

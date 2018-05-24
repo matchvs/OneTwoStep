@@ -18,7 +18,14 @@ cc.Class({
         clientEvent.on(clientEvent.eventType.gameOver, function() {
             // 打开结算界面--
             console.log("游戏结束");
-            Game.GameManager.gameState = GameState.Over;
+            if (Game.GameManager.gameState !== GameState.Over) {
+                Game.GameManager.gameState = GameState.Over;
+                if (cc.Canvas.instance.designResolution.height > cc.Canvas.instance.designResolution.width) {
+                    uiFunc.openUI("uiVsResultVer");
+                } else {
+                    uiFunc.openUI("uiVsResult");
+                }
+            }
         }, this);
 
         mvs.response.sendEventNotify = this.sendEventNotify.bind(this);
@@ -36,14 +43,109 @@ cc.Class({
     matchVsInit: function() {
         mvs.response.initResponse = this.initResponse.bind(this);
         mvs.response.errorResponse = this.errorResponse.bind(this);
+        mvs.response.joinRoomResponse = this.joinRoomResponse.bind(this);
+        mvs.response.joinRoomNotify = this.joinRoomNotify.bind(this);
+        mvs.response.leaveRoomResponse = this.leaveRoomResponse.bind(this);
+        mvs.response.leaveRoomNotify = this.leaveRoomNotify.bind(this);
+        mvs.response.joinOverResponse = this.joinOverResponse.bind(this);
+        mvs.response.createRoomResponse = this.createRoomResponse.bind(this);
+        mvs.response.getRoomListResponse = this.getRoomListResponse.bind(this);
+        mvs.response.getRoomDetailResponse = this.getRoomDetailResponse.bind(this);
+        mvs.response.getRoomListExResponse = this.getRoomListExResponse.bind(this);
+        mvs.response.kickPlayerResponse = this.kickPlayerResponse.bind(this);
+        mvs.response.kickPlayerNotify = this.kickPlayerNotify.bind(this);
+
+
         var result = mvs.engine.init(mvs.response, GLB.channel, GLB.platform, GLB.gameId);
         if (result !== 0) {
             console.log('初始化失败,错误码:' + result);
         }
     },
 
-    errorResponse: function(error) {
+    kickPlayerNotify: function(kickPlayerNotify) {
+        var data = {
+            kickPlayerNotify: kickPlayerNotify
+        }
+        clientEvent.dispatch(clientEvent.eventType.kickPlayerNotify, data);
+    },
+
+    kickPlayerResponse: function(kickPlayerRsp) {
+        var data = {
+            kickPlayerRsp: kickPlayerRsp
+        }
+        clientEvent.dispatch(clientEvent.eventType.kickPlayerResponse, data);
+    },
+
+    getRoomListExResponse: function(rsp) {
+        var data = {
+            rsp: rsp
+        }
+        clientEvent.dispatch(clientEvent.eventType.getRoomListExResponse, data);
+    },
+
+    getRoomDetailResponse: function(rsp) {
+        var data = {
+            rsp: rsp
+        }
+        clientEvent.dispatch(clientEvent.eventType.getRoomDetailResponse, data);
+    },
+
+    getRoomListResponse: function(status, roomInfos) {
+        var data = {
+            status: status,
+            roomInfos: roomInfos
+        }
+        clientEvent.dispatch(clientEvent.eventType.getRoomListResponse, data);
+    },
+
+    createRoomResponse: function(rsp) {
+        var data = {
+            rsp: rsp
+        }
+        clientEvent.dispatch(clientEvent.eventType.createRoomResponse, data);
+    },
+
+    joinOverResponse: function(joinOverRsp) {
+        var data = {
+            joinOverRsp: joinOverRsp
+        }
+        clientEvent.dispatch(clientEvent.eventType.joinOverResponse, data);
+    },
+
+    joinRoomResponse: function(status, roomUserInfoList, roomInfo) {
+        var data = {
+            status: status,
+            roomUserInfoList: roomUserInfoList,
+            roomInfo: roomInfo
+        }
+        clientEvent.dispatch(clientEvent.eventType.joinRoomResponse, data);
+    },
+
+    joinRoomNotify: function(roomUserInfo) {
+        var data = {
+            roomUserInfo: roomUserInfo
+        }
+        clientEvent.dispatch(clientEvent.eventType.joinRoomNotify, data);
+    },
+
+    leaveRoomResponse: function(leaveRoomRsp) {
+        var data = {
+            leaveRoomRsp: leaveRoomRsp
+        }
+        clientEvent.dispatch(clientEvent.eventType.leaveRoomResponse, data);
+    },
+
+    leaveRoomNotify: function(leaveRoomInfo) {
+        var data = {
+            leaveRoomInfo: leaveRoomInfo
+        }
+        clientEvent.dispatch(clientEvent.eventType.leaveRoomNotify, data);
+    },
+
+    errorResponse: function(error, msg) {
         console.log("错误信息：" + error);
+        console.log("错误信息：" + msg);
+
     },
 
     initResponse: function() {
@@ -86,7 +188,11 @@ cc.Class({
     },
 
     lobbyShow: function() {
-        uiFunc.openUI("uiLobbyPanel");
+        if (cc.Canvas.instance.designResolution.height > cc.Canvas.instance.designResolution.width) {
+            uiFunc.openUI("uiLobbyPanelVer");
+        } else {
+            uiFunc.openUI("uiLobbyPanel");
+        }
     },
 
     // 玩家行为通知--

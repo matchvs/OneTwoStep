@@ -10,7 +10,21 @@ window.clientEvent = {
         time: "time",
         score: "score",
         updateCoin: "updateCoin",
-        loadBullet: "loadBullet"
+        loadBullet: "loadBullet",
+
+        initResponse: "initResponse",
+        errorResponse: "errorResponse",
+        joinRoomResponse: "joinRoomResponse",
+        joinRoomNotify: "joinRoomNotify",
+        leaveRoomResponse: "leaveRoomResponse",
+        leaveRoomNotify: "leaveRoomNotify",
+        joinOverResponse: "joinOverResponse",
+        createRoomResponse: "createRoomResponse",
+        getRoomListResponse: "getRoomListResponse",
+        getRoomDetailResponse: "getRoomDetailResponse",
+        getRoomListExResponse: "getRoomListExResponse",
+        kickPlayerResponse: "kickPlayerResponse",
+        kickPlayerNotify: "kickPlayerNotify"
     },
     eventListener: null
 }

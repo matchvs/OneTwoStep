@@ -2,6 +2,7 @@ var obj = {
     RANDOM_MATCH: 1,  // 随机匹配
     PROPERTY_MATCH: 2,  // 属性匹配
     MAX_PLAYER_COUNT: 2,
+    PLAYER_COUNTS: [1, 2, 3],
     GAME_START_EVENT: "gameStart",
     GAME_TIME: "gameTime",
     PLAYER_STEP_DATA: "playerStep",
@@ -33,12 +34,6 @@ var obj = {
     FRAME_RATE: 20,
     roomId: 0,
     playertime: 180,
-    isGameOver: false,
-
-    scoreMap: new Map(),
-
-    number1: "",
-    number2: "",
-    number3: "",
+    isGameOver: false
 };
 module.exports = obj;

@@ -49,6 +49,7 @@ cc.Class({
         if (this.heart <= 0) {
             // 游戏结束--
             clientEvent.dispatch(clientEvent.eventType.gameOver);
+            Game.GameManager.result = true;
         } else {
             setTimeout(function() {
                 this.reborn();
