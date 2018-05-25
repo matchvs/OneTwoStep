@@ -1,4 +1,6 @@
 var uiPanel = require("uiPanel");
+var mvs = require("Matchvs");
+var GLB = require("Glb");
 cc.Class({
     extends: uiPanel,
 
@@ -18,6 +20,7 @@ cc.Class({
     },
 
     quit: function() {
+        mvs.engine.leaveRoom("");
         var gamePanel = uiFunc.findUI("uiGamePanel");
         if (gamePanel) {
             uiFunc.closeUI("uiGamePanel");

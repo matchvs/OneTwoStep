@@ -131,11 +131,11 @@ cc.Class({
 
             GLB.playerUserIds = userIds;
 
-            var event = {
+            var msg = {
                 action: GLB.GAME_START_EVENT,
                 userIds: userIds
             };
-            mvs.engine.sendEvent(JSON.stringify(event));
+            Game.GameManager.sendEventEx(msg);
         }
     },
 

@@ -1,92 +1,54 @@
-2018-05-24T10:50:08.330Z - normal: Load ~/.CocosCreator/settings.json
-2018-05-24T10:50:08.334Z - normal: checking language setting...
-2018-05-24T10:50:08.334Z - normal: Language: zh
-2018-05-24T10:50:09.054Z - success: protocol editor-framework registered
-2018-05-24T10:50:09.054Z - success: protocol app registered
-2018-05-24T10:50:09.054Z - success: protocol theme registered
-2018-05-24T10:50:09.054Z - success: protocol packages registered
-2018-05-24T10:50:09.054Z - success: protocol unpack registerred
-2018-05-24T10:50:09.055Z - success: protocol disable-commonjs registerred
-2018-05-24T10:50:09.357Z - normal: connected!
-2018-05-24T10:50:09.360Z - normal: Check project /Users/mac/MatchVsGames/oneTwoStep
-2018-05-24T10:50:09.370Z - normal: Initializing Cocos2d
-2018-05-24T10:50:09.572Z - normal: Initializing Asset Database
-2018-05-24T10:50:09.605Z - success: protocol uuid registerred
-2018-05-24T10:50:09.605Z - success: protocol db registerred
-2018-05-24T10:50:09.605Z - success: protocol thumbnail registerred
-2018-05-24T10:50:09.605Z - normal: Loading editor/builtin packages
-2018-05-24T10:50:09.622Z - success: anysdk loaded
-2018-05-24T10:50:09.726Z - success: assets loaded
-2018-05-24T10:50:09.730Z - success: builder loaded
-2018-05-24T10:50:09.731Z - success: cocos-analytics loaded
-2018-05-24T10:50:09.735Z - success: console loaded
-2018-05-24T10:50:09.766Z - success: fb-instant-games loaded
-2018-05-24T10:50:09.770Z - success: hierarchy loaded
-2018-05-24T10:50:09.775Z - success: inspector loaded
-2018-05-24T10:50:09.777Z - success: keystore loaded
-2018-05-24T10:50:09.784Z - success: node-library loaded
-2018-05-24T10:50:09.786Z - success: package-asset loaded
-2018-05-24T10:50:09.788Z - success: preferences loaded
-2018-05-24T10:50:09.791Z - success: project-exporter loaded
-2018-05-24T10:50:09.806Z - success: project-importer loaded
-2018-05-24T10:50:09.809Z - success: project-settings loaded
-2018-05-24T10:50:09.812Z - success: ui-kit loaded
-2018-05-24T10:50:09.816Z - success: ui-grid loaded
-2018-05-24T10:50:09.821Z - success: scene loaded
-2018-05-24T10:50:09.822Z - success: sprite-editor loaded
-2018-05-24T10:50:09.827Z - success: store loaded
-2018-05-24T10:50:09.832Z - success: timeline loaded
-2018-05-24T10:50:09.832Z - normal: Loading builtin packages
-2018-05-24T10:50:09.836Z - success: asset-db-debugger loaded
-2018-05-24T10:50:09.837Z - success: color-picker loaded
-2018-05-24T10:50:09.840Z - success: package-manager loaded
-2018-05-24T10:50:09.845Z - success: sdkbox loaded
-2018-05-24T10:50:09.851Z - success: tester loaded
-2018-05-24T10:50:09.854Z - success: ui-kit-preview-extra loaded
-2018-05-24T10:50:09.858Z - success: ui-kit-preview loaded
-2018-05-24T10:50:09.860Z - success: ui-tree loaded
-2018-05-24T10:50:10.703Z - normal: Initializing project /Users/mac/MatchVsGames/oneTwoStep
-2018-05-24T10:50:10.705Z - normal: Loading packages
-2018-05-24T10:50:10.716Z - success: plugin-matchvs loaded
-2018-05-24T10:50:10.716Z - normal: Watching packages
-2018-05-24T10:50:10.756Z - normal: Run Application
-2018-05-24T10:50:11.480Z - success: preview server running at http://localhost:7456
-2018-05-24T10:50:17.638Z - normal: 1.9.0
-2018-05-24T10:55:30.747Z - error: Failed to load meta 7c5b03cc-e46c-4be3-9e30-b50dae244750: Failed to query meta info by 7c5b03cc-e46c-4be3-9e30-b50dae244750
-    at asset.e._loadMeta (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6323)
-    at Editor.assetdb.queryMetaInfoByUuid (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:8973)
-    at EventEmitter.ipcRenderer.on.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:4493)
-    at emitTwo (events.js:106:13)
-    at EventEmitter.emit (events.js:194:7)
-2018-05-24T10:55:32.138Z - error: Error: The id already added in the tree: 3870698f-4030-4272-af2a-8ccbaa407563
-    at HTMLElement.addItem (packages://ui-tree/widget/id-tree.js:1:406)
-    at HTMLElement.addNewItemById (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/assets/panel/assets-tree.js:1:5207)
-    at s.forEach.e (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/assets/panel/panel.js:1:4578)
-    at Array.forEach (native)
-    at HTMLElement.asset-db:assets-created (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/assets/panel/panel.js:1:4402)
-    at EventEmitter.e.on.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/polymer-utils.js:1:353)
-    at emitTwo (events.js:106:13)
-    at EventEmitter.emit (events.js:194:7)
-2018-05-24T13:21:17.503Z - warn: Script attached to "uiJoinRoomPanel" in prefab "uiJoinRoomPanel.prefab" is missing or invalid. Detailed information:
-Node path: "uiJoinRoomPanel"
-Asset url: "db://assets/resources/ui/uiJoinRoomPanel.prefab"
-Script UUID: "0911d9d5-432d-434c-8a73-fe3599f66620"
-Class ID: "0911dnVQy1DTIpz/jWZ9mYg"
-
-2018-05-24T14:29:52.632Z - failed: [db-task][sync-changes] Failed to import asset /Users/mac/MatchVsGames/oneTwoStep/assets/common/script/uiVsResult.js, message: Compile error: SyntaxError: /Users/mac/MatchVsGames/oneTwoStep/assets/common/script/uiVsResult.js: Unexpected token (19:4)
-  17 |         // step by step
-  18 |         if (Game.PlayerManager.player.heart) 
-> 19 |     }
-     |     ^
-  20 | });
-  21 | 
-    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
-    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
-    at Parser.pp$3.parseExprAtom (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3750:12)
-    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
-    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3344:19)
-    at Parser.pp$3.parseExpression (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3306:19)
-    at Parser.pp$1.parseStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1906:19)
+2018-05-25T01:21:46.299Z - normal: Load ~/.CocosCreator/settings.json
+2018-05-25T01:21:46.303Z - normal: checking language setting...
+2018-05-25T01:21:46.303Z - normal: Language: zh
+2018-05-25T01:21:47.097Z - success: protocol editor-framework registered
+2018-05-25T01:21:47.098Z - success: protocol app registered
+2018-05-25T01:21:47.098Z - success: protocol theme registered
+2018-05-25T01:21:47.099Z - success: protocol packages registered
+2018-05-25T01:21:47.099Z - success: protocol unpack registerred
+2018-05-25T01:21:47.100Z - success: protocol disable-commonjs registerred
+2018-05-25T01:21:47.414Z - normal: connected!
+2018-05-25T01:21:47.420Z - normal: Check project /Users/mac/MatchVsGames/oneTwoStep
+2018-05-25T01:21:47.422Z - normal: Initializing Cocos2d
+2018-05-25T01:21:47.761Z - normal: Initializing Asset Database
+2018-05-25T01:21:47.810Z - success: protocol uuid registerred
+2018-05-25T01:21:47.810Z - success: protocol db registerred
+2018-05-25T01:21:47.810Z - success: protocol thumbnail registerred
+2018-05-25T01:21:47.810Z - normal: Loading editor/builtin packages
+2018-05-25T01:21:47.832Z - success: anysdk loaded
+2018-05-25T01:21:47.945Z - success: assets loaded
+2018-05-25T01:21:47.949Z - success: builder loaded
+2018-05-25T01:21:47.952Z - success: cocos-analytics loaded
+2018-05-25T01:21:47.956Z - success: console loaded
+2018-05-25T01:21:47.988Z - success: fb-instant-games loaded
+2018-05-25T01:21:47.992Z - success: hierarchy loaded
+2018-05-25T01:21:47.996Z - success: inspector loaded
+2018-05-25T01:21:47.997Z - success: keystore loaded
+2018-05-25T01:21:48.005Z - success: node-library loaded
+2018-05-25T01:21:48.007Z - success: package-asset loaded
+2018-05-25T01:21:48.009Z - success: preferences loaded
+2018-05-25T01:21:48.012Z - success: project-exporter loaded
+2018-05-25T01:21:48.027Z - success: project-importer loaded
+2018-05-25T01:21:48.030Z - success: project-settings loaded
+2018-05-25T01:21:48.034Z - success: ui-kit loaded
+2018-05-25T01:21:48.039Z - success: ui-grid loaded
+2018-05-25T01:21:48.043Z - success: scene loaded
+2018-05-25T01:21:48.044Z - success: sprite-editor loaded
+2018-05-25T01:21:48.049Z - success: store loaded
+2018-05-25T01:21:48.055Z - success: timeline loaded
+2018-05-25T01:21:48.055Z - normal: Loading builtin packages
+2018-05-25T01:21:48.060Z - success: asset-db-debugger loaded
+2018-05-25T01:21:48.060Z - success: color-picker loaded
+2018-05-25T01:21:48.066Z - success: package-manager loaded
+2018-05-25T01:21:48.071Z - success: sdkbox loaded
+2018-05-25T01:21:48.077Z - success: tester loaded
+2018-05-25T01:21:48.083Z - success: ui-kit-preview-extra loaded
+2018-05-25T01:21:48.086Z - success: ui-kit-preview loaded
+2018-05-25T01:21:48.091Z - success: ui-tree loaded
+2018-05-25T01:21:49.032Z - normal: Initializing project /Users/mac/MatchVsGames/oneTwoStep
+2018-05-25T01:21:49.035Z - normal: Loading packages
+2018-05-25T01:21:49.044Z - success: plugin-matchvs loaded
+2018-05-25T01:21:49.045Z - normal: Watching packages
+2018-05-25T01:21:49.086Z - normal: Run Application
+2018-05-25T01:21:49.938Z - success: preview server running at http://localhost:7457
+2018-05-25T01:21:58.263Z - normal: 1.9.0

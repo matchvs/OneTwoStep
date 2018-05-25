@@ -46,8 +46,10 @@ cc.Class({
     },
 
     getRoomListResponse: function(data) {
-        for (var j = 0; j < this.rooms.length; j++) {
-            this.rooms[j].destroy();
+        if (this.rooms) {
+            for (var j = 0; j < this.rooms.length; j++) {
+                this.rooms[j].destroy();
+            }
         }
         this.rooms = [];
         data.roomInfos.sort(function(a, b) {

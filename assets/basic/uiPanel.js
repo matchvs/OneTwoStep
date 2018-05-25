@@ -13,7 +13,8 @@ cc.Class({
         hideAnimation: {
             default: PanelAnimation.None,
             type: PanelAnimation
-        }
+        },
+        isUseMask: false
     },
 
     onLoad: function() {
@@ -70,10 +71,12 @@ cc.Class({
             this.anim.addClip(dataFunc.uiPanelAnimationClips[clipName]);
             this.anim.play(clipName);
         }
+        // 解除事件绑定--
+        clientEvent.clear(this);
     },
 
-    onDestroy:function() {
-        if(this.anim){
+    onDestroy: function() {
+        if (this.anim) {
             this.anim.off('finished', this.showCompleted, this);
         }
     },
