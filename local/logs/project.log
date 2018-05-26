@@ -1,54 +1,54 @@
-2018-05-25T01:21:46.299Z - normal: Load ~/.CocosCreator/settings.json
-2018-05-25T01:21:46.303Z - normal: checking language setting...
-2018-05-25T01:21:46.303Z - normal: Language: zh
-2018-05-25T01:21:47.097Z - success: protocol editor-framework registered
-2018-05-25T01:21:47.098Z - success: protocol app registered
-2018-05-25T01:21:47.098Z - success: protocol theme registered
-2018-05-25T01:21:47.099Z - success: protocol packages registered
-2018-05-25T01:21:47.099Z - success: protocol unpack registerred
-2018-05-25T01:21:47.100Z - success: protocol disable-commonjs registerred
-2018-05-25T01:21:47.414Z - normal: connected!
-2018-05-25T01:21:47.420Z - normal: Check project /Users/mac/MatchVsGames/oneTwoStep
-2018-05-25T01:21:47.422Z - normal: Initializing Cocos2d
-2018-05-25T01:21:47.761Z - normal: Initializing Asset Database
-2018-05-25T01:21:47.810Z - success: protocol uuid registerred
-2018-05-25T01:21:47.810Z - success: protocol db registerred
-2018-05-25T01:21:47.810Z - success: protocol thumbnail registerred
-2018-05-25T01:21:47.810Z - normal: Loading editor/builtin packages
-2018-05-25T01:21:47.832Z - success: anysdk loaded
-2018-05-25T01:21:47.945Z - success: assets loaded
-2018-05-25T01:21:47.949Z - success: builder loaded
-2018-05-25T01:21:47.952Z - success: cocos-analytics loaded
-2018-05-25T01:21:47.956Z - success: console loaded
-2018-05-25T01:21:47.988Z - success: fb-instant-games loaded
-2018-05-25T01:21:47.992Z - success: hierarchy loaded
-2018-05-25T01:21:47.996Z - success: inspector loaded
-2018-05-25T01:21:47.997Z - success: keystore loaded
-2018-05-25T01:21:48.005Z - success: node-library loaded
-2018-05-25T01:21:48.007Z - success: package-asset loaded
-2018-05-25T01:21:48.009Z - success: preferences loaded
-2018-05-25T01:21:48.012Z - success: project-exporter loaded
-2018-05-25T01:21:48.027Z - success: project-importer loaded
-2018-05-25T01:21:48.030Z - success: project-settings loaded
-2018-05-25T01:21:48.034Z - success: ui-kit loaded
-2018-05-25T01:21:48.039Z - success: ui-grid loaded
-2018-05-25T01:21:48.043Z - success: scene loaded
-2018-05-25T01:21:48.044Z - success: sprite-editor loaded
-2018-05-25T01:21:48.049Z - success: store loaded
-2018-05-25T01:21:48.055Z - success: timeline loaded
-2018-05-25T01:21:48.055Z - normal: Loading builtin packages
-2018-05-25T01:21:48.060Z - success: asset-db-debugger loaded
-2018-05-25T01:21:48.060Z - success: color-picker loaded
-2018-05-25T01:21:48.066Z - success: package-manager loaded
-2018-05-25T01:21:48.071Z - success: sdkbox loaded
-2018-05-25T01:21:48.077Z - success: tester loaded
-2018-05-25T01:21:48.083Z - success: ui-kit-preview-extra loaded
-2018-05-25T01:21:48.086Z - success: ui-kit-preview loaded
-2018-05-25T01:21:48.091Z - success: ui-tree loaded
-2018-05-25T01:21:49.032Z - normal: Initializing project /Users/mac/MatchVsGames/oneTwoStep
-2018-05-25T01:21:49.035Z - normal: Loading packages
-2018-05-25T01:21:49.044Z - success: plugin-matchvs loaded
-2018-05-25T01:21:49.045Z - normal: Watching packages
-2018-05-25T01:21:49.086Z - normal: Run Application
-2018-05-25T01:21:49.938Z - success: preview server running at http://localhost:7457
-2018-05-25T01:21:58.263Z - normal: 1.9.0
+2018-05-26T02:10:56.341Z - normal: Load ~/.CocosCreator/settings.json
+2018-05-26T02:10:56.346Z - normal: checking language setting...
+2018-05-26T02:10:56.346Z - normal: Language: zh
+2018-05-26T02:10:57.115Z - success: protocol editor-framework registered
+2018-05-26T02:10:57.116Z - success: protocol app registered
+2018-05-26T02:10:57.116Z - success: protocol theme registered
+2018-05-26T02:10:57.116Z - success: protocol packages registered
+2018-05-26T02:10:57.116Z - success: protocol unpack registerred
+2018-05-26T02:10:57.116Z - success: protocol disable-commonjs registerred
+2018-05-26T02:10:57.404Z - normal: connected!
+2018-05-26T02:10:57.406Z - normal: Check project /Users/mac/MatchVsGames/oneTwoStep
+2018-05-26T02:10:57.408Z - normal: Initializing Cocos2d
+2018-05-26T02:10:57.643Z - normal: Initializing Asset Database
+2018-05-26T02:10:57.676Z - success: protocol uuid registerred
+2018-05-26T02:10:57.677Z - success: protocol db registerred
+2018-05-26T02:10:57.677Z - success: protocol thumbnail registerred
+2018-05-26T02:10:57.677Z - normal: Loading editor/builtin packages
+2018-05-26T02:10:57.695Z - success: anysdk loaded
+2018-05-26T02:10:57.812Z - success: assets loaded
+2018-05-26T02:10:57.817Z - success: builder loaded
+2018-05-26T02:10:57.819Z - success: cocos-analytics loaded
+2018-05-26T02:10:57.823Z - success: console loaded
+2018-05-26T02:10:57.856Z - success: fb-instant-games loaded
+2018-05-26T02:10:57.861Z - success: hierarchy loaded
+2018-05-26T02:10:57.866Z - success: inspector loaded
+2018-05-26T02:10:57.868Z - success: keystore loaded
+2018-05-26T02:10:57.875Z - success: node-library loaded
+2018-05-26T02:10:57.878Z - success: package-asset loaded
+2018-05-26T02:10:57.880Z - success: preferences loaded
+2018-05-26T02:10:57.883Z - success: project-exporter loaded
+2018-05-26T02:10:57.899Z - success: project-importer loaded
+2018-05-26T02:10:57.902Z - success: project-settings loaded
+2018-05-26T02:10:57.905Z - success: ui-kit loaded
+2018-05-26T02:10:57.910Z - success: ui-grid loaded
+2018-05-26T02:10:57.915Z - success: scene loaded
+2018-05-26T02:10:57.916Z - success: sprite-editor loaded
+2018-05-26T02:10:57.920Z - success: store loaded
+2018-05-26T02:10:57.925Z - success: timeline loaded
+2018-05-26T02:10:57.925Z - normal: Loading builtin packages
+2018-05-26T02:10:57.929Z - success: asset-db-debugger loaded
+2018-05-26T02:10:57.931Z - success: color-picker loaded
+2018-05-26T02:10:57.934Z - success: package-manager loaded
+2018-05-26T02:10:57.939Z - success: sdkbox loaded
+2018-05-26T02:10:57.946Z - success: tester loaded
+2018-05-26T02:10:57.951Z - success: ui-kit-preview-extra loaded
+2018-05-26T02:10:57.954Z - success: ui-kit-preview loaded
+2018-05-26T02:10:57.957Z - success: ui-tree loaded
+2018-05-26T02:10:58.921Z - normal: Initializing project /Users/mac/MatchVsGames/oneTwoStep
+2018-05-26T02:10:58.923Z - normal: Loading packages
+2018-05-26T02:10:58.935Z - success: plugin-matchvs loaded
+2018-05-26T02:10:58.935Z - normal: Watching packages
+2018-05-26T02:10:58.975Z - normal: Run Application
+2018-05-26T02:10:59.898Z - success: preview server running at http://localhost:7457
+2018-05-26T02:11:08.590Z - normal: 1.9.0

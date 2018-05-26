@@ -9,6 +9,7 @@ cc.Class({
         this._super();
         this.playerCntLb = this.nodeDict["playerCnt"].getComponent(cc.Label);
         this.playerCnt = GLB.PLAYER_COUNTS[0];
+        this.playerCntLb.string = this.playerCnt;
         this.nodeDict["quit"].on("click", this.quit, this);
         this.nodeDict["addNode"].on("click", this.addPlayerCount, this);
         this.nodeDict["subNode"].on("click", this.subPlayerCount, this);
