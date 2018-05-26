@@ -24,7 +24,7 @@ cc.Class({
 
     setData: function(msRoomAttribute) {
         this.msRoomAttribute = msRoomAttribute;
-        this.roomIdLb.string = msRoomAttribute.roomName;
+        this.roomIdLb.string = msRoomAttribute.roomID;
     },
 
     joinRoom: function() {
