@@ -14,15 +14,11 @@ var obj = {
     channel: 'MatchVS',
     platform: 'alpha',
 
-    gameId: 201331,
+    gameId: 201372,
     gameVersion: 1,
-    appKey: '17ffc6d5f1e14a04b99c4bf17addc411',
-    secret: '4cc0d042cd5547e98860728bb3207650',
+    appKey: '9a93e36777004e98905a7e66d0808a42',
+    secret: 'daf7049c6e3e48e08bfe90abd5b77b0e',
 
-    // gameId: 200757,
-    // gameVersion: 1,
-    // appKey: '6783e7d174ef41b98a91957c561cf305',
-    // secret: 'da47754579fa47e4affab5785451622c',
     gameType: 2,
     matchType: 1,
     tagsInfo: { "title": "A" },
