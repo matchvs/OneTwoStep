@@ -30,8 +30,12 @@ cc.Class({
     onLoad() {
         this._super();
         this.bgmId = cc.audioEngine.play(this.bgm, true, 0.5);
-        cc.audioEngine.play(this.readyGoClip, false, 1);
         clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
+        clientEvent.on(clientEvent.eventType.roundStart, this.roundStart, this);
+    },
+
+    roundStart() {
+        cc.audioEngine.play(this.readyGoClip, false, 1);
     },
 
     gameOver() {
@@ -63,6 +67,8 @@ cc.Class({
 
     onDestroy() {
         clientEvent.off(clientEvent.eventType.gameOver, this.gameOver, this);
+        clientEvent.off(clientEvent.eventType.roundStart, this.roundStart, this);
+
     }
 
 });

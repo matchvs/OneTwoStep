@@ -3,7 +3,7 @@
   "_name": "stand",
   "_objFlags": 0,
   "_rawFiles": null,
-  "_duration": 0.016666666666666666,
+  "_duration": 0.02,
   "sample": 60,
   "speed": 1,
   "wrapMode": 1,
@@ -21,6 +21,16 @@
               }
             ]
           }
+        }
+      },
+      "flags": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
         }
       }
     }

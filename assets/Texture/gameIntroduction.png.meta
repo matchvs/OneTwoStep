@@ -1,14 +1,14 @@
 {
   "ver": "1.0.0",
-  "uuid": "3900c8be-ff7c-4e4c-8903-6e7a32571982",
+  "uuid": "9f6622e3-435e-475e-ba99-d0f40cc3d38f",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "dieLine2": {
+    "gameIntroduction": {
       "ver": "1.0.3",
-      "uuid": "6f7b1592-9b50-41e0-bcfd-9d4de768104c",
-      "rawTextureUuid": "3900c8be-ff7c-4e4c-8903-6e7a32571982",
+      "uuid": "a7c9f8fe-bc8d-42a3-9b57-a43a26574ecd",
+      "rawTextureUuid": "9f6622e3-435e-475e-ba99-d0f40cc3d38f",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
@@ -16,10 +16,10 @@
       "offsetY": 0,
       "trimX": 0,
       "trimY": 0,
-      "width": 12,
-      "height": 83,
-      "rawWidth": 12,
-      "rawHeight": 83,
+      "width": 363,
+      "height": 125,
+      "rawWidth": 363,
+      "rawHeight": 125,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

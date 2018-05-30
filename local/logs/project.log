@@ -52,3 +52,12 @@
 2018-05-29T01:39:47.636Z - normal: Run Application
 2018-05-29T01:39:48.461Z - success: preview server running at http://localhost:7457
 2018-05-29T01:39:55.305Z - normal: 1.9.0
+2018-05-30T09:52:52.662Z - warn: Key frame already exists
+2018-05-30T09:52:53.769Z - warn: Key frame already exists
+2018-05-30T09:55:18.508Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1445768
+2018-05-30T12:27:45.105Z - normal: Introduced global variable while editing: i
+2018-05-30T12:27:45.108Z - normal: Introduced global variable while editing: l
+2018-05-30T12:31:43.158Z - normal: Introduced global variable while editing: i
+2018-05-30T12:31:43.160Z - normal: Introduced global variable while editing: l
+2018-05-30T12:35:14.774Z - normal: Introduced global variable while editing: i
+2018-05-30T12:35:14.776Z - normal: Introduced global variable while editing: l

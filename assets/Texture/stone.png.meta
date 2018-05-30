@@ -1,14 +1,14 @@
 {
   "ver": "1.0.0",
-  "uuid": "3900c8be-ff7c-4e4c-8903-6e7a32571982",
+  "uuid": "c628a035-3434-4b6c-81cb-521a29413f47",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "dieLine2": {
+    "stone": {
       "ver": "1.0.3",
-      "uuid": "6f7b1592-9b50-41e0-bcfd-9d4de768104c",
-      "rawTextureUuid": "3900c8be-ff7c-4e4c-8903-6e7a32571982",
+      "uuid": "4f06fee2-da9a-4a6a-9d00-7ece78134885",
+      "rawTextureUuid": "c628a035-3434-4b6c-81cb-521a29413f47",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
@@ -16,10 +16,10 @@
       "offsetY": 0,
       "trimX": 0,
       "trimY": 0,
-      "width": 12,
-      "height": 83,
-      "rawWidth": 12,
-      "rawHeight": 83,
+      "width": 180,
+      "height": 320,
+      "rawWidth": 180,
+      "rawHeight": 320,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

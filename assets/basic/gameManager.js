@@ -10,31 +10,39 @@ cc.Class({
         clientEvent.init();
         dataFunc.loadConfigs();
         this.matchVsInit();
-        uiFunc.openUI("uiMaskLayout", function() {
-        });
         clientEvent.on(clientEvent.eventType.gameOver, function() {
             // 打开结算界面--
             console.log("游戏结束");
             if (Game.GameManager.gameState !== GameState.Over) {
                 Game.GameManager.gameState = GameState.Over;
-                if (cc.Canvas.instance.designResolution.height > cc.Canvas.instance.designResolution.width) {
-                    uiFunc.openUI("uiVsResultVer");
-                } else {
-                    uiFunc.openUI("uiVsResult");
-                }
+                setTimeout(function() {
+                    if (cc.Canvas.instance.designResolution.height > cc.Canvas.instance.designResolution.width) {
+                        uiFunc.openUI("uiVsResultVer");
+                    } else {
+                        uiFunc.openUI("uiVsResult");
+                    }
+                }.bind(this), 1000);
             }
         }, this);
 
         mvs.response.sendEventNotify = this.sendEventNotify.bind(this);
     },
 
+    sendReadyMsg: function() {
+        var msg = { action: GLB.READY };
+        this.sendEventEx(msg);
+    },
+
+    sendRoundStartMsg: function() {
+        var msg = { action: GLB.ROUND_START };
+        this.sendEventEx(msg);
+    },
+
     startGame: function() {
+        this.readyCnt = 0;
         cc.director.loadScene('game', function() {
             uiFunc.openUI("uiGamePanel", function() {
-                setTimeout(function() {
-                    this.gameState = GameState.Play;
-                    this.gameTime = Game.GameSeconds;
-                }.bind(this), 1200);
+                this.sendReadyMsg();
             }.bind(this));
         }.bind(this));
     },
@@ -54,13 +62,17 @@ cc.Class({
         mvs.response.getRoomListExResponse = this.getRoomListExResponse.bind(this);
         mvs.response.kickPlayerResponse = this.kickPlayerResponse.bind(this);
         mvs.response.kickPlayerNotify = this.kickPlayerNotify.bind(this);
-
+        mvs.response.registerUserResponse = this.registerUserResponse.bind(this);
+        mvs.response.loginResponse = this.loginResponse.bind(this); // 用户登录之后的回调
+        mvs.response.logoutResponse = this.logoutResponse.bind(this); // 用户登录之后的回调
+        mvs.response.sendEventNotify = this.sendEventNotify.bind(this);
 
         var result = mvs.engine.init(mvs.response, GLB.channel, GLB.platform, GLB.gameId);
         if (result !== 0) {
             console.log('初始化失败,错误码:' + result);
         }
     },
+
 
     kickPlayerNotify: function(kickPlayerNotify) {
         var data = {
@@ -70,6 +82,10 @@ cc.Class({
     },
 
     kickPlayerResponse: function(kickPlayerRsp) {
+        if (kickPlayerRsp.status !== 200) {
+            console.log("失败kickPlayerRsp:" + kickPlayerRsp);
+            return;
+        }
         var data = {
             kickPlayerRsp: kickPlayerRsp
         }
@@ -77,6 +93,10 @@ cc.Class({
     },
 
     getRoomListExResponse: function(rsp) {
+        if (rsp.status !== 200) {
+            console.log("失败 rsp:" + rsp);
+            return;
+        }
         var data = {
             rsp: rsp
         }
@@ -84,6 +104,10 @@ cc.Class({
     },
 
     getRoomDetailResponse: function(rsp) {
+        if (rsp.status !== 200) {
+            console.log("失败 rsp:" + rsp);
+            return;
+        }
         var data = {
             rsp: rsp
         }
@@ -91,6 +115,10 @@ cc.Class({
     },
 
     getRoomListResponse: function(status, roomInfos) {
+        if (status !== 200) {
+            console.log("失败 status:" + status);
+            return;
+        }
         var data = {
             status: status,
             roomInfos: roomInfos
@@ -99,6 +127,10 @@ cc.Class({
     },
 
     createRoomResponse: function(rsp) {
+        if (rsp.status !== 200) {
+            console.log("失败 createRoomResponse:" + rsp);
+            return;
+        }
         var data = {
             rsp: rsp
         }
@@ -106,6 +138,10 @@ cc.Class({
     },
 
     joinOverResponse: function(joinOverRsp) {
+        if (joinOverRsp.status !== 200) {
+            console.log("失败 joinOverRsp:" + joinOverRsp);
+            return;
+        }
         var data = {
             joinOverRsp: joinOverRsp
         }
@@ -113,6 +149,10 @@ cc.Class({
     },
 
     joinRoomResponse: function(status, roomUserInfoList, roomInfo) {
+        if (status !== 200) {
+            console.log("失败 joinRoomResponse:" + status);
+            return;
+        }
         var data = {
             status: status,
             roomUserInfoList: roomUserInfoList,
@@ -129,6 +169,10 @@ cc.Class({
     },
 
     leaveRoomResponse: function(leaveRoomRsp) {
+        if (leaveRoomRsp.status !== 200) {
+            console.log("失败 leaveRoomRsp:" + leaveRoomRsp);
+            return;
+        }
         var data = {
             leaveRoomRsp: leaveRoomRsp
         }
@@ -142,15 +186,22 @@ cc.Class({
         clientEvent.dispatch(clientEvent.eventType.leaveRoomNotify, data);
     },
 
+    logoutResponse: function(status) {
+        cc.game.removePersistRootNode(this.node);
+        cc.director.loadScene('lobby');
+        console.log("reload lobby");
+    },
+
     errorResponse: function(error, msg) {
+        if (error === 1001) {
+            mvs.engine.logout("");
+        }
         console.log("错误信息：" + error);
         console.log("错误信息：" + msg);
-
     },
 
     initResponse: function() {
         console.log('初始化成功，开始注册用户');
-        mvs.response.registerUserResponse = this.registerUserResponse.bind(this); // 用户注册之后的回调
         var result = mvs.engine.registerUser();
         if (result !== 0) {
             console.log('注册用户失败，错误码:' + result);
@@ -166,7 +217,6 @@ cc.Class({
 
         console.log('开始登录,用户Id:' + userInfo.id)
 
-        mvs.response.loginResponse = this.loginResponse.bind(this); // 用户登录之后的回调
         var result = mvs.engine.login(
             userInfo.id, userInfo.token,
             GLB.gameId, GLB.gameVersion,
@@ -215,6 +265,13 @@ cc.Class({
             }
         }
 
+        if (info.cpProto.indexOf(GLB.READY) >= 0) {
+            this.readyCnt++;
+            if (GLB.isRoomOwner && this.readyCnt >= GLB.playerUserIds.length) {
+                this.sendRoundStartMsg();
+            }
+        }
+
         if (info.cpProto.indexOf(GLB.PLAYER_SPEED_UP_EVENT) >= 0) {
             if (info.srcUserId !== GLB.userInfo.id) {
                 Game.PlayerManager.rival.speedUpNotify();
@@ -223,6 +280,15 @@ cc.Class({
 
         if (info.cpProto.indexOf(GLB.GAME_OVER_EVENT) >= 0) {
             clientEvent.dispatch(clientEvent.eventType.gameOver);
+        }
+
+        if (info.cpProto.indexOf(GLB.ROUND_START) >= 0) {
+            setTimeout(function() {
+                Game.GameManager.gameState = GameState.Play;
+            }.bind(this), 4000);
+            setTimeout(function() {
+                clientEvent.dispatch(clientEvent.eventType.roundStart);
+            }.bind(this), 3000);
         }
     },
 

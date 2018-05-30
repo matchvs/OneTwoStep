@@ -1,12 +1,6 @@
 window.Game = {
     GameManager: null,
-    BulletManager: null,
-    DuckManger: null,
-    PlayerManager: null,
-
-    fireInterval: 1500,
-    itemInterval: 8000,
-    GameSeconds: 60
+    PlayerManager: null
 }
 
 window.GameState = cc.Enum({
@@ -16,11 +10,6 @@ window.GameState = cc.Enum({
     Over: 3,
     End: 4
 })
-
-window.BulletType = cc.Enum({
-    Normal: -1,
-    Special: -1
-});
 
 window.PlayerState = cc.Enum({
     Jump: -1,

@@ -7,6 +7,8 @@ var obj = {
     COMPETITION: 2,
     GAME_START_EVENT: "gameStart",
     GAME_TIME: "gameTime",
+    READY: "ready",
+    ROUND_START: "roundStart",
     PLAYER_STEP_DATA: "playerStep",
     PLAYER_SPEED_UP_EVENT: "playerSpeedUp",
     GAME_OVER_EVENT: "gameOver",

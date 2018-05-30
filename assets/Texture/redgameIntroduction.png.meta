@@ -1,14 +1,14 @@
 {
   "ver": "1.0.0",
-  "uuid": "3900c8be-ff7c-4e4c-8903-6e7a32571982",
+  "uuid": "aada4599-c9de-4bd5-b12e-ac9f77b68e7b",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "dieLine2": {
+    "redgameIntroduction": {
       "ver": "1.0.3",
-      "uuid": "6f7b1592-9b50-41e0-bcfd-9d4de768104c",
-      "rawTextureUuid": "3900c8be-ff7c-4e4c-8903-6e7a32571982",
+      "uuid": "691d8ac9-298d-4888-a296-0363985beb4f",
+      "rawTextureUuid": "aada4599-c9de-4bd5-b12e-ac9f77b68e7b",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
@@ -16,10 +16,10 @@
       "offsetY": 0,
       "trimX": 0,
       "trimY": 0,
-      "width": 12,
-      "height": 83,
-      "rawWidth": 12,
-      "rawHeight": 83,
+      "width": 363,
+      "height": 125,
+      "rawWidth": 363,
+      "rawHeight": 125,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,

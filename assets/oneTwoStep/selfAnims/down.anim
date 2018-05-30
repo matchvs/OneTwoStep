@@ -3,7 +3,7 @@
   "_name": "down",
   "_objFlags": 0,
   "_rawFiles": null,
-  "_duration": 0.016666666666666666,
+  "_duration": 2,
   "sample": 60,
   "speed": 1,
   "wrapMode": 1,
@@ -30,6 +30,38 @@
             {
               "frame": 0,
               "value": false
+            }
+          ]
+        }
+      },
+      "flags": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.5,
+              "value": 10
+            },
+            {
+              "frame": 1,
+              "value": -5
+            },
+            {
+              "frame": 1.5,
+              "value": 5
+            },
+            {
+              "frame": 2,
+              "value": 0
+            }
+          ],
+          "active": [
+            {
+              "frame": 0,
+              "value": true
             }
           ]
         }
