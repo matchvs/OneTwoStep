@@ -14,6 +14,11 @@ cc.Class({
         this.nodeDict["name"].getComponent(cc.Label).string = GLB.userInfo.id;
     },
 
+    onEnable() {
+        GLB.isRoomOwner = false;
+        GLB.MAX_PLAYER_COUNT = 2;
+    },
+
     randomRoom: function() {
         GLB.matchType = GLB.RANDOM_MATCH; // 修改匹配方式为随机匹配
         console.log('开始随机匹配');
