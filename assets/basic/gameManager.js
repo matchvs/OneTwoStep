@@ -12,9 +12,6 @@ cc.Class({
         this.matchVsInit();
         uiFunc.openUI("uiMaskLayout", function() {
         });
-
-        this.gameState = GameState.None;
-        this.gameTime = Game.GameSeconds;
         clientEvent.on(clientEvent.eventType.gameOver, function() {
             // 打开结算界面--
             console.log("游戏结束");
@@ -35,6 +32,7 @@ cc.Class({
         cc.director.loadScene('game', function() {
             uiFunc.openUI("uiGamePanel", function() {
                 this.gameState = GameState.Play;
+                this.gameTime = Game.GameSeconds;
             }.bind(this));
         }.bind(this));
     },

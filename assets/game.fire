@@ -120,12 +120,12 @@
     ],
     "_prefab": null,
     "_id": "65VXbsElJOc5Lqo/llEME5",
-    "_opacity": 255,
+    "_opacity": 0,
     "_color": {
       "__type__": "cc.Color",
-      "r": 173,
-      "g": 119,
-      "b": 108,
+      "r": 0,
+      "g": 0,
+      "b": 0,
       "a": 255
     },
     "_cascadeOpacityEnabled": true,

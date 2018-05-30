@@ -17,7 +17,12 @@ cc.Class({
 
     onLoad() {
         this._super();
-        cc.audioEngine.play(this.bgAudio, true, 1);
+        this.bgmId = cc.audioEngine.play(this.bgAudio, true, 1);
+        clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
+    },
+
+    gameOver() {
+        cc.audioEngine.stop(this.bgmId);
     },
 
     update() {
@@ -27,15 +32,19 @@ cc.Class({
             if (Math.abs(stepDif) > this.stepThreshold) {
                 this.stepSpTag.node.active = true;
                 if (stepDif < 0) {
-                    this.stepSpTag.SpriteFrame = this.backWardSpFrame;
+                    this.stepSpTag.spriteFrame = this.backWardSpFrame;
                 } else {
-                    this.stepSpTag.SpriteFrame = this.leadSpFrame;
+                    this.stepSpTag.spriteFrame = this.leadSpFrame;
                 }
                 this.stepLb.string = Math.abs(stepDif);
             } else {
                 this.stepSpTag.node.active = false;
             }
         }
+    },
+
+    onDestroy() {
+        clientEvent.off(clientEvent.eventType.gameOver, this.gameOver, this);
     }
 
 });
