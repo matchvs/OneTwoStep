@@ -943,7 +943,10 @@
       {
         "__id__": 75
       }
-    ]
+    ],
+    "jumpDownClip": {
+      "__uuid__": "e468beee-cf21-42d6-a3eb-26496f58a45e"
+    }
   },
   {
     "__type__": "cc.Node",
@@ -1364,7 +1367,7 @@
     },
     "_enabled": true,
     "_spriteFrame": {
-      "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+      "__uuid__": "8bb9d332-4f5e-4550-b649-37efd7f093f6"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -2214,7 +2217,7 @@
     },
     "_enabled": true,
     "_spriteFrame": {
-      "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+      "__uuid__": "8bb9d332-4f5e-4550-b649-37efd7f093f6"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -2936,7 +2939,10 @@
       {
         "__id__": 49
       }
-    ]
+    ],
+    "jumpDownClip": {
+      "__uuid__": "e468beee-cf21-42d6-a3eb-26496f58a45e"
+    }
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -3186,8 +3192,17 @@
     "showAnimation": 0,
     "hideAnimation": 0,
     "isUseMask": false,
-    "bgAudio": {
+    "bgm": {
       "__uuid__": "a0e821a6-b094-4596-b683-a2e7bb6e3580"
+    },
+    "loseClip": {
+      "__uuid__": "be7c7434-0a3f-404a-9630-ee584de4ba92"
+    },
+    "winClip": {
+      "__uuid__": "1ceb701f-3aa5-45a6-9daf-c261fabbecbf"
+    },
+    "readyGoClip": {
+      "__uuid__": "4aee20e5-12d5-431b-91c7-c5fc30e701cb"
     },
     "leadSpFrame": {
       "__uuid__": "e5e7679f-bd65-40f8-b783-c202eecdc1cc"

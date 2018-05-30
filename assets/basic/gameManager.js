@@ -31,8 +31,10 @@ cc.Class({
     startGame: function() {
         cc.director.loadScene('game', function() {
             uiFunc.openUI("uiGamePanel", function() {
-                this.gameState = GameState.Play;
-                this.gameTime = Game.GameSeconds;
+                setTimeout(function() {
+                    this.gameState = GameState.Play;
+                    this.gameTime = Game.GameSeconds;
+                }.bind(this), 1200);
             }.bind(this));
         }.bind(this));
     },

@@ -290,7 +290,11 @@
     "node": {
       "__id__": 1
     },
-    "_enabled": true
+    "_enabled": true,
+    "heartNodes": [],
+    "jumpDownClip": {
+      "__uuid__": "e468beee-cf21-42d6-a3eb-26496f58a45e"
+    }
   },
   {
     "__type__": "cc.PrefabInfo",

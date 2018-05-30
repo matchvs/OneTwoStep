@@ -32,7 +32,7 @@ cc.Class({
         Game.RoadManager = this;
         this.curLeftAccTime = this.accDurTime;
         this.roadPool = new cc.NodePool();
-        this.spawnTriggerDis = 2 * this.offsetY;
+        this.spawnTriggerDis = 3 * this.offsetY;
         this.stones = [];
         this.waterBG.on(cc.Node.EventType.TOUCH_START, this.onClickWater, this);
         this.deadLineAnim = this.deadLine.getComponent(cc.Animation);

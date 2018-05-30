@@ -2,7 +2,11 @@ var GLB = require("Glb");
 cc.Class({
     extends: cc.Component,
     properties: {
-        heartNodes: [cc.Node]
+        heartNodes: [cc.Node],
+        jumpDownClip: {
+            default: "",
+            url: cc.AudioClip
+        }
     },
 
     init: function(playerId) {
@@ -40,6 +44,7 @@ cc.Class({
     jumpDown: function(pos) {
         this.jump(pos, function() {
             this.anim.play("down");
+            cc.audioEngine.play(this.jumpDownClip, false, 1);
             this.dead();
         }.bind(this));
     },
@@ -50,8 +55,8 @@ cc.Class({
         this.hpBarSet();
         if (this.heart <= 0) {
             // 游戏结束--
-            clientEvent.dispatch(clientEvent.eventType.gameOver);
             Game.GameManager.result = false;
+            clientEvent.dispatch(clientEvent.eventType.gameOver);
         } else {
             Game.GameManager.gameState = GameState.Pause;
             // 进入复活--

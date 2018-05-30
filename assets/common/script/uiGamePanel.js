@@ -4,7 +4,19 @@ cc.Class({
     extends: require("uiPanel"),
 
     properties: {
-        bgAudio: {
+        bgm: {
+            default: null,
+            url: cc.AudioClip
+        },
+        loseClip: {
+            default: null,
+            url: cc.AudioClip
+        },
+        winClip: {
+            default: null,
+            url: cc.AudioClip
+        },
+        readyGoClip: {
             default: null,
             url: cc.AudioClip
         },
@@ -17,12 +29,18 @@ cc.Class({
 
     onLoad() {
         this._super();
-        this.bgmId = cc.audioEngine.play(this.bgAudio, true, 1);
+        this.bgmId = cc.audioEngine.play(this.bgm, true, 0.5);
+        cc.audioEngine.play(this.readyGoClip, false, 1);
         clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
     },
 
     gameOver() {
         cc.audioEngine.stop(this.bgmId);
+        if (Game.GameManager.result) {
+            cc.audioEngine.play(this.winClip, false, 1);
+        } else {
+            cc.audioEngine.play(this.loseClip, false, 1);
+        }
     },
 
     update() {
