@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "ae0fd925-4db8-4f23-bead-df108f2fe4fa",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "redShock": {
+      "ver": "1.0.3",
+      "uuid": "68229bdd-74eb-4394-92f4-f7bfa3d976e7",
+      "rawTextureUuid": "ae0fd925-4db8-4f23-bead-df108f2fe4fa",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 203,
+      "height": 179,
+      "rawWidth": 203,
+      "rawHeight": 179,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

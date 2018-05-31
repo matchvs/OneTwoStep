@@ -56,7 +56,7 @@ cc.Class({
         if (this.heart <= 0) {
             // 游戏结束--
             Game.GameManager.result = false;
-            clientEvent.dispatch(clientEvent.eventType.gameOver);
+            Game.GameManager.gameOver();
         } else {
             Game.GameManager.gameState = GameState.Pause;
             // 进入复活--
@@ -122,6 +122,7 @@ cc.Class({
                 action: GLB.PLAYER_STEP_DATA,
                 data: fakeData
             };
+            this.anim.play("shock");
             Game.GameManager.sendEvent(msg);
         } else if (this.playerState === PlayerState.Stand
             && this.jumpPos && this.jumpPos.length > 0) {

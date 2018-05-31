@@ -48,13 +48,28 @@ cc.Class({
         }.bind(this));
     },
 
+    shockDead() {
+        this.anim.play("shock");
+        this.heart--;
+        this.hpBarSet();
+        if (this.heart <= 0) {
+            // 游戏结束--
+            Game.GameManager.result = true;
+            Game.GameManager.gameOver();
+        } else {
+            setTimeout(function() {
+                this.reborn();
+            }.bind(this), 1000);
+        }
+    },
+
     dead: function() {
         this.heart--;
         this.hpBarSet();
         if (this.heart <= 0) {
             // 游戏结束--
             Game.GameManager.result = true;
-            clientEvent.dispatch(clientEvent.eventType.gameOver,);
+            clientEvent.dispatch(clientEvent.eventType.gameOver);
         } else {
             setTimeout(function() {
                 this.reborn();
@@ -93,7 +108,7 @@ cc.Class({
             if (data.isDown) {
                 this.jumpDown(cc.p(x, y));
             } else if (data.isDeadLine) {
-                this.dead();
+                this.shockDead();
             } else {
                 this.jump(cc.p(x, y));
             }

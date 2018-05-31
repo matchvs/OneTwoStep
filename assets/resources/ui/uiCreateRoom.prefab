@@ -1250,7 +1250,7 @@
     "_enabled": true,
     "showAnimation": 0,
     "hideAnimation": 0,
-    "isUseMask": true
+    "isUseMask": false
   },
   {
     "__type__": "cc.PrefabInfo",

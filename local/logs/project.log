@@ -1,63 +1,491 @@
-2018-05-29T01:39:45.052Z - normal: Load ~/.CocosCreator/settings.json
-2018-05-29T01:39:45.055Z - normal: checking language setting...
-2018-05-29T01:39:45.056Z - normal: Language: zh
-2018-05-29T01:39:45.829Z - success: protocol editor-framework registered
-2018-05-29T01:39:45.829Z - success: protocol app registered
-2018-05-29T01:39:45.829Z - success: protocol theme registered
-2018-05-29T01:39:45.829Z - success: protocol packages registered
-2018-05-29T01:39:45.830Z - success: protocol unpack registerred
-2018-05-29T01:39:45.830Z - success: protocol disable-commonjs registerred
-2018-05-29T01:39:46.172Z - normal: connected!
-2018-05-29T01:39:46.174Z - normal: Check project /Users/mac/MatchVsGames/oneTwoStep
-2018-05-29T01:39:46.175Z - normal: Initializing Cocos2d
-2018-05-29T01:39:46.355Z - normal: Initializing Asset Database
-2018-05-29T01:39:46.391Z - success: protocol uuid registerred
-2018-05-29T01:39:46.391Z - success: protocol db registerred
-2018-05-29T01:39:46.391Z - success: protocol thumbnail registerred
-2018-05-29T01:39:46.391Z - normal: Loading editor/builtin packages
-2018-05-29T01:39:46.409Z - success: anysdk loaded
-2018-05-29T01:39:46.521Z - success: assets loaded
-2018-05-29T01:39:46.525Z - success: builder loaded
-2018-05-29T01:39:46.527Z - success: cocos-analytics loaded
-2018-05-29T01:39:46.532Z - success: console loaded
-2018-05-29T01:39:46.569Z - success: fb-instant-games loaded
-2018-05-29T01:39:46.574Z - success: hierarchy loaded
-2018-05-29T01:39:46.579Z - success: inspector loaded
-2018-05-29T01:39:46.581Z - success: keystore loaded
-2018-05-29T01:39:46.589Z - success: node-library loaded
-2018-05-29T01:39:46.592Z - success: package-asset loaded
-2018-05-29T01:39:46.593Z - success: preferences loaded
-2018-05-29T01:39:46.597Z - success: project-exporter loaded
-2018-05-29T01:39:46.613Z - success: project-importer loaded
-2018-05-29T01:39:46.617Z - success: project-settings loaded
-2018-05-29T01:39:46.622Z - success: ui-kit loaded
-2018-05-29T01:39:46.628Z - success: ui-grid loaded
-2018-05-29T01:39:46.633Z - success: scene loaded
-2018-05-29T01:39:46.634Z - success: sprite-editor loaded
-2018-05-29T01:39:46.638Z - success: store loaded
-2018-05-29T01:39:46.644Z - success: timeline loaded
-2018-05-29T01:39:46.644Z - normal: Loading builtin packages
-2018-05-29T01:39:46.649Z - success: asset-db-debugger loaded
-2018-05-29T01:39:46.650Z - success: color-picker loaded
-2018-05-29T01:39:46.654Z - success: package-manager loaded
-2018-05-29T01:39:46.659Z - success: sdkbox loaded
-2018-05-29T01:39:46.665Z - success: tester loaded
-2018-05-29T01:39:46.669Z - success: ui-kit-preview-extra loaded
-2018-05-29T01:39:46.673Z - success: ui-kit-preview loaded
-2018-05-29T01:39:46.676Z - success: ui-tree loaded
-2018-05-29T01:39:47.583Z - normal: Initializing project /Users/mac/MatchVsGames/oneTwoStep
-2018-05-29T01:39:47.585Z - normal: Loading packages
-2018-05-29T01:39:47.595Z - success: plugin-matchvs loaded
-2018-05-29T01:39:47.595Z - normal: Watching packages
-2018-05-29T01:39:47.636Z - normal: Run Application
-2018-05-29T01:39:48.461Z - success: preview server running at http://localhost:7457
-2018-05-29T01:39:55.305Z - normal: 1.9.0
-2018-05-30T09:52:52.662Z - warn: Key frame already exists
-2018-05-30T09:52:53.769Z - warn: Key frame already exists
-2018-05-30T09:55:18.508Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:1445768
-2018-05-30T12:27:45.105Z - normal: Introduced global variable while editing: i
-2018-05-30T12:27:45.108Z - normal: Introduced global variable while editing: l
-2018-05-30T12:31:43.158Z - normal: Introduced global variable while editing: i
-2018-05-30T12:31:43.160Z - normal: Introduced global variable while editing: l
-2018-05-30T12:35:14.774Z - normal: Introduced global variable while editing: i
-2018-05-30T12:35:14.776Z - normal: Introduced global variable while editing: l
+2018-05-31T01:30:09.759Z - normal: Load ~/.CocosCreator/settings.json
+2018-05-31T01:30:09.763Z - normal: checking language setting...
+2018-05-31T01:30:09.764Z - normal: Language: zh
+2018-05-31T01:30:10.546Z - success: protocol editor-framework registered
+2018-05-31T01:30:10.547Z - success: protocol app registered
+2018-05-31T01:30:10.547Z - success: protocol theme registered
+2018-05-31T01:30:10.547Z - success: protocol packages registered
+2018-05-31T01:30:10.547Z - success: protocol unpack registerred
+2018-05-31T01:30:10.548Z - success: protocol disable-commonjs registerred
+2018-05-31T01:30:10.876Z - normal: connected!
+2018-05-31T01:30:10.879Z - normal: Check project /Users/mac/MatchVsGames/oneTwoStep
+2018-05-31T01:30:10.880Z - normal: Initializing Cocos2d
+2018-05-31T01:30:11.109Z - normal: Initializing Asset Database
+2018-05-31T01:30:11.143Z - success: protocol uuid registerred
+2018-05-31T01:30:11.143Z - success: protocol db registerred
+2018-05-31T01:30:11.143Z - success: protocol thumbnail registerred
+2018-05-31T01:30:11.143Z - normal: Loading editor/builtin packages
+2018-05-31T01:30:11.161Z - success: anysdk loaded
+2018-05-31T01:30:11.276Z - success: assets loaded
+2018-05-31T01:30:11.280Z - success: builder loaded
+2018-05-31T01:30:11.282Z - success: cocos-analytics loaded
+2018-05-31T01:30:11.287Z - success: console loaded
+2018-05-31T01:30:11.322Z - success: fb-instant-games loaded
+2018-05-31T01:30:11.327Z - success: hierarchy loaded
+2018-05-31T01:30:11.331Z - success: inspector loaded
+2018-05-31T01:30:11.332Z - success: keystore loaded
+2018-05-31T01:30:11.341Z - success: node-library loaded
+2018-05-31T01:30:11.343Z - success: package-asset loaded
+2018-05-31T01:30:11.344Z - success: preferences loaded
+2018-05-31T01:30:11.348Z - success: project-exporter loaded
+2018-05-31T01:30:11.363Z - success: project-importer loaded
+2018-05-31T01:30:11.366Z - success: project-settings loaded
+2018-05-31T01:30:11.371Z - success: ui-kit loaded
+2018-05-31T01:30:11.375Z - success: ui-grid loaded
+2018-05-31T01:30:11.379Z - success: scene loaded
+2018-05-31T01:30:11.380Z - success: sprite-editor loaded
+2018-05-31T01:30:11.385Z - success: store loaded
+2018-05-31T01:30:11.391Z - success: timeline loaded
+2018-05-31T01:30:11.391Z - normal: Loading builtin packages
+2018-05-31T01:30:11.395Z - success: asset-db-debugger loaded
+2018-05-31T01:30:11.396Z - success: color-picker loaded
+2018-05-31T01:30:11.400Z - success: package-manager loaded
+2018-05-31T01:30:11.406Z - success: sdkbox loaded
+2018-05-31T01:30:11.412Z - success: tester loaded
+2018-05-31T01:30:11.416Z - success: ui-kit-preview-extra loaded
+2018-05-31T01:30:11.420Z - success: ui-kit-preview loaded
+2018-05-31T01:30:11.424Z - success: ui-tree loaded
+2018-05-31T01:30:12.380Z - normal: Initializing project /Users/mac/MatchVsGames/oneTwoStep
+2018-05-31T01:30:12.382Z - normal: Loading packages
+2018-05-31T01:30:12.394Z - success: plugin-matchvs loaded
+2018-05-31T01:30:12.394Z - normal: Watching packages
+2018-05-31T01:30:12.431Z - normal: Run Application
+2018-05-31T01:30:13.325Z - success: preview server running at http://localhost:7458
+2018-05-31T01:30:21.522Z - normal: 1.9.0
+2018-05-31T12:25:20.949Z - error: Can not find import path [/Users/mac/MatchVsGames/oneTwoStep/library/imports/ae/aeb5e199-c0cc-4e22-8f5e-104791645a2f.js]
+    at Async.each (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/quick-compiler.js:1:5125)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:181:20
+    at Object.async.forEachOf.async.eachOf (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:233:13)
+    at Object.async.forEach.async.each (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:209:22)
+    at Object._compileScripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/quick-compiler.js:1:4988)
+    at complete (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/lodash/lodash.js:8460:25)
+    at Timeout.delayed [as _onTimeout] (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/lodash/lodash.js:8470:11)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+2018-05-31T12:25:20.951Z - error: Can not find import path [/Users/mac/MatchVsGames/oneTwoStep/library/imports/71/71bef84c-8ce6-4b2b-8910-a8e638c8d999.js]
+    at Async.each (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/quick-compiler.js:1:5125)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:181:20
+    at Object.async.forEachOf.async.eachOf (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:233:13)
+    at Object.async.forEach.async.each (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:209:22)
+    at Object._compileScripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/quick-compiler.js:1:4988)
+    at complete (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/lodash/lodash.js:8460:25)
+    at Timeout.delayed [as _onTimeout] (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/lodash/lodash.js:8470:11)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+2018-05-31T12:25:20.952Z - error: Can not find import path [/Users/mac/MatchVsGames/oneTwoStep/library/imports/27/27c7b7dd-9207-4432-8610-af6a62b779de.js]
+    at Async.each (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/quick-compiler.js:1:5125)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:181:20
+    at Object.async.forEachOf.async.eachOf (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:233:13)
+    at Object.async.forEach.async.each (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:209:22)
+    at Object._compileScripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/quick-compiler.js:1:4988)
+    at complete (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/lodash/lodash.js:8460:25)
+    at Timeout.delayed [as _onTimeout] (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/lodash/lodash.js:8470:11)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+2018-05-31T12:25:20.952Z - error: Can not find import path [/Users/mac/MatchVsGames/oneTwoStep/library/imports/6e/6ef7600f-b824-4490-9d04-e7b7b2f8d45e.js]
+    at Async.each (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/quick-compiler.js:1:5125)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:181:20
+    at Object.async.forEachOf.async.eachOf (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:233:13)
+    at Object.async.forEach.async.each (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:209:22)
+    at Object._compileScripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/quick-compiler.js:1:4988)
+    at complete (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/lodash/lodash.js:8460:25)
+    at Timeout.delayed [as _onTimeout] (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/lodash/lodash.js:8470:11)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+2018-05-31T12:25:20.953Z - error: Can not find import path [/Users/mac/MatchVsGames/oneTwoStep/library/imports/11/11173fe5-ff42-4c52-be57-13189a0149fc.js]
+    at Async.each (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/quick-compiler.js:1:5125)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:181:20
+    at Object.async.forEachOf.async.eachOf (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:233:13)
+    at Object.async.forEach.async.each (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:209:22)
+    at Object._compileScripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/quick-compiler.js:1:4988)
+    at complete (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/lodash/lodash.js:8460:25)
+    at Timeout.delayed [as _onTimeout] (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/lodash/lodash.js:8470:11)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+2018-05-31T12:25:20.986Z - error: Error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/a5/a5d4dd11-a4fd-4cc2-9bb6-39971bdb58c1.js.map'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.readFileSync (fs.js:491:33)
+    at Object.fs.readFileSync (ELECTRON_ASAR.js:528:29)
+    at i (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/quick-compiler.js:1:626)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16
+    at tryToString (fs.js:449:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:436:12)
+    at process.on.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:1068)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2018-05-31T12:25:22.442Z - error: Error: [AssetLibrary] loading JSON or dependencies failed: undefined
+    at CCLoader.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:92:25)
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/CCLoader.js:255:38
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/utils.js:67:21
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2018-05-31T12:25:22.443Z - error: Error: [AssetLibrary] loading JSON or dependencies failed: undefined
+    at CCLoader.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:92:25)
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/CCLoader.js:255:38
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/utils.js:67:21
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2018-05-31T12:25:22.775Z - error: [object Object]
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/uuid-loader.js:147:32
+    at LoadingItems.onComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/CCLoader.js:298:9)
+    at LoadingItems.proto.allComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:527:14)
+    at LoadingItems.proto.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:715:14)
+    at Function.LoadingItems.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:378:15)
+    at CCLoader.proto.flowOut (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:318:18)
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:54:26
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/downloader.js:327:25
+    at XMLHttpRequest.xhr.onerror (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/text-downloader.js:53:17)
+2018-05-31T12:25:22.779Z - error: [object Object]
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/uuid-loader.js:147:32
+    at LoadingItems.onComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/CCLoader.js:298:9)
+    at LoadingItems.proto.allComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:527:14)
+    at LoadingItems.proto.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:715:14)
+    at Function.LoadingItems.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:378:15)
+    at CCLoader.proto.flowOut (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:318:18)
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:54:26
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/downloader.js:327:25
+    at XMLHttpRequest.xhr.onerror (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/text-downloader.js:53:17)
+2018-05-31T12:25:22.779Z - error: [object Object]
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/uuid-loader.js:147:32
+    at LoadingItems.onComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/CCLoader.js:298:9)
+    at LoadingItems.proto.allComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:527:14)
+    at LoadingItems.proto.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:715:14)
+    at Function.LoadingItems.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:378:15)
+    at CCLoader.proto.flowOut (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:318:18)
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:54:26
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/downloader.js:327:25
+    at XMLHttpRequest.xhr.onerror (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/text-downloader.js:53:17)
+2018-05-31T12:25:22.797Z - error: [object Object]
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/uuid-loader.js:147:32
+    at LoadingItems.onComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/CCLoader.js:298:9)
+    at LoadingItems.proto.allComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:527:14)
+    at LoadingItems.proto.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:715:14)
+    at Function.LoadingItems.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:378:15)
+    at CCLoader.proto.flowOut (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:318:18)
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:54:26
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/downloader.js:327:25
+    at XMLHttpRequest.xhr.onerror (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/text-downloader.js:53:17)
+2018-05-31T12:25:22.799Z - error: [object Object]
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/uuid-loader.js:147:32
+    at LoadingItems.onComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/CCLoader.js:298:9)
+    at LoadingItems.proto.allComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:527:14)
+    at LoadingItems.proto.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:715:14)
+    at Function.LoadingItems.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:378:15)
+    at CCLoader.proto.flowOut (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:318:18)
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:54:26
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/downloader.js:327:25
+    at XMLHttpRequest.xhr.onerror (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/text-downloader.js:53:17)
+2018-05-31T12:25:22.825Z - error: [object Object]
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/uuid-loader.js:147:32
+    at LoadingItems.onComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/CCLoader.js:298:9)
+    at LoadingItems.proto.allComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:527:14)
+    at LoadingItems.proto.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:715:14)
+    at Function.LoadingItems.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:378:15)
+    at CCLoader.proto.flowOut (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:318:18)
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:54:26
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/downloader.js:327:25
+    at XMLHttpRequest.xhr.onerror (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/text-downloader.js:53:17)
+2018-05-31T12:25:22.825Z - error: [object Object]
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/uuid-loader.js:147:32
+    at LoadingItems.onComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/CCLoader.js:298:9)
+    at LoadingItems.proto.allComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:527:14)
+    at LoadingItems.proto.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:715:14)
+    at Function.LoadingItems.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:378:15)
+    at CCLoader.proto.flowOut (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:318:18)
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:54:26
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/downloader.js:327:25
+    at XMLHttpRequest.xhr.onerror (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/text-downloader.js:53:17)
+2018-05-31T12:25:22.825Z - error: [object Object]
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/uuid-loader.js:147:32
+    at LoadingItems.onComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/CCLoader.js:298:9)
+    at LoadingItems.proto.allComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:527:14)
+    at LoadingItems.proto.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:715:14)
+    at Function.LoadingItems.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:378:15)
+    at CCLoader.proto.flowOut (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:318:18)
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:54:26
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/downloader.js:327:25
+    at XMLHttpRequest.xhr.onerror (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/text-downloader.js:53:17)
+2018-05-31T12:25:22.826Z - error: [object Object]
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/uuid-loader.js:147:32
+    at LoadingItems.onComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/CCLoader.js:298:9)
+    at LoadingItems.proto.allComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:527:14)
+    at LoadingItems.proto.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:715:14)
+    at Function.LoadingItems.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:378:15)
+    at CCLoader.proto.flowOut (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:318:18)
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:54:26
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/downloader.js:327:25
+    at XMLHttpRequest.xhr.onerror (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/text-downloader.js:53:17)
+2018-05-31T12:25:22.827Z - error: [object Object]
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/uuid-loader.js:147:32
+    at LoadingItems.onComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/CCLoader.js:298:9)
+    at LoadingItems.proto.allComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:527:14)
+    at LoadingItems.proto.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:715:14)
+    at Function.LoadingItems.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:378:15)
+    at CCLoader.proto.flowOut (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:318:18)
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:54:26
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/downloader.js:327:25
+    at XMLHttpRequest.xhr.onerror (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/text-downloader.js:53:17)
+2018-05-31T12:25:22.833Z - error: [object Object]
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/uuid-loader.js:147:32
+    at LoadingItems.onComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/CCLoader.js:298:9)
+    at LoadingItems.proto.allComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:527:14)
+    at LoadingItems.proto.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:715:14)
+    at Function.LoadingItems.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:378:15)
+    at CCLoader.proto.flowOut (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:318:18)
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:54:26
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/downloader.js:327:25
+    at XMLHttpRequest.xhr.onerror (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/text-downloader.js:53:17)
+2018-05-31T12:25:22.857Z - error: [object Object]
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/uuid-loader.js:147:32
+    at LoadingItems.onComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/CCLoader.js:298:9)
+    at LoadingItems.proto.allComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:527:14)
+    at LoadingItems.proto.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:715:14)
+    at Function.LoadingItems.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:378:15)
+    at CCLoader.proto.flowOut (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:318:18)
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:54:26
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/downloader.js:327:25
+    at XMLHttpRequest.xhr.onerror (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/text-downloader.js:53:17)
+2018-05-31T12:25:22.859Z - warn: Property spriteFrame of Font 'number' is invalid. Using system font instead.
+2018-05-31T12:25:35.426Z - error: Can not find import path [/Users/mac/MatchVsGames/oneTwoStep/library/imports/ae/aeb5e199-c0cc-4e22-8f5e-104791645a2f.js]
+    at Async.each (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/quick-compiler.js:1:5125)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:181:20
+    at Object.async.forEachOf.async.eachOf (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:233:13)
+    at Object.async.forEach.async.each (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:209:22)
+    at Object._compileScripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/quick-compiler.js:1:4988)
+    at complete (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/lodash/lodash.js:8460:25)
+    at Timeout.delayed [as _onTimeout] (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/lodash/lodash.js:8470:11)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+2018-05-31T12:25:35.428Z - error: Can not find import path [/Users/mac/MatchVsGames/oneTwoStep/library/imports/71/71bef84c-8ce6-4b2b-8910-a8e638c8d999.js]
+    at Async.each (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/quick-compiler.js:1:5125)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:181:20
+    at Object.async.forEachOf.async.eachOf (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:233:13)
+    at Object.async.forEach.async.each (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:209:22)
+    at Object._compileScripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/quick-compiler.js:1:4988)
+    at complete (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/lodash/lodash.js:8460:25)
+    at Timeout.delayed [as _onTimeout] (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/lodash/lodash.js:8470:11)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+2018-05-31T12:25:35.428Z - error: Can not find import path [/Users/mac/MatchVsGames/oneTwoStep/library/imports/27/27c7b7dd-9207-4432-8610-af6a62b779de.js]
+    at Async.each (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/quick-compiler.js:1:5125)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:181:20
+    at Object.async.forEachOf.async.eachOf (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:233:13)
+    at Object.async.forEach.async.each (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:209:22)
+    at Object._compileScripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/quick-compiler.js:1:4988)
+    at complete (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/lodash/lodash.js:8460:25)
+    at Timeout.delayed [as _onTimeout] (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/lodash/lodash.js:8470:11)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+2018-05-31T12:25:35.428Z - error: Can not find import path [/Users/mac/MatchVsGames/oneTwoStep/library/imports/6e/6ef7600f-b824-4490-9d04-e7b7b2f8d45e.js]
+    at Async.each (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/quick-compiler.js:1:5125)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:181:20
+    at Object.async.forEachOf.async.eachOf (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:233:13)
+    at Object.async.forEach.async.each (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:209:22)
+    at Object._compileScripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/quick-compiler.js:1:4988)
+    at complete (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/lodash/lodash.js:8460:25)
+    at Timeout.delayed [as _onTimeout] (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/lodash/lodash.js:8470:11)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+2018-05-31T12:25:35.429Z - error: Can not find import path [/Users/mac/MatchVsGames/oneTwoStep/library/imports/11/11173fe5-ff42-4c52-be57-13189a0149fc.js]
+    at Async.each (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/quick-compiler.js:1:5125)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:181:20
+    at Object.async.forEachOf.async.eachOf (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:233:13)
+    at Object.async.forEach.async.each (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:209:22)
+    at Object._compileScripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/quick-compiler.js:1:4988)
+    at complete (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/lodash/lodash.js:8460:25)
+    at Timeout.delayed [as _onTimeout] (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/lodash/lodash.js:8470:11)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+2018-05-31T12:25:35.429Z - error: Can not find import path [/Users/mac/MatchVsGames/oneTwoStep/library/imports/a5/a5d4dd11-a4fd-4cc2-9bb6-39971bdb58c1.js]
+    at Async.each (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/quick-compiler.js:1:5125)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:181:20
+    at Object.async.forEachOf.async.eachOf (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:233:13)
+    at Object.async.forEach.async.each (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:209:22)
+    at Object._compileScripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/quick-compiler.js:1:4988)
+    at complete (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/lodash/lodash.js:8460:25)
+    at Timeout.delayed [as _onTimeout] (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/lodash/lodash.js:8470:11)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+2018-05-31T12:25:35.429Z - error: Can not find import path [/Users/mac/MatchVsGames/oneTwoStep/library/imports/77/771d9b66-0df6-41f5-bfc4-b6e2970ed35a.js]
+    at Async.each (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/quick-compiler.js:1:5125)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:181:20
+    at Object.async.forEachOf.async.eachOf (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:233:13)
+    at Object.async.forEach.async.each (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:209:22)
+    at Object._compileScripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/quick-compiler.js:1:4988)
+    at complete (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/lodash/lodash.js:8460:25)
+    at Timeout.delayed [as _onTimeout] (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/lodash/lodash.js:8470:11)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+2018-05-31T12:25:46.551Z - failed: load script [Glb] failed : Error: Cannot find module 'Glb'
+    at Module._resolveFilename (module.js:470:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
+    at Function.Module._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:1361)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:967)
+    at /Users/mac/MatchVsGames/oneTwoStep/temp/quick-scripts/assets/oneTwoStep/script/player.js:1:359
+    at __define (/Users/mac/MatchVsGames/oneTwoStep/temp/quick-scripts/assets/oneTwoStep/script/player.js:7:11)
+    at /Users/mac/MatchVsGames/oneTwoStep/temp/quick-scripts/assets/oneTwoStep/script/player.js:154:13
+2018-05-31T12:25:46.555Z - failed: load script [Glb] failed : Error: Cannot find module 'Glb'
+    at Module._resolveFilename (module.js:470:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
+    at Function.Module._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:1361)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:967)
+    at /Users/mac/MatchVsGames/oneTwoStep/temp/quick-scripts/assets/oneTwoStep/script/playerManager.js:1:366
+    at __define (/Users/mac/MatchVsGames/oneTwoStep/temp/quick-scripts/assets/oneTwoStep/script/playerManager.js:7:11)
+    at /Users/mac/MatchVsGames/oneTwoStep/temp/quick-scripts/assets/oneTwoStep/script/playerManager.js:28:13
+2018-05-31T12:25:46.570Z - failed: load script [Glb] failed : Error: Cannot find module 'Glb'
+    at Module._resolveFilename (module.js:470:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
+    at Function.Module._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:1361)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:967)
+    at /Users/mac/MatchVsGames/oneTwoStep/temp/quick-scripts/assets/oneTwoStep/script/roadManager.js:1:364
+    at __define (/Users/mac/MatchVsGames/oneTwoStep/temp/quick-scripts/assets/oneTwoStep/script/roadManager.js:16:11)
+    at /Users/mac/MatchVsGames/oneTwoStep/temp/quick-scripts/assets/oneTwoStep/script/roadManager.js:148:13
+2018-05-31T12:25:46.576Z - failed: load script [Glb] failed : Error: Cannot find module 'Glb'
+    at Module._resolveFilename (module.js:470:15)
+    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
+    at Function.Module._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:1361)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:967)
+    at /Users/mac/MatchVsGames/oneTwoStep/temp/quick-scripts/assets/oneTwoStep/script/stone.js:1:358
+    at __define (/Users/mac/MatchVsGames/oneTwoStep/temp/quick-scripts/assets/oneTwoStep/script/stone.js:16:11)
+    at /Users/mac/MatchVsGames/oneTwoStep/temp/quick-scripts/assets/oneTwoStep/script/stone.js:79:13
+2018-05-31T12:25:46.977Z - warn: Script attached to "uiGamePanel" in prefab "uiGamePanel.prefab" is missing or invalid. Detailed information:
+Node path: "uiGamePanel"
+Asset url: "db://assets/resources/ui/uiGamePanel.prefab"
+Script UUID: "738fb88c-ee11-45f0-af41-3c7f027f174c"
+Class ID: "738fbiM7hFF8K9BPH8CfxdM"
+
+2018-05-31T12:25:55.072Z - error: object already destroyed
+    at Object.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/CCDebugger.js:338:24)
+    at gameManager.prototype._destroyImmediate (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCObject.js:418:12)
+    at cc_Node._onPreDestroy [as _onPreDestroyBase] (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/utils/base-node.js:1195:23)
+    at cc_Node._onPreDestroy (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/CCNode.js:1052:36)
+    at cc_Node.prototype._destroyImmediate (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCObject.js:423:14)
+    at Function.deferredDestroy (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCObject.js:169:17)
+    at TheClass.runSceneImmediate (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/CCDirector.js:583:19)
+    at cc.AssetLibrary.loadAsset (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/prefab-edit-mode.js:1:1362)
+    at CCLoader.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:110:17)
+2018-05-31T12:33:59.136Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-05-31T13:23:25.923Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-05-31T13:23:53.663Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-05-31T13:26:00.672Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-05-31T13:27:15.939Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-05-31T13:34:58.198Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-05-31T13:39:04.335Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-05-31T13:41:16.326Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-05-31T13:42:19.783Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-05-31T13:56:53.284Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-05-31T13:57:19.232Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:831461
+2018-05-31T13:57:19.248Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:831467
+2018-05-31T13:57:19.249Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:831470
+2018-05-31T13:58:20.506Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:832478
+2018-05-31T13:58:20.507Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:832482
+2018-05-31T13:58:20.507Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:832485
+2018-05-31T13:59:07.305Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-05-31T14:09:21.335Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-05-31T14:18:35.266Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-05-31T14:21:00.352Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-05-31T14:23:48.750Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-05-31T14:24:35.028Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-05-31T14:25:31.827Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-05-31T14:29:16.203Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-05-31T14:33:14.803Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-05-31T14:36:28.285Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-05-31T14:37:32.249Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+

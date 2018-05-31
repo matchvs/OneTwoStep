@@ -49,6 +49,9 @@ cc.Class({
     },
 
     onClickWater: function(event) {
+        if (Game.GameManager.gameState !== GameState.Play) {
+            return;
+        }
         var position = this.node.convertToNodeSpaceAR(event.getLocation());
         var player = Game.PlayerManager.player;
         if (position.y < player.node.y + (this.offsetX / 2)) {

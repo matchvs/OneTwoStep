@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "56ec5d0b-0260-4d04-88a1-3631944e282b",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "jiliulogo": {
+      "ver": "1.0.3",
+      "uuid": "7477a9f7-5319-4712-8611-1e23eed452ab",
+      "rawTextureUuid": "56ec5d0b-0260-4d04-88a1-3631944e282b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 600,
+      "height": 418,
+      "rawWidth": 600,
+      "rawHeight": 418,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

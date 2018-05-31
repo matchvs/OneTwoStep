@@ -9,23 +9,35 @@ cc.Class({
         cc.director.getCollisionManager().enabled = true;
         clientEvent.init();
         dataFunc.loadConfigs();
-        this.matchVsInit();
-        clientEvent.on(clientEvent.eventType.gameOver, function() {
-            // 打开结算界面--
-            console.log("游戏结束");
-            if (Game.GameManager.gameState !== GameState.Over) {
-                Game.GameManager.gameState = GameState.Over;
-                setTimeout(function() {
-                    if (cc.Canvas.instance.designResolution.height > cc.Canvas.instance.designResolution.width) {
-                        uiFunc.openUI("uiVsResultVer");
-                    } else {
-                        uiFunc.openUI("uiVsResult");
-                    }
-                }.bind(this), 1000);
-            }
-        }, this);
+        clientEvent.on(clientEvent.eventType.leaveRoomNotify, this.leaveRoom, this);
+    },
 
-        mvs.response.sendEventNotify = this.sendEventNotify.bind(this);
+    gameOver: function() {
+        // 打开结算界面--
+        console.log("游戏结束");
+        if (Game.GameManager.gameState !== GameState.Over) {
+            Game.GameManager.gameState = GameState.Over;
+            clientEvent.dispatch(clientEvent.eventType.gameOver);
+            setTimeout(function() {
+                if (cc.Canvas.instance.designResolution.height > cc.Canvas.instance.designResolution.width) {
+                    uiFunc.openUI("uiVsResultVer");
+                } else {
+                    uiFunc.openUI("uiVsResult");
+                }
+            }.bind(this), 1000);
+        }
+    },
+
+    leaveRoom: function(data) {
+        // 离开房间--
+        if (this.gameState !== GameState.None) {
+            if (data.leaveRoomInfo.userId !== GLB.userInfo.id) {
+                Game.GameManager.result = true;
+                this.gameOver();
+            } else {
+                clientEvent.dispatch(clientEvent.eventType.gameOver);
+            }
+        }
     },
 
     sendReadyMsg: function() {
@@ -39,6 +51,7 @@ cc.Class({
     },
 
     startGame: function() {
+        this.gameState = GameState.None;
         this.readyCnt = 0;
         cc.director.loadScene('game', function() {
             uiFunc.openUI("uiGamePanel", function() {
@@ -195,6 +208,8 @@ cc.Class({
     errorResponse: function(error, msg) {
         if (error === 1001) {
             mvs.engine.logout("");
+            cc.game.removePersistRootNode(this.node);
+            cc.director.loadScene('lobby');
         }
         console.log("错误信息：" + error);
         console.log("错误信息：" + msg);
@@ -238,6 +253,7 @@ cc.Class({
     },
 
     lobbyShow: function() {
+        this.gameState = GameState.None;
         if (cc.Canvas.instance.designResolution.height > cc.Canvas.instance.designResolution.width) {
             uiFunc.openUI("uiLobbyPanelVer");
         } else {
@@ -279,7 +295,7 @@ cc.Class({
         }
 
         if (info.cpProto.indexOf(GLB.GAME_OVER_EVENT) >= 0) {
-            clientEvent.dispatch(clientEvent.eventType.gameOver);
+            this.gameOver();
         }
 
         if (info.cpProto.indexOf(GLB.ROUND_START) >= 0) {
@@ -304,5 +320,9 @@ cc.Class({
         if (result.result !== 0) {
             console.log(msg.action, result.result);
         }
+    },
+
+    onDestroy() {
+        clientEvent.off(clientEvent.eventType.leaveRoomNotify, this.leaveRoom, this);
     }
 });

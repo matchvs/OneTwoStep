@@ -16,10 +16,6 @@ cc.Class({
             default: null,
             url: cc.AudioClip
         },
-        readyGoClip: {
-            default: null,
-            url: cc.AudioClip
-        },
         leadSpFrame: cc.SpriteFrame,
         backWardSpFrame: cc.SpriteFrame,
         stepSpTag: cc.Sprite,
@@ -32,19 +28,24 @@ cc.Class({
         this.bgmId = cc.audioEngine.play(this.bgm, true, 0.5);
         clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
         clientEvent.on(clientEvent.eventType.roundStart, this.roundStart, this);
+        this.nodeDict["exit"].on("click", this.exit, this);
+    },
+
+    exit() {
+        if (Game.GameManager.gameState !== GameState.None) {
+            uiFunc.openUI("uiExit");
+        }
     },
 
     roundStart() {
-        cc.audioEngine.play(this.readyGoClip, false, 1);
+        this.nodeDict['readyGo'].getComponent(cc.Animation).play();
+        this.nodeDict['readyGo'].getComponent(cc.AudioSource).play();
     },
 
     gameOver() {
         cc.audioEngine.stop(this.bgmId);
-        if (Game.GameManager.result) {
-            cc.audioEngine.play(this.winClip, false, 1);
-        } else {
-            cc.audioEngine.play(this.loseClip, false, 1);
-        }
+        this.nodeDict['gameOver'].getComponent(cc.Animation).play();
+        this.nodeDict['gameOver'].getComponent(cc.AudioSource).play();
     },
 
     update() {
@@ -66,9 +67,9 @@ cc.Class({
     },
 
     onDestroy() {
+        cc.audioEngine.stop(this.bgmId);
         clientEvent.off(clientEvent.eventType.gameOver, this.gameOver, this);
         clientEvent.off(clientEvent.eventType.roundStart, this.roundStart, this);
-
     }
 
 });
