@@ -28,7 +28,7 @@ cc.Class({
         this.nodeDict["quit"].on("click", this.quit, this);
 
         if (Game.GameManager.result) {
-            cc.audioEngine.play(this.winClip, false, 1);
+            cc.audioEngine.play(this.victoryClip, false, 1);
         } else {
             cc.audioEngine.play(this.loseClip, false, 1);
         }

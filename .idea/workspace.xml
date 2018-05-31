@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a1cd3aa-7409-48b1-a571-bd7dfbcfc44e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/basic/gameManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/basic/gameManager.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/common/lobby/roomInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/common/lobby/roomInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/common/script/uiGamePanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/common/script/uiGamePanel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/common/script/uiRoomList.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/common/script/uiRoomList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/common/script/uiVsResult.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/common/script/uiVsResult.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/lobby.fire" beforeDir="false" afterPath="$PROJECT_DIR$/assets/lobby.fire" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/oneTwoStep/script/player.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/oneTwoStep/script/player.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/oneTwoStep/script/rival.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/oneTwoStep/script/rival.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/oneTwoStep/script/roadManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/oneTwoStep/script/roadManager.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/resources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/assets/resources.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/ui/uiCreateRoom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/assets/resources/ui/uiCreateRoom.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/ui/uiGamePanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/assets/resources/ui/uiGamePanel.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/ui/uiMatching1v1Ver.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/assets/resources/ui/uiMatching1v1Ver.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/ui/uiMatching2v2Ver.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/assets/resources/ui/uiMatching2v2Ver.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/ui/uiRoomListVer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/assets/resources/ui/uiRoomListVer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/ui/uiRoomVer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/assets/resources/ui/uiRoomVer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/ui/uiVsResultVer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/assets/resources/ui/uiVsResultVer.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local/layout.windows.json" beforeDir="false" afterPath="$PROJECT_DIR$/local/layout.windows.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local/logs/project.log" beforeDir="false" afterPath="$PROJECT_DIR$/local/logs/project.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/package-asset.import.json" beforeDir="false" afterPath="$PROJECT_DIR$/local/package-asset.import.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gameManager.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gameManager.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/basic/gameManager.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="429">
-              <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -63,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uiVsResult.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="uiVsResult.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/common/script/uiVsResult.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="561">
+              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -158,8 +140,8 @@
       <find>jumpPos</find>
       <find>reborn</find>
       <find>water</find>
-      <find>gameState</find>
       <find>gameOver</find>
+      <find>gameState</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -201,13 +183,13 @@
         <option value="$PROJECT_DIR$/../duckHunt/assets/common/script/uiGamePanel.js" />
         <option value="$PROJECT_DIR$/assets/common/script/uiRoomList.js" />
         <option value="$PROJECT_DIR$/../birdWar/assets/common/script/uiExit.js" />
-        <option value="$PROJECT_DIR$/assets/common/script/uiVsResult.js" />
         <option value="$PROJECT_DIR$/assets/common/script/uiExit.js" />
         <option value="$PROJECT_DIR$/assets/oneTwoStep/script/player.js" />
         <option value="$PROJECT_DIR$/assets/oneTwoStep/script/rival.js" />
         <option value="$PROJECT_DIR$/assets/oneTwoStep/script/roadManager.js" />
         <option value="$PROJECT_DIR$/assets/common/script/uiGamePanel.js" />
         <option value="$PROJECT_DIR$/assets/basic/gameManager.js" />
+        <option value="$PROJECT_DIR$/assets/common/script/uiVsResult.js" />
       </list>
     </option>
   </component>
@@ -344,12 +326,12 @@
       <workItem from="1527642153405" duration="12396000" />
       <workItem from="1527686038152" duration="1115000" />
       <workItem from="1527731792264" duration="615000" />
-      <workItem from="1527733713394" duration="8896000" />
+      <workItem from="1527733713394" duration="9189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85219000" />
+    <option name="totallyTimeSpent" value="85512000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1408" height="977" extended-state="0" />
@@ -714,13 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/common/script/uiVsResult.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/common/script/uiExit.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -738,7 +713,14 @@
     <entry file="file://$PROJECT_DIR$/assets/basic/gameManager.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
-          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/common/script/uiVsResult.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
         </state>
       </provider>
     </entry>
