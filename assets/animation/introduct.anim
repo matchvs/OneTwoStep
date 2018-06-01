@@ -3,7 +3,7 @@
   "_name": "introduct",
   "_objFlags": 0,
   "_rawFiles": null,
-  "_duration": 3.53,
+  "_duration": 4.483333333333333,
   "sample": 60,
   "speed": 1,
   "wrapMode": 1,
@@ -48,13 +48,13 @@
           "cc.Sprite": {
             "spriteFrame": [
               {
-                "frame": 1.8333333333333333,
+                "frame": 2.15,
                 "value": {
                   "__uuid__": "a7c9f8fe-bc8d-42a3-9b57-a43a26574ecd"
                 }
               },
               {
-                "frame": 1.9833333333333334,
+                "frame": 2.3,
                 "value": {
                   "__uuid__": "691d8ac9-298d-4888-a296-0363985beb4f"
                 }
@@ -260,23 +260,23 @@
         "props": {
           "opacity": [
             {
-              "frame": 2.3666666666666667,
+              "frame": 2.5,
               "value": 0
             },
             {
-              "frame": 2.6666666666666665,
+              "frame": 2.8,
               "value": 255
             },
             {
-              "frame": 3.0166666666666666,
+              "frame": 3.15,
               "value": 50
             },
             {
-              "frame": 3.316666666666667,
+              "frame": 3.45,
               "value": 255
             },
             {
-              "frame": 3.533333333333333,
+              "frame": 3.6666666666666665,
               "value": 0
             }
           ]
@@ -290,11 +290,11 @@
           "value": 255
         },
         {
-          "frame": 2.433333333333333,
+          "frame": 4.416666666666667,
           "value": 255
         },
         {
-          "frame": 2.5,
+          "frame": 4.483333333333333,
           "value": 0
         }
       ]
