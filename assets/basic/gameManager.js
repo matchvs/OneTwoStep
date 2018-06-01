@@ -207,9 +207,12 @@ cc.Class({
 
     errorResponse: function(error, msg) {
         if (error === 1001) {
-            mvs.engine.logout("");
-            cc.game.removePersistRootNode(this.node);
-            cc.director.loadScene('lobby');
+            uiFunc.openUI("uiTip");
+            setTimeout(function() {
+                mvs.engine.logout("");
+                cc.game.removePersistRootNode(this.node);
+                cc.director.loadScene('lobby');
+            }.bind(this), 2500);
         }
         console.log("错误信息：" + error);
         console.log("错误信息：" + msg);
