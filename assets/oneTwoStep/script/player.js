@@ -3,9 +3,18 @@ cc.Class({
     extends: cc.Component,
     properties: {
         heartNodes: [cc.Node],
+        helpClip: {
+            default: "",
+            url: cc.AudioClip
+        },
         jumpDownClip: {
             default: "",
             url: cc.AudioClip
+        },
+
+        redAnim: {
+            default: null,
+            type: cc.Animation
         }
     },
 
@@ -45,6 +54,9 @@ cc.Class({
         this.jump(pos, function() {
             this.anim.play("down");
             cc.audioEngine.play(this.jumpDownClip, false, 1);
+            setTimeout(function() {
+                cc.audioEngine.play(this.helpClip, false, 1);
+            }.bind(this), 500);
             this.dead();
         }.bind(this));
     },
@@ -53,12 +65,14 @@ cc.Class({
         this.playerState = PlayerState.Dead;
         this.heart--;
         this.hpBarSet();
+        this.redAnim.play();
         if (this.heart <= 0) {
             // 游戏结束--
             Game.GameManager.result = false;
             Game.GameManager.gameOver();
         } else {
             Game.GameManager.gameState = GameState.Pause;
+            Game.RoadManager.deadSlowdown();
             // 进入复活--
             setTimeout(function() {
                 this.reborn();
@@ -89,7 +103,7 @@ cc.Class({
             if (Game.GameManager.gameState === GameState.Pause) {
                 Game.GameManager.gameState = GameState.Play;
             }
-        }, 1000);
+        }, 2000);
 
         this.jumpPos = [];
         this.jumpRecordId++;
@@ -109,10 +123,8 @@ cc.Class({
             return;
         }
         var worldPos = this.node.convertToWorldSpaceAR(cc.v2(0, 0));
-        if (worldPos.y < 200) {
-            Game.RoadManager.deadLineWarn();
-        }
         if (worldPos.y < 0) {
+            Game.RoadManager.deadLineWarn();
             this.dead();
             var fakeData = {
                 ID: 0,

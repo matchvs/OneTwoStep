@@ -207,7 +207,12 @@ cc.Class({
 
     errorResponse: function(error, msg) {
         if (error === 1001) {
-            uiFunc.openUI("uiTip");
+            uiFunc.openUI("uiTip", function(obj) {
+                var uiTip = obj.getComponent("uiTip");
+                if (uiTip) {
+                    uiTip.setData("网络断开连接");
+                }
+            });
             setTimeout(function() {
                 mvs.engine.logout("");
                 cc.game.removePersistRootNode(this.node);

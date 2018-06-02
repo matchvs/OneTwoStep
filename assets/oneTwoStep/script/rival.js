@@ -2,6 +2,10 @@ cc.Class({
     extends: cc.Component,
     properties: {
         heartNodes: [cc.Node],
+        helpClip: {
+            default: "",
+            url: cc.AudioClip
+        },
         jumpDownClip: {
             default: "",
             url: cc.AudioClip
@@ -44,6 +48,9 @@ cc.Class({
         this.jump(pos, function() {
             this.anim.play("down");
             cc.audioEngine.play(this.jumpDownClip, false, 1);
+            setTimeout(function() {
+                cc.audioEngine.play(this.helpClip, false, 0.5);
+            }.bind(this), 500);
             this.dead();
         }.bind(this));
     },

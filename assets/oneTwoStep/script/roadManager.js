@@ -114,6 +114,10 @@ cc.Class({
         this.stoneSpeed *= this.speedUpPercent;
     },
 
+    deadSlowdown: function() {
+        this.stoneSpeed *= 0.75;
+    },
+
     update(dt) {
         if (Game.GameManager.gameState !== GameState.Play) {
             return;
