@@ -38,10 +38,6 @@ cc.Class({
         this.stones = [];
         this.waterBG.on(cc.Node.EventType.TOUCH_START, this.onClickWater, this);
         this.deadLineAnim = this.deadLine.getComponent(cc.Animation);
-        for (var i = 0; i < 50; i++) {
-            this.spawnStone();
-        }
-        clientEvent.on(clientEvent.eventType.roundStart, this.initRoad, this);
     },
 
     initRoad() {
@@ -166,8 +162,4 @@ cc.Class({
             }
         }
     },
-
-    onDestroy() {
-        clientEvent.off(clientEvent.eventType.roundStart, this.initRoad, this);
-    }
 });

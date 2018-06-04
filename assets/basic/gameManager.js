@@ -324,6 +324,7 @@ cc.Class({
             setTimeout(function() {
                 clientEvent.dispatch(clientEvent.eventType.roundStart);
             }.bind(this), 3000);
+            Game.RoadManager.initRoad();
         }
 
         if (info.cpProto.indexOf(GLB.ROAD_DATA) >= 0) {

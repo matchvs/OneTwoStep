@@ -25,6 +25,7 @@ cc.Class({
 
     onLoad() {
         this._super();
+        this.isGameOverPlay = false;
         this.bgmId = cc.audioEngine.play(this.bgm, true, 0.5);
         clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
         clientEvent.on(clientEvent.eventType.roundStart, this.roundStart, this);
@@ -56,9 +57,12 @@ cc.Class({
     },
 
     gameOver() {
-        cc.audioEngine.stop(this.bgmId);
-        this.nodeDict['gameOver'].getComponent(cc.Animation).play();
-        this.nodeDict['gameOver'].getComponent(cc.AudioSource).play();
+        if (!this.isGameOverPlay) {
+            this.isGameOverPlay = true;
+            cc.audioEngine.stop(this.bgmId);
+            this.nodeDict['gameOver'].getComponent(cc.Animation).play();
+            this.nodeDict['gameOver'].getComponent(cc.AudioSource).play();
+        }
     },
 
     update() {
