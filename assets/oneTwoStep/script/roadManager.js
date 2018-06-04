@@ -30,13 +30,22 @@ cc.Class({
 
     onLoad() {
         Game.RoadManager = this;
+        this.roadId = 0;
+        this.roadDatas = [];
         this.curLeftAccTime = this.accDurTime;
         this.roadPool = new cc.NodePool();
-        this.spawnTriggerDis = 3 * this.offsetY;
+        this.spawnTriggerDis = 8 * this.offsetY;
         this.stones = [];
         this.waterBG.on(cc.Node.EventType.TOUCH_START, this.onClickWater, this);
         this.deadLineAnim = this.deadLine.getComponent(cc.Animation);
-        for (var i = 0; i < 10; i++) {
+        for (var i = 0; i < 50; i++) {
+            this.spawnStone();
+        }
+        clientEvent.on(clientEvent.eventType.roundStart, this.initRoad, this);
+    },
+
+    initRoad() {
+        for (var i = 0; i < 50; i++) {
             this.spawnStone();
         }
     },
@@ -57,7 +66,11 @@ cc.Class({
         if (position.y < player.node.y + (this.offsetX / 2)) {
             return;
         }
-        var data = dataFunc.queryByID("roadTemplate", player.jumpRecordId);
+
+        var data = Game.RoadManager.roadDatas.find(function(temp) {
+            return temp.ID === player.jumpRecordId;
+        }.bind(this));
+
         var targetRow = 0;
         var minDistance = Number.MAX_VALUE;
         for (var i = 1; i <= 4; i++) {
@@ -86,15 +99,12 @@ cc.Class({
         Game.GameManager.sendEvent(msg);
     },
 
-    spawnStone: function() {
+    spawnStoneNotify: function(data) {
+        this.roadDatas.push(data);
         var stone = this.roadPool.get();
         if (!stone) {
             stone = cc.instantiate(this.stonePrefab);
         }
-        if (!this.roadData || this.roadData.length <= 0) {
-            this.roadData = [].concat(dataFunc.getTableArr("roadTemplate"));
-        }
-        var data = this.roadData.shift();
         stone.parent = this.node;
         stone.x = this.offsetX * (data.row - 1);
         stone.y = this.offsetY * (data.line - 1);
@@ -103,6 +113,22 @@ cc.Class({
         var stoneComponent = stone.getComponent("stone");
         stoneComponent.init(data);
         this.stones.push(stone);
+    },
+
+    spawnStone: function() {
+        this.roadId++;
+        if (GLB.isRoomOwner) {
+            var data = {
+                ID: this.roadId,
+                line: this.roadId + 1,
+                row: dataFunc.randomNum(1, 4)
+            }
+            var msg = {
+                action: GLB.ROAD_DATA,
+                data: data
+            };
+            Game.GameManager.sendEventEx(msg);
+        }
     },
 
     recycleStone: function(obj) {
@@ -132,12 +158,16 @@ cc.Class({
         this.node.y -= moveDis;
         this.spawnTriggerDis -= moveDis;
         if (this.spawnTriggerDis < 0) {
-            this.spawnTriggerDis = 2 * this.offsetY;
+            this.spawnTriggerDis = 8 * this.offsetY;
             this.spawnStone();
             var stone = this.stones.shift();
             if (stone) {
                 this.recycleStone(stone);
             }
         }
+    },
+
+    onDestroy() {
+        clientEvent.off(clientEvent.eventType.roundStart, this.initRoad, this);
     }
 });

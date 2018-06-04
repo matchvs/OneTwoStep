@@ -10,6 +10,8 @@ var obj = {
     READY: "ready",
     ROUND_START: "roundStart",
     PLAYER_STEP_DATA: "playerStep",
+    ROAD_DATA: "roadData",
+    SCORE_DATA: "scoreData",
     PLAYER_SPEED_UP_EVENT: "playerSpeedUp",
     GAME_OVER_EVENT: "gameOver",
 

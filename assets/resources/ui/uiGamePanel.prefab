@@ -3298,7 +3298,7 @@
     },
     "offsetX": 180,
     "offsetY": 320,
-    "stoneSpeed": 200,
+    "stoneSpeed": 400,
     "accDurTime": 4,
     "speedUpPercent": 1.1,
     "waterBG": {

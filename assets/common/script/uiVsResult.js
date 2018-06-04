@@ -32,14 +32,15 @@ cc.Class({
         } else {
             cc.audioEngine.play(this.loseClip, false, 1);
         }
+        if (!Game.GameManager.selfScore || !Game.GameManager.rivalScore) {
+            var self = Game.PlayerManager.player;
+            var rival = Game.PlayerManager.rival;
 
-        var self = Game.PlayerManager.player;
-        var rival = Game.PlayerManager.rival;
-        if (Game.GameManager.result) {
-            rival.jumpRecordId--;
+            Game.GameManager.selfScore = self.jumpRecordId + self.jumpPos.length;
+            Game.GameManager.rivalScore = rival.jumpRecordId + rival.jumpPos.length;
         }
-        this.nodeDict["playerScore"].getComponent(cc.Label).string = self.jumpRecordId;
-        this.nodeDict["rivalScore"].getComponent(cc.Label).string = rival.jumpRecordId;
+        this.nodeDict["playerScore"].getComponent(cc.Label).string = Game.GameManager.selfScore
+        this.nodeDict["rivalScore"].getComponent(cc.Label).string = Game.GameManager.rivalScore;
     },
 
     quit: function() {

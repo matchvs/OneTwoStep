@@ -10,6 +10,7 @@ cc.Class({
         clientEvent.init();
         dataFunc.loadConfigs();
         clientEvent.on(clientEvent.eventType.leaveRoomNotify, this.leaveRoom, this);
+        clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
     },
 
     gameOver: function() {
@@ -17,7 +18,6 @@ cc.Class({
         console.log("游戏结束");
         if (Game.GameManager.gameState !== GameState.Over) {
             Game.GameManager.gameState = GameState.Over;
-            clientEvent.dispatch(clientEvent.eventType.gameOver);
             setTimeout(function() {
                 if (cc.Canvas.instance.designResolution.height > cc.Canvas.instance.designResolution.width) {
                     uiFunc.openUI("uiVsResultVer");
@@ -33,7 +33,7 @@ cc.Class({
         if (this.gameState !== GameState.None) {
             if (data.leaveRoomInfo.userId !== GLB.userInfo.id) {
                 Game.GameManager.result = true;
-                this.gameOver();
+                clientEvent.dispatch(clientEvent.eventType.gameOver);
             } else {
                 clientEvent.dispatch(clientEvent.eventType.gameOver);
             }
@@ -41,16 +41,18 @@ cc.Class({
     },
 
     sendReadyMsg: function() {
-        var msg = { action: GLB.READY };
+        var msg = {action: GLB.READY};
         this.sendEventEx(msg);
     },
 
     sendRoundStartMsg: function() {
-        var msg = { action: GLB.ROUND_START };
+        var msg = {action: GLB.ROUND_START};
         this.sendEventEx(msg);
     },
 
     startGame: function() {
+        this.selfScore = 0;
+        this.rivalScore = 0;
         this.gameState = GameState.None;
         this.readyCnt = 0;
         cc.director.loadScene('game', function() {
@@ -286,6 +288,8 @@ cc.Class({
         if (info.cpProto.indexOf(GLB.PLAYER_STEP_DATA) >= 0) {
             if (info.srcUserId !== GLB.userInfo.id) {
                 Game.PlayerManager.rival.jumpPos.push(cpProto.data);
+            } else {
+                Game.PlayerManager.player.jumpPos.push(cpProto.data);
             }
         }
 
@@ -303,12 +307,14 @@ cc.Class({
         }
 
         if (info.cpProto.indexOf(GLB.GAME_OVER_EVENT) >= 0) {
-            if (info.srcUserId === GLB.userInfo.id) {
+            if (cpProto.playerId === GLB.userInfo.id) {
                 Game.GameManager.result = false;
             } else {
                 Game.GameManager.result = true;
             }
-            this.gameOver();
+            this.selfScore = cpProto.selfScore;
+            this.rivalScore = cpProto.rivalScore;
+            clientEvent.dispatch(clientEvent.eventType.gameOver);
         }
 
         if (info.cpProto.indexOf(GLB.ROUND_START) >= 0) {
@@ -318,6 +324,10 @@ cc.Class({
             setTimeout(function() {
                 clientEvent.dispatch(clientEvent.eventType.roundStart);
             }.bind(this), 3000);
+        }
+
+        if (info.cpProto.indexOf(GLB.ROAD_DATA) >= 0) {
+            Game.RoadManager.spawnStoneNotify(cpProto.data);
         }
     },
 
@@ -337,5 +347,6 @@ cc.Class({
 
     onDestroy() {
         clientEvent.off(clientEvent.eventType.leaveRoomNotify, this.leaveRoom, this);
+        clientEvent.off(clientEvent.eventType.gameOver, this.gameOver, this);
     }
 });

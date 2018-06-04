@@ -18,7 +18,20 @@ cc.Class({
         }
     },
 
+    start() {
+        clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
+    },
+
+    gameOver() {
+        if (!Game.GameManager.result) {
+            this.heart = 0;
+            this.hpBarSet();
+        }
+    },
+
     init: function(playerId) {
+        this.stopTime = 8;
+        this.curStopTime = 0;
         this.playerId = playerId;
         this.heart = 3;
         this.playerState = PlayerState.Stand;
@@ -69,8 +82,16 @@ cc.Class({
         if (this.heart <= 0) {
             // 游戏结束--
             Game.GameManager.gameState = GameState.Pause;
+            var self = Game.PlayerManager.player;
+            var rival = Game.PlayerManager.rival;
+            var selfScore = self.jumpRecordId + self.jumpPos.length;
+            var rivalScore = rival.jumpRecordId + rival.jumpPos.length;
+
             var msg = {
-                action: GLB.GAME_OVER_EVENT
+                action: GLB.GAME_OVER_EVENT,
+                playerId: this.playerId,
+                selfScore: selfScore,
+                rivalScore: rivalScore
             };
             Game.GameManager.sendEventEx(msg);
         } else {
@@ -94,7 +115,10 @@ cc.Class({
     },
 
     reborn: function() {
-        var data = dataFunc.queryByID("roadTemplate", this.jumpRecordId);
+        var data = Game.RoadManager.roadDatas.find(function(temp) {
+            return temp.ID === this.jumpRecordId;
+        }.bind(this));
+
         var x = Game.RoadManager.offsetX * (data.row - 1);
         var y = Game.RoadManager.offsetY * (data.line - 1);
         this.node.position = new cc.Vec2(x, y);
@@ -121,12 +145,27 @@ cc.Class({
         Game.GameManager.sendEvent(msg);
     },
 
-    update() {
+    stopDead() {
+        this.heart--;
+        this.hpBarSet();
+        if (this.heart <= 0) {
+            Game.GameManager.result = true;
+            clientEvent.dispatch(clientEvent.eventType.gameOver);
+        }
+    },
+
+    update(dt) {
         if (Game.GameManager.gameState !== GameState.Play) {
             return;
         }
+        this.curStopTime += dt;
+        if (this.curStopTime > this.stopTime) {
+            this.curStopTime = 0;
+            this.stopDead();
+        }
         var worldPos = this.node.convertToWorldSpaceAR(cc.v2(0, 0));
         if (worldPos.y < 0) {
+            this.curStopTime = 0;
             Game.RoadManager.deadLineWarn();
             this.dead();
             var fakeData = {
@@ -141,6 +180,7 @@ cc.Class({
             Game.GameManager.sendEvent(msg);
         } else if (this.playerState === PlayerState.Stand
             && this.jumpPos && this.jumpPos.length > 0) {
+            this.curStopTime = 0;
             var data = this.jumpPos.shift();
 
             if (this.jumpRecordId === data.ID) {
@@ -155,5 +195,9 @@ cc.Class({
                 this.jumpDown(cc.p(x2, y2));
             }
         }
+    },
+
+    onDestroy() {
+        clientEvent.off(clientEvent.eventType.gameOver, this.gameOver, this);
     }
 });

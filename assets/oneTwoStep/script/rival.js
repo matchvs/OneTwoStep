@@ -1,3 +1,4 @@
+var GLB = require("Glb");
 cc.Class({
     extends: cc.Component,
     properties: {
@@ -12,7 +13,20 @@ cc.Class({
         }
     },
 
+    start() {
+        clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
+    },
+
+    gameOver() {
+        if (Game.GameManager.result) {
+            this.heart = 0;
+            this.hpBarSet();
+        }
+    },
+
     init: function(playerId) {
+        this.stopTime = 8;
+        this.curStopTime = 0;
         this.playerId = playerId;
         this.heart = 3;
         this.playerState = PlayerState.Stand;
@@ -62,11 +76,30 @@ cc.Class({
         if (this.heart <= 0) {
             // 游戏结束--
             Game.GameManager.result = true;
-            Game.GameManager.gameOver();
+            clientEvent.dispatch(clientEvent.eventType.gameOver);
         } else {
             setTimeout(function() {
                 this.reborn();
             }.bind(this), 1000);
+        }
+    },
+
+    stopDead() {
+        this.heart--;
+        this.hpBarSet();
+        if (this.heart <= 0) {
+            Game.GameManager.gameState = GameState.Pause;
+            var self = Game.PlayerManager.player;
+            var rival = Game.PlayerManager.rival;
+            var selfScore = self.jumpRecordId + self.jumpPos.length;
+            var rivalScore = rival.jumpRecordId + rival.jumpPos.length;
+            var msg = {
+                action: GLB.GAME_OVER_EVENT,
+                playerId: this.playerId,
+                selfScore: selfScore,
+                rivalScore: rivalScore
+            };
+            Game.GameManager.sendEventEx(msg);
         }
     },
 
@@ -95,7 +128,9 @@ cc.Class({
     },
 
     reborn: function() {
-        var data = dataFunc.queryByID("roadTemplate", this.jumpRecordId - 1);
+        var data = Game.RoadManager.roadDatas.find(function(temp) {
+            return temp.ID === this.jumpRecordId - 1;
+        }.bind(this));
         var x = Game.RoadManager.offsetX * (data.row - 1);
         var y = Game.RoadManager.offsetY * (data.line - 1);
         this.node.position = new cc.Vec2(x, y);
@@ -104,11 +139,23 @@ cc.Class({
 
     speedUpNotify: function() {
         this.jumpDurTime /= Game.RoadManager.speedUpPercent;
+        this.stopTime /= Game.RoadManager.speedUpPercent;
         console.log("jumpDurTime:" + this.jumpDurTime);
     },
 
-    update() {
+    update(dt) {
+        if (Game.GameManager.gameState === GameState.Over) {
+            return;
+        }
+        this.curStopTime += dt;
+        if (this.curStopTime > this.stopTime) {
+            this.curStopTime = 0;
+            this.stopDead();
+        }
         if (this.jumpPos && this.jumpPos.length > 0) {
+            this.curStopTime = 0;
+
+            console.log("敌人跳：" + this.jumpRecordId);
             var data = this.jumpPos.shift();
             var x = Game.RoadManager.offsetX * (data.row - 1);
             var y = Game.RoadManager.offsetY * (data.line - 1);
@@ -121,5 +168,9 @@ cc.Class({
             }
             this.jumpRecordId++;
         }
+    },
+
+    onDestroy() {
+        clientEvent.off(clientEvent.eventType.gameOver, this.gameOver, this);
     }
 });

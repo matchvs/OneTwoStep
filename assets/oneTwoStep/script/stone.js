@@ -49,14 +49,13 @@ cc.Class({
                 return this.data === x;
             }.bind(this));
             if (!exist) {
-                Game.PlayerManager.player.jumpPos.push(this.data);
                 cc.audioEngine.play(this.clickAudio, false, 1);
                 this.stoneSp.spriteFrame = this.clickSf;
                 var msg = {
                     action: GLB.PLAYER_STEP_DATA,
                     data: this.data
                 };
-                Game.GameManager.sendEvent(msg);
+                Game.GameManager.sendEventEx(msg);
             }
         }
     },
