@@ -120,6 +120,12 @@ cc.Class({
 
     startGame: function() {
         if (!GLB.isRoomOwner) {
+            uiFunc.openUI("uiTip", function(obj) {
+                var uiTip = obj.getComponent("uiTip");
+                if (uiTip) {
+                    uiTip.setData("等待房主开始游戏");
+                }
+            }.bind(this));
             return;
         }
         var userIds = [];
@@ -130,7 +136,6 @@ cc.Class({
                 userIds.push(this.players[j].userId);
             }
         }
-
 
         if (playerCnt === GLB.MAX_PLAYER_COUNT) {
             var result = mvs.engine.joinOver("");
@@ -146,6 +151,13 @@ cc.Class({
                 userIds: userIds
             };
             Game.GameManager.sendEventEx(msg);
+        } else {
+            uiFunc.openUI("uiTip", function(obj) {
+                var uiTip = obj.getComponent("uiTip");
+                if (uiTip) {
+                    uiTip.setData("房间人数不足");
+                }
+            }.bind(this));
         }
     },
 

@@ -34,14 +34,16 @@ cc.Class({
     },
 
     leaveRoom(data) {
-        uiFunc.openUI("uiTip", function(obj) {
-            var uiTip = obj.getComponent("uiTip");
-            if (uiTip) {
-                if (data.leaveRoomInfo.userId !== GLB.userInfo.id) {
-                    uiTip.setData("对手离开了游戏");
+        if (Game.GameManager.gameState !== GameState.Over) {
+            uiFunc.openUI("uiTip", function(obj) {
+                var uiTip = obj.getComponent("uiTip");
+                if (uiTip) {
+                    if (data.leaveRoomInfo.userId !== GLB.userInfo.id) {
+                        uiTip.setData("对手离开了游戏");
+                    }
                 }
-            }
-        }.bind(this));
+            }.bind(this));
+        }
     },
 
     exit() {

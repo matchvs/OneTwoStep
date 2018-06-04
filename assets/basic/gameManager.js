@@ -303,6 +303,11 @@ cc.Class({
         }
 
         if (info.cpProto.indexOf(GLB.GAME_OVER_EVENT) >= 0) {
+            if (info.srcUserId === GLB.userInfo.id) {
+                Game.GameManager.result = false;
+            } else {
+                Game.GameManager.result = true;
+            }
             this.gameOver();
         }
 

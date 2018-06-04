@@ -1,158 +1,83 @@
-<<<<<<< Updated upstream
-2018-06-01T07:32:17.256Z - normal: Load ~/.CocosCreator/settings.json
-2018-06-01T07:32:17.258Z - normal: checking language setting...
-2018-06-01T07:32:17.258Z - normal: Language: zh
-2018-06-01T07:32:17.799Z - success: protocol editor-framework registered
-2018-06-01T07:32:17.799Z - success: protocol app registered
-2018-06-01T07:32:17.799Z - success: protocol theme registered
-2018-06-01T07:32:17.799Z - success: protocol packages registered
-2018-06-01T07:32:17.799Z - success: protocol unpack registerred
-2018-06-01T07:32:17.799Z - success: protocol disable-commonjs registerred
-2018-06-01T07:32:18.101Z - normal: connected!
-2018-06-01T07:32:18.103Z - normal: Check project /Users/mac/oneTwoStep
-2018-06-01T07:32:18.104Z - normal: Initializing Cocos2d
-2018-06-01T07:32:18.271Z - normal: Initializing Asset Database
-2018-06-01T07:32:18.291Z - success: protocol uuid registerred
-2018-06-01T07:32:18.292Z - success: protocol db registerred
-2018-06-01T07:32:18.292Z - success: protocol thumbnail registerred
-2018-06-01T07:32:18.292Z - normal: Loading editor/builtin packages
-2018-06-01T07:32:18.303Z - success: anysdk loaded
-2018-06-01T07:32:18.378Z - success: assets loaded
-2018-06-01T07:32:18.380Z - success: builder loaded
-2018-06-01T07:32:18.382Z - success: cocos-analytics loaded
-2018-06-01T07:32:18.385Z - success: console loaded
-2018-06-01T07:32:18.387Z - success: hierarchy loaded
-2018-06-01T07:32:18.390Z - success: inspector loaded
-2018-06-01T07:32:18.391Z - success: keystore loaded
-2018-06-01T07:32:18.393Z - success: node-library loaded
-2018-06-01T07:32:18.394Z - success: package-asset loaded
-2018-06-01T07:32:18.395Z - success: preferences loaded
-2018-06-01T07:32:18.397Z - success: project-exporter loaded
-2018-06-01T07:32:18.408Z - success: project-importer loaded
-2018-06-01T07:32:18.410Z - success: project-settings loaded
-2018-06-01T07:32:18.413Z - success: ui-kit loaded
-2018-06-01T07:32:18.417Z - success: ui-grid loaded
-2018-06-01T07:32:18.419Z - success: scene loaded
-2018-06-01T07:32:18.420Z - success: sprite-editor loaded
-2018-06-01T07:32:18.426Z - success: store loaded
-2018-06-01T07:32:18.430Z - success: timeline loaded
-2018-06-01T07:32:18.430Z - normal: Loading builtin packages
-2018-06-01T07:32:18.433Z - success: asset-db-debugger loaded
-2018-06-01T07:32:18.434Z - success: color-picker loaded
-2018-06-01T07:32:18.436Z - success: package-manager loaded
-2018-06-01T07:32:18.440Z - success: sdkbox loaded
-2018-06-01T07:32:18.443Z - success: tester loaded
-2018-06-01T07:32:18.445Z - success: ui-kit-preview-extra loaded
-2018-06-01T07:32:18.448Z - success: ui-kit-preview loaded
-2018-06-01T07:32:18.457Z - success: ui-tree loaded
-2018-06-01T07:32:19.097Z - normal: Initializing project /Users/mac/oneTwoStep
-2018-06-01T07:32:19.105Z - normal: Loading packages
-2018-06-01T07:32:19.108Z - normal: Watching packages
-2018-06-01T07:32:19.115Z - normal: Run Application
-2018-06-01T07:32:22.830Z - success: preview server running at http://localhost:7457
-2018-06-01T07:32:26.927Z - normal: 1.8.2
-2018-06-01T07:32:27.429Z - failed: load script [matchvs.all] failed : Error: Cannot find module 'matchvs.all'
-    at Module._resolveFilename (module.js:470:15)
-    at Function.Module._resolveFilename [as _resolveFilenameVendor] (/Applications/CocosCreator.app/Contents/Resources/electron.asar/common/reset-search-paths.js:35:12)
-    at Function.Module._resolveFilename (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:1361)
-    at Function.Module._load (module.js:418:25)
-    at Module.require (module.js:498:17)
-    at require (internal/module.js:20:19)
-    at Object.cc.require (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/project-scripts.js:1:967)
-    at /Users/mac/oneTwoStep/temp/quick-scripts/assets/basic/Matchvs.js:1:348
-    at __define (/Users/mac/oneTwoStep/temp/quick-scripts/assets/basic/Matchvs.js:17:25)
-    at /Users/mac/oneTwoStep/temp/quick-scripts/assets/basic/Matchvs.js:37:13
-2018-06-01T07:32:27.699Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-=======
-2018-06-02T02:04:23.453Z - normal: Load ~/.CocosCreator/settings.json
-2018-06-02T02:04:23.457Z - normal: checking language setting...
-2018-06-02T02:04:23.457Z - normal: Language: zh
-2018-06-02T02:04:24.351Z - success: protocol editor-framework registered
-2018-06-02T02:04:24.353Z - success: protocol app registered
-2018-06-02T02:04:24.353Z - success: protocol theme registered
-2018-06-02T02:04:24.353Z - success: protocol packages registered
-2018-06-02T02:04:24.354Z - success: protocol unpack registerred
-2018-06-02T02:04:24.354Z - success: protocol disable-commonjs registerred
-2018-06-02T02:04:24.694Z - normal: connected!
-2018-06-02T02:04:24.696Z - normal: Check project /Users/mac/MatchVsGames/oneTwoStep
-2018-06-02T02:04:24.698Z - normal: Initializing Cocos2d
-2018-06-02T02:04:24.897Z - normal: Initializing Asset Database
-2018-06-02T02:04:24.929Z - success: protocol uuid registerred
-2018-06-02T02:04:24.929Z - success: protocol db registerred
-2018-06-02T02:04:24.929Z - success: protocol thumbnail registerred
-2018-06-02T02:04:24.930Z - normal: Loading editor/builtin packages
-2018-06-02T02:04:24.948Z - success: anysdk loaded
-2018-06-02T02:04:25.066Z - success: assets loaded
-2018-06-02T02:04:25.071Z - success: builder loaded
-2018-06-02T02:04:25.074Z - success: cocos-analytics loaded
-2018-06-02T02:04:25.079Z - success: console loaded
-2018-06-02T02:04:25.125Z - success: fb-instant-games loaded
-2018-06-02T02:04:25.130Z - success: hierarchy loaded
-2018-06-02T02:04:25.138Z - success: inspector loaded
-2018-06-02T02:04:25.140Z - success: keystore loaded
-2018-06-02T02:04:25.154Z - success: node-library loaded
-2018-06-02T02:04:25.156Z - success: package-asset loaded
-2018-06-02T02:04:25.158Z - success: preferences loaded
-2018-06-02T02:04:25.161Z - success: project-exporter loaded
-2018-06-02T02:04:25.179Z - success: project-importer loaded
-2018-06-02T02:04:25.187Z - success: project-settings loaded
-2018-06-02T02:04:25.191Z - success: ui-kit loaded
-2018-06-02T02:04:25.196Z - success: ui-grid loaded
-2018-06-02T02:04:25.204Z - success: scene loaded
-2018-06-02T02:04:25.206Z - success: sprite-editor loaded
-2018-06-02T02:04:25.210Z - success: store loaded
-2018-06-02T02:04:25.221Z - success: timeline loaded
-2018-06-02T02:04:25.221Z - normal: Loading builtin packages
-2018-06-02T02:04:25.225Z - success: asset-db-debugger loaded
-2018-06-02T02:04:25.226Z - success: color-picker loaded
-2018-06-02T02:04:25.229Z - success: package-manager loaded
-2018-06-02T02:04:25.237Z - success: sdkbox loaded
-2018-06-02T02:04:25.244Z - success: tester loaded
-2018-06-02T02:04:25.249Z - success: ui-kit-preview-extra loaded
-2018-06-02T02:04:25.255Z - success: ui-kit-preview loaded
-2018-06-02T02:04:25.259Z - success: ui-tree loaded
-2018-06-02T02:04:26.352Z - normal: Initializing project /Users/mac/MatchVsGames/oneTwoStep
-2018-06-02T02:04:26.355Z - normal: Loading packages
-2018-06-02T02:04:26.366Z - success: plugin-matchvs loaded
-2018-06-02T02:04:26.366Z - normal: Watching packages
-2018-06-02T02:04:26.410Z - normal: Run Application
-2018-06-02T02:04:27.287Z - success: preview server running at http://localhost:7458
-2018-06-02T02:04:35.017Z - warn: 会话不存在或已过期
-2018-06-02T02:04:37.192Z - normal: 1.9.0
-2018-06-02T02:04:38.620Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+2018-06-04T00:59:29.593Z - normal: Load ~/.CocosCreator/settings.json
+2018-06-04T00:59:29.597Z - normal: checking language setting...
+2018-06-04T00:59:29.597Z - normal: Language: zh
+2018-06-04T00:59:30.194Z - success: protocol editor-framework registered
+2018-06-04T00:59:30.195Z - success: protocol app registered
+2018-06-04T00:59:30.195Z - success: protocol theme registered
+2018-06-04T00:59:30.195Z - success: protocol packages registered
+2018-06-04T00:59:30.196Z - success: protocol unpack registerred
+2018-06-04T00:59:30.196Z - success: protocol disable-commonjs registerred
+2018-06-04T00:59:30.492Z - normal: connected!
+2018-06-04T00:59:30.495Z - normal: Check project /Users/mac/MatchVsGames/oneTwoStep
+2018-06-04T00:59:30.496Z - normal: Initializing Cocos2d
+2018-06-04T00:59:30.705Z - normal: Initializing Asset Database
+2018-06-04T00:59:30.733Z - success: protocol uuid registerred
+2018-06-04T00:59:30.734Z - success: protocol db registerred
+2018-06-04T00:59:30.734Z - success: protocol thumbnail registerred
+2018-06-04T00:59:30.734Z - normal: Loading editor/builtin packages
+2018-06-04T00:59:30.750Z - success: anysdk loaded
+2018-06-04T00:59:30.850Z - success: assets loaded
+2018-06-04T00:59:30.854Z - success: builder loaded
+2018-06-04T00:59:30.856Z - success: cocos-analytics loaded
+2018-06-04T00:59:30.860Z - success: console loaded
+2018-06-04T00:59:30.892Z - success: fb-instant-games loaded
+2018-06-04T00:59:30.898Z - success: hierarchy loaded
+2018-06-04T00:59:30.902Z - success: inspector loaded
+2018-06-04T00:59:30.904Z - success: keystore loaded
+2018-06-04T00:59:30.913Z - success: node-library loaded
+2018-06-04T00:59:30.915Z - success: package-asset loaded
+2018-06-04T00:59:30.917Z - success: preferences loaded
+2018-06-04T00:59:30.920Z - success: project-exporter loaded
+2018-06-04T00:59:30.936Z - success: project-importer loaded
+2018-06-04T00:59:30.940Z - success: project-settings loaded
+2018-06-04T00:59:30.946Z - success: ui-kit loaded
+2018-06-04T00:59:30.951Z - success: ui-grid loaded
+2018-06-04T00:59:30.955Z - success: scene loaded
+2018-06-04T00:59:30.957Z - success: sprite-editor loaded
+2018-06-04T00:59:30.965Z - success: store loaded
+2018-06-04T00:59:30.971Z - success: timeline loaded
+2018-06-04T00:59:30.971Z - normal: Loading builtin packages
+2018-06-04T00:59:30.975Z - success: asset-db-debugger loaded
+2018-06-04T00:59:30.975Z - success: color-picker loaded
+2018-06-04T00:59:30.980Z - success: package-manager loaded
+2018-06-04T00:59:30.985Z - success: sdkbox loaded
+2018-06-04T00:59:30.991Z - success: tester loaded
+2018-06-04T00:59:30.998Z - success: ui-kit-preview-extra loaded
+2018-06-04T00:59:31.002Z - success: ui-kit-preview loaded
+2018-06-04T00:59:31.005Z - success: ui-tree loaded
+2018-06-04T00:59:31.988Z - normal: Initializing project /Users/mac/MatchVsGames/oneTwoStep
+2018-06-04T00:59:31.991Z - normal: Loading packages
+2018-06-04T00:59:32.003Z - success: plugin-matchvs loaded
+2018-06-04T00:59:32.003Z - normal: Watching packages
+2018-06-04T00:59:32.054Z - normal: Run Application
+2018-06-04T00:59:32.888Z - success: preview server running at http://localhost:7457
+2018-06-04T00:59:39.776Z - normal: 1.9.0
+2018-06-04T00:59:40.749Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
 Node path: "uiLogin/xiaojilogo"
 Asset url: "db://assets/resources/ui/uiLogin.prefab"
 Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
 
-2018-06-02T02:41:16.276Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:34517
-2018-06-02T02:42:09.328Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:35516
-2018-06-02T06:13:25.007Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+2018-06-04T01:55:05.721Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
 Node path: "uiLogin/xiaojilogo"
 Asset url: "db://assets/resources/ui/uiLogin.prefab"
 Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
 
-2018-06-02T06:27:35.906Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+2018-06-04T02:12:32.457Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
 Node path: "uiLogin/xiaojilogo"
 Asset url: "db://assets/resources/ui/uiLogin.prefab"
 Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
 
-2018-06-02T06:31:21.032Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+2018-06-04T03:19:09.912Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
 Node path: "uiLogin/xiaojilogo"
 Asset url: "db://assets/resources/ui/uiLogin.prefab"
 Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
 
-2018-06-02T07:44:12.189Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+2018-06-04T03:19:17.210Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
 Node path: "uiLogin/xiaojilogo"
 Asset url: "db://assets/resources/ui/uiLogin.prefab"
 Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
 
-2018-06-02T07:44:47.450Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
-Node path: "uiLogin/xiaojilogo"
-Asset url: "db://assets/resources/ui/uiLogin.prefab"
-Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
-
-2018-06-02T07:45:25.361Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
->>>>>>> Stashed changes
+2018-06-04T03:21:27.965Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
 Node path: "uiLogin/xiaojilogo"
 Asset url: "db://assets/resources/ui/uiLogin.prefab"
 Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"

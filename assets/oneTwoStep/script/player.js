@@ -68,8 +68,11 @@ cc.Class({
         this.redAnim.play();
         if (this.heart <= 0) {
             // 游戏结束--
-            Game.GameManager.result = false;
-            Game.GameManager.gameOver();
+            Game.GameManager.gameState = GameState.Pause;
+            var msg = {
+                action: GLB.GAME_OVER_EVENT
+            };
+            Game.GameManager.sendEventEx(msg);
         } else {
             Game.GameManager.gameState = GameState.Pause;
             Game.RoadManager.deadSlowdown();
