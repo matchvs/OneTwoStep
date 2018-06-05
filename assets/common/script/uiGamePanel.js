@@ -66,7 +66,7 @@ cc.Class({
     },
 
     update() {
-        if (Game.GameManager.gameState === GameState.Play
+        if ((Game.GameManager.gameState === GameState.Play || Game.GameManager.gameState === GameState.Pause)
             && Game.PlayerManager && Game.PlayerManager.player && Game.PlayerManager.rival) {
             var stepDif = Game.PlayerManager.player.jumpRecordId - Game.PlayerManager.rival.jumpRecordId;
             if (Math.abs(stepDif) > this.stepThreshold) {
