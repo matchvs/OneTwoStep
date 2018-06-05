@@ -34,14 +34,14 @@ cc.Class({
         this.roadDatas = [];
         this.curLeftAccTime = this.accDurTime;
         this.roadPool = new cc.NodePool();
-        this.spawnTriggerDis = 8 * this.offsetY;
+        this.spawnTriggerDis = 3 * this.offsetY;
         this.stones = [];
         this.waterBG.on(cc.Node.EventType.TOUCH_START, this.onClickWater, this);
         this.deadLineAnim = this.deadLine.getComponent(cc.Animation);
     },
 
     initRoad() {
-        for (var i = 0; i < 50; i++) {
+        for (var i = 0; i < 25; i++) {
             this.spawnStone();
         }
     },
@@ -154,7 +154,7 @@ cc.Class({
         this.node.y -= moveDis;
         this.spawnTriggerDis -= moveDis;
         if (this.spawnTriggerDis < 0) {
-            this.spawnTriggerDis = 8 * this.offsetY;
+            this.spawnTriggerDis = 3 * this.offsetY;
             this.spawnStone();
             var stone = this.stones.shift();
             if (stone) {
