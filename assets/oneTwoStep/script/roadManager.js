@@ -154,7 +154,7 @@ cc.Class({
         this.node.y -= moveDis;
         this.spawnTriggerDis -= moveDis;
         if (this.spawnTriggerDis < 0) {
-            this.spawnTriggerDis = 3 * this.offsetY;
+            this.spawnTriggerDis = this.offsetY;
             this.spawnStone();
             var stone = this.stones.shift();
             if (stone) {
