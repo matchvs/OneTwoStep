@@ -129,11 +129,11 @@ cc.Class({
 
     reborn: function() {
         var data = Game.RoadManager.roadDatas.find(function(temp) {
-            return temp.ID === this.jumpRecordId;
+            return temp.ID === this.jumpRecordId + 1;
         }.bind(this));
 
-        var x = Game.RoadManager.offsetX * (data.row);
-        var y = Game.RoadManager.offsetY * (data.line);
+        var x = Game.RoadManager.offsetX * (data.row - 1);
+        var y = Game.RoadManager.offsetY * (data.line - 1);
         this.node.position = new cc.Vec2(x, y);
         this.anim.play("reborn");
 
@@ -172,8 +172,8 @@ cc.Class({
                 this.shockDead();
             } else {
                 this.jump(cc.p(x, y));
+                this.jumpRecordId++;
             }
-            this.jumpRecordId++;
         }
     },
 

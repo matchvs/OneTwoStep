@@ -67,3 +67,39 @@ Node path: "uiLogin/xiaojilogo"
 Asset url: "db://assets/resources/ui/uiLogin.prefab"
 Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
 
+2018-06-11T10:36:49.635Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/resources/data.meta
+2018-06-11T12:31:38.510Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-06-11T12:39:30.696Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-06-11T12:45:33.915Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-06-11T12:47:45.613Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-06-11T12:52:32.896Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-06-11T12:59:46.886Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-06-11T13:01:46.427Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
