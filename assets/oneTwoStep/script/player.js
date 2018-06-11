@@ -119,8 +119,8 @@ cc.Class({
             return temp.ID === this.jumpRecordId;
         }.bind(this));
 
-        var x = Game.RoadManager.offsetX * (data.row - 1);
-        var y = Game.RoadManager.offsetY * (data.line - 1);
+        var x = Game.RoadManager.offsetX * (data.row);
+        var y = Game.RoadManager.offsetY * (data.line);
         this.node.position = new cc.Vec2(x, y);
 
         this.playerState = PlayerState.Stand;
@@ -133,7 +133,7 @@ cc.Class({
         }, 2000);
 
         this.jumpPos = [];
-        this.jumpRecordId++;
+        this.jumpRecordId += 2;
     },
 
     speedUp: function() {
@@ -149,7 +149,7 @@ cc.Class({
         this.heart--;
         this.hpBarSet();
         if (this.heart <= 0) {
-            Game.GameManager.result = true;
+            Game.GameManager.result = false;
             clientEvent.dispatch(clientEvent.eventType.gameOver);
         }
     },
