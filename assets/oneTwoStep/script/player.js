@@ -30,7 +30,7 @@ cc.Class({
     },
 
     init: function(playerId) {
-        this.stopTime = 8;
+        this.stopTime = 15;
         this.curStopTime = 0;
         this.playerId = playerId;
         this.heart = 3;

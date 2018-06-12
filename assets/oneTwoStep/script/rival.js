@@ -25,7 +25,7 @@ cc.Class({
     },
 
     init: function(playerId) {
-        this.stopTime = 8;
+        this.stopTime = 15;
         this.curStopTime = 0;
         this.playerId = playerId;
         this.heart = 3;
@@ -144,14 +144,14 @@ cc.Class({
     speedUpNotify: function() {
         this.jumpDurTime /= Game.RoadManager.speedUpPercent;
         this.stopTime /= Game.RoadManager.speedUpPercent;
-        if (this.stopTime < 5) {
-            this.stopTime = 5;
+        if (this.stopTime < 10) {
+            this.stopTime = 10;
         }
         console.log("jumpDurTime:" + this.jumpDurTime);
     },
 
     update(dt) {
-        if (Game.GameManager.gameState === GameState.Over) {
+        if (Game.GameManager.gameState === GameState.Over || Game.GameManager.gameState === GameState.None) {
             return;
         }
         this.curStopTime += dt;

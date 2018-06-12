@@ -309,12 +309,12 @@ cc.Class({
         if (info.cpProto.indexOf(GLB.GAME_OVER_EVENT) >= 0) {
             if (cpProto.playerId === GLB.userInfo.id) {
                 Game.GameManager.result = false;
-                this.selfScore = cpProto.rivalScore;
-                this.rivalScore = cpProto.selfScore;
-            } else {
-                Game.GameManager.result = true;
                 this.selfScore = cpProto.selfScore;
                 this.rivalScore = cpProto.rivalScore;
+            } else {
+                Game.GameManager.result = true;
+                this.selfScore = cpProto.rivalScore;
+                this.rivalScore = cpProto.selfScore;
             }
             clientEvent.dispatch(clientEvent.eventType.gameOver);
         }
