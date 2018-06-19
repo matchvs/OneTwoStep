@@ -378,7 +378,7 @@ cc.Class({
                         });
                     }.bind(this), 500);
 
-                }
+                }.bind(this)
             );
         } else {
             this.network.send("connector.rankHandler.updateScore", {
