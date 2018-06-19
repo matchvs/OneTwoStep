@@ -29,6 +29,7 @@ cc.Class({
 
         if (Game.GameManager.result) {
             cc.audioEngine.play(this.victoryClip, false, 1);
+            Game.GameManager.loginServer();
         } else {
             cc.audioEngine.play(this.loseClip, false, 1);
         }

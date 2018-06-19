@@ -11,6 +11,9 @@ cc.Class({
         dataFunc.loadConfigs();
         clientEvent.on(clientEvent.eventType.leaveRoomNotify, this.leaveRoom, this);
         clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
+        this.network = kf.require("basic.network");
+        this.network.chooseNetworkMode();
+        this.getRankDataListener();
     },
 
     gameOver: function() {
@@ -345,6 +348,43 @@ cc.Class({
         var result = mvs.engine.sendEvent(JSON.stringify(msg));
         if (result.result !== 0) {
             console.log(msg.action, result.result);
+        }
+    },
+
+    getRankDataListener: function() {
+        this.network.on("connector.rankHandler.getRankData", function(recvMsg) {
+            uiFunc.openUI("uiRankPanelVer", function(obj) {
+                var uiRankPanel = obj.getComponent("uiRankPanel");
+                uiRankPanel.setData(recvMsg.rankArray);
+            });
+        }.bind(this));
+    },
+
+    loginServer: function() {
+        var ip = "123.207.6.72";
+        var port = "3010";
+        if (!this.network.isConnected()) {
+            this.network.connect(ip, port, function() {
+                    this.network.send("connector.entryHandler.login", {
+                        "account": GLB.userInfo.id + "",
+                        "channel": "0",
+                        "userName": "name",
+                        "headIcon": "head"
+                    }.bind(this));
+                    setTimeout(function() {
+                        this.network.send("connector.rankHandler.updateScore", {
+                            "account": GLB.userInfo.id + "",
+                            "game": "game1"
+                        });
+                    }.bind(this), 500);
+
+                }
+            );
+        } else {
+            this.network.send("connector.rankHandler.updateScore", {
+                "account": GLB.userInfo.id + "",
+                "game": "game1"
+            });
         }
     },
 

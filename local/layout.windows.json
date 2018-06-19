@@ -18,7 +18,7 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 349,
+                "height": 393,
                 "type": "panel",
                 "width": 552
               },
@@ -27,7 +27,7 @@
                 "children": [
                   "assets"
                 ],
-                "height": 534,
+                "height": 490,
                 "type": "panel",
                 "width": 552
               }
@@ -47,7 +47,7 @@
                     ],
                     "height": 617,
                     "type": "panel",
-                    "width": 591
+                    "width": 617
                   },
                   {
                     "active": 0,
@@ -56,12 +56,12 @@
                     ],
                     "height": 617,
                     "type": "panel",
-                    "width": 218
+                    "width": 227
                   }
                 ],
                 "height": 617,
                 "type": "dock-h",
-                "width": 812
+                "width": 847
               },
               {
                 "active": 0,
@@ -71,12 +71,12 @@
                 ],
                 "height": 266,
                 "type": "panel",
-                "width": 812
+                "width": 847
               }
             ],
             "height": 886,
             "type": "dock-v",
-            "width": 812
+            "width": 847
           },
           {
             "active": 0,
@@ -85,7 +85,7 @@
             ],
             "height": 886,
             "type": "panel",
-            "width": 544
+            "width": 509
           }
         ],
         "type": "dock-h"
@@ -100,7 +100,32 @@
         "scene"
       ]
     },
-    "window-1529046715322": {}
+    "window-1529400997313": {
+      "main": false,
+      "url": "unpack://static/window.html",
+      "windowType": "dockable",
+      "x": 718,
+      "y": 146,
+      "width": 454,
+      "height": 558,
+      "layout": {
+        "children": [
+          {
+            "active": 0,
+            "children": [
+              "package-asset.import"
+            ],
+            "height": 536,
+            "type": "panel",
+            "width": 454
+          }
+        ],
+        "type": "dock-v"
+      },
+      "panels": [
+        "package-asset.import"
+      ]
+    }
   },
   "panels": {
     "store": {
@@ -134,8 +159,8 @@
       "height": 422
     },
     "package-asset.import": {
-      "x": 797,
-      "y": 157,
+      "x": 718,
+      "y": 146,
       "width": 454,
       "height": 558
     },

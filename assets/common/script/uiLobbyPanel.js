@@ -13,6 +13,34 @@ cc.Class({
         this.nodeDict["inviteFriend"].on("click", this.inviteFriend, this);
         this.nodeDict["exit"].on("click", this.exit, this);
         this.nodeDict["name"].getComponent(cc.Label).string = GLB.userInfo.id;
+        this.nodeDict["rank"].on("click", this.rank, this);
+    },
+
+    rank: function() {
+        if (!Game.GameManager.network.isConnected()) {
+            var ip = "123.207.6.72";
+            var port = "3010";
+            Game.GameManager.network.connect(ip, port, function() {
+                    Game.GameManager.network.send("connector.entryHandler.login", {
+                        "account": GLB.userInfo.id + "",
+                        "channel": "0",
+                        "userName": "name",
+                        "headIcon": "icon"
+                    });
+                    setTimeout(function() {
+                        Game.GameManager.network.send("connector.rankHandler.getRankData", {
+                            "account": GLB.userInfo.id + "",
+                            "game": "game3"
+                        });
+                    }, 500);
+                }
+            );
+        } else {
+            Game.GameManager.network.send("connector.rankHandler.getRankData", {
+                "account": GLB.userInfo.id + "",
+                "game": "game3"
+            });
+        }
     },
 
     exit: function() {
