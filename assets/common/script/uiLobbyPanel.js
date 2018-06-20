@@ -14,6 +14,21 @@ cc.Class({
         this.nodeDict["exit"].on("click", this.exit, this);
         this.nodeDict["name"].getComponent(cc.Label).string = GLB.userInfo.id;
         this.nodeDict["rank"].on("click", this.rank, this);
+        if (Game.GameManager.nickName) {
+            this.nodeDict["name"].getComponent(cc.Label).string = Game.GameManager.nickName;
+        } else {
+            this.nodeDict["name"].getComponent(cc.Label).string = GLB.userInfo.id;
+        }
+        if (!Game.GameManager.network.isConnected()) {
+            Game.GameManager.network.connect(GLB.IP, GLB.PORT, function() {
+                Game.GameManager.network.send("connector.entryHandler.login", {
+                    "account": GLB.userInfo.id + "",
+                    "channel": "0",
+                    "userName": Game.GameManager.nickName ? Game.GameManager.nickName : GLB.userInfo.id,
+                    "headIcon": Game.GameManager.avatarUrl ? Game.GameManager.avatarUrl : "null"
+                });
+            });
+        }
     },
 
     rank: function() {
