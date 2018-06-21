@@ -1,66 +1,675 @@
-2018-06-20T11:11:07.860Z - normal: Load ~/.CocosCreator/settings.json
-2018-06-20T11:11:07.864Z - normal: checking language setting...
-2018-06-20T11:11:07.864Z - normal: Language: zh
-2018-06-20T11:11:09.032Z - success: protocol editor-framework registered
-2018-06-20T11:11:09.033Z - success: protocol app registered
-2018-06-20T11:11:09.033Z - success: protocol theme registered
-2018-06-20T11:11:09.033Z - success: protocol packages registered
-2018-06-20T11:11:09.034Z - success: protocol unpack registerred
-2018-06-20T11:11:09.034Z - success: protocol disable-commonjs registerred
-2018-06-20T11:11:11.081Z - normal: connected!
-2018-06-20T11:11:11.084Z - normal: Check project /Users/mac/MatchVsGames/oneTwoStep
-2018-06-20T11:11:11.086Z - normal: Initializing Cocos2d
-2018-06-20T11:11:11.353Z - normal: Initializing Asset Database
-2018-06-20T11:11:11.396Z - success: protocol uuid registerred
-2018-06-20T11:11:11.396Z - success: protocol db registerred
-2018-06-20T11:11:11.396Z - success: protocol thumbnail registerred
-2018-06-20T11:11:11.397Z - normal: Loading editor/builtin packages
-2018-06-20T11:11:11.421Z - success: anysdk loaded
-2018-06-20T11:11:11.575Z - success: assets loaded
-2018-06-20T11:11:11.582Z - success: builder loaded
-2018-06-20T11:11:11.585Z - success: cocos-analytics loaded
-2018-06-20T11:11:11.591Z - success: console loaded
-2018-06-20T11:11:11.665Z - success: fb-instant-games loaded
-2018-06-20T11:11:11.682Z - success: hierarchy loaded
-2018-06-20T11:11:11.691Z - success: inspector loaded
-2018-06-20T11:11:11.692Z - success: keystore loaded
-2018-06-20T11:11:11.699Z - success: node-library loaded
-2018-06-20T11:11:11.702Z - success: package-asset loaded
-2018-06-20T11:11:11.705Z - success: preferences loaded
-2018-06-20T11:11:11.716Z - success: project-exporter loaded
-2018-06-20T11:11:11.738Z - success: project-importer loaded
-2018-06-20T11:11:11.743Z - success: project-settings loaded
-2018-06-20T11:11:11.748Z - success: ui-kit loaded
-2018-06-20T11:11:11.754Z - success: ui-grid loaded
-2018-06-20T11:11:11.759Z - success: scene loaded
-2018-06-20T11:11:11.760Z - success: sprite-editor loaded
-2018-06-20T11:11:11.764Z - success: store loaded
-2018-06-20T11:11:11.773Z - success: timeline loaded
-2018-06-20T11:11:11.773Z - normal: Loading builtin packages
-2018-06-20T11:11:11.779Z - success: asset-db-debugger loaded
-2018-06-20T11:11:11.782Z - success: color-picker loaded
-2018-06-20T11:11:11.786Z - success: package-manager loaded
-2018-06-20T11:11:11.787Z - success: qqplay-adapter loaded
-2018-06-20T11:11:11.795Z - success: sdkbox loaded
-2018-06-20T11:11:11.801Z - success: tester loaded
-2018-06-20T11:11:11.806Z - success: ui-kit-preview-extra loaded
-2018-06-20T11:11:11.809Z - success: ui-kit-preview loaded
-2018-06-20T11:11:11.813Z - success: ui-tree loaded
-2018-06-20T11:11:11.814Z - success: weapp-adapter loaded
-2018-06-20T11:11:13.399Z - normal: Initializing project /Users/mac/MatchVsGames/oneTwoStep
-2018-06-20T11:11:13.402Z - normal: Loading packages
-2018-06-20T11:11:13.414Z - success: plugin-matchvs loaded
-2018-06-20T11:11:13.414Z - normal: Watching packages
-2018-06-20T11:11:13.562Z - normal: Run Application
-2018-06-20T11:11:15.196Z - success: preview server running at http://localhost:7462
-2018-06-20T11:11:35.406Z - normal: 1.9.2
-2018-06-20T11:11:40.974Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+2018-06-21T11:45:21.232Z - normal: Load ~/.CocosCreator/settings.json
+2018-06-21T11:45:21.236Z - normal: checking language setting...
+2018-06-21T11:45:21.236Z - normal: Language: zh
+2018-06-21T11:45:22.151Z - success: protocol editor-framework registered
+2018-06-21T11:45:22.151Z - success: protocol app registered
+2018-06-21T11:45:22.152Z - success: protocol theme registered
+2018-06-21T11:45:22.152Z - success: protocol packages registered
+2018-06-21T11:45:22.152Z - success: protocol unpack registerred
+2018-06-21T11:45:22.152Z - success: protocol disable-commonjs registerred
+2018-06-21T11:45:22.499Z - normal: connected!
+2018-06-21T11:45:22.502Z - normal: Check project /Users/mac/MatchVsGames/oneTwoStep
+2018-06-21T11:45:22.503Z - normal: Initializing Cocos2d
+2018-06-21T11:45:22.746Z - normal: Initializing Asset Database
+2018-06-21T11:45:22.782Z - success: protocol uuid registerred
+2018-06-21T11:45:22.782Z - success: protocol db registerred
+2018-06-21T11:45:22.782Z - success: protocol thumbnail registerred
+2018-06-21T11:45:22.783Z - normal: Loading editor/builtin packages
+2018-06-21T11:45:22.801Z - success: anysdk loaded
+2018-06-21T11:45:22.941Z - success: assets loaded
+2018-06-21T11:45:22.948Z - success: builder loaded
+2018-06-21T11:45:22.951Z - success: cocos-analytics loaded
+2018-06-21T11:45:22.957Z - success: console loaded
+2018-06-21T11:45:22.996Z - success: fb-instant-games loaded
+2018-06-21T11:45:23.001Z - success: hierarchy loaded
+2018-06-21T11:45:23.006Z - success: inspector loaded
+2018-06-21T11:45:23.009Z - success: keystore loaded
+2018-06-21T11:45:23.013Z - success: node-library loaded
+2018-06-21T11:45:23.015Z - success: package-asset loaded
+2018-06-21T11:45:23.017Z - success: preferences loaded
+2018-06-21T11:45:23.021Z - success: project-exporter loaded
+2018-06-21T11:45:23.039Z - success: project-importer loaded
+2018-06-21T11:45:23.044Z - success: project-settings loaded
+2018-06-21T11:45:23.048Z - success: ui-kit loaded
+2018-06-21T11:45:23.054Z - success: ui-grid loaded
+2018-06-21T11:45:23.060Z - success: scene loaded
+2018-06-21T11:45:23.061Z - success: sprite-editor loaded
+2018-06-21T11:45:23.065Z - success: store loaded
+2018-06-21T11:45:23.072Z - success: timeline loaded
+2018-06-21T11:45:23.072Z - normal: Loading builtin packages
+2018-06-21T11:45:23.079Z - success: asset-db-debugger loaded
+2018-06-21T11:45:23.080Z - success: color-picker loaded
+2018-06-21T11:45:23.085Z - success: package-manager loaded
+2018-06-21T11:45:23.086Z - success: qqplay-adapter loaded
+2018-06-21T11:45:23.096Z - success: sdkbox loaded
+2018-06-21T11:45:23.101Z - success: tester loaded
+2018-06-21T11:45:23.105Z - success: ui-kit-preview-extra loaded
+2018-06-21T11:45:23.111Z - success: ui-kit-preview loaded
+2018-06-21T11:45:23.116Z - success: ui-tree loaded
+2018-06-21T11:45:23.117Z - success: weapp-adapter loaded
+2018-06-21T11:45:24.353Z - normal: Initializing project /Users/mac/MatchVsGames/oneTwoStep
+2018-06-21T11:45:24.356Z - normal: Loading packages
+2018-06-21T11:45:24.371Z - success: plugin-matchvs loaded
+2018-06-21T11:45:24.371Z - normal: Watching packages
+2018-06-21T11:45:24.569Z - normal: Run Application
+2018-06-21T11:45:25.870Z - success: preview server running at http://localhost:7460
+2018-06-21T11:45:36.237Z - normal: 1.9.2
+2018-06-21T11:45:41.342Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
 Node path: "uiLogin/xiaojilogo"
 Asset url: "db://assets/resources/ui/uiLogin.prefab"
 Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
 
-2018-06-20T12:31:33.824Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+2018-06-21T12:01:37.655Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
 Node path: "uiLogin/xiaojilogo"
 Asset url: "db://assets/resources/ui/uiLogin.prefab"
 Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-06-21T12:04:14.538Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-06-21T12:05:01.455Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-06-21T12:05:07.629Z - error: prefab 没有保存，请先保存相关信息再进行构建。
+    at Editor.Ipc.sendToPanel (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/builder/panel/builder.js:1:14928)
+    at EventEmitter.ipcRenderer.on.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:4587)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-06-21T12:05:27.499Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGames/oneTwoStep/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGames/oneTwoStep/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DuckHunt",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "117c424d-e9a8-4789-bdd9-05fb745695e1"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "goAhead",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "portrait",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/onetwostep",
+    "appid": "wx793199d0ca521154",
+    "orientation": "portrait"
+  },
+  "xxteaKey": "a15e5bec-8ac1-4f",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGames/oneTwoStep",
+  "projectName": "goAhead",
+  "debugBuildWorker": false
+}
+2018-06-21T12:05:27.509Z - normal: Building /Users/mac/MatchVsGames/oneTwoStep
+2018-06-21T12:05:27.510Z - normal: Destination /Users/mac/MatchVsGames/oneTwoStep/build/wechatgame
+2018-06-21T12:05:27.826Z - normal: Delete /Users/mac/MatchVsGames/oneTwoStep/build/wechatgame/**/*
+2018-06-21T12:05:31.751Z - normal: Compiled project javascript file successfully
+2018-06-21T12:05:31.752Z - error: Build Failed: Compile error: Cannot require 'LanguageData' from '/Users/mac/MatchVsGames/oneTwoStep/assets/basic/network/basic'. Module not found.
+    at Readable.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/compile-worker.js:1:1514)
+    at emitOne (events.js:96:13)
+    at Readable.emit (events.js:191:7)
+    at Labeled.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/read-only-stream/index.js:28:44)
+    at emitOne (events.js:96:13)
+    at Labeled.emit (events.js:191:7)
+    at Labeled.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/stream-splicer/index.js:130:18)
+    at emitOne (events.js:96:13)
+    at Labeled.emit (events.js:191:7)
+    at Deps.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/stream-splicer/index.js:130:18)
+    at Async.series.r (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/builder.js:1:3101)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:726:13
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:52:16
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:264:21
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:44:16
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:723:17
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:167:37
+    at Gulp.doneCallback (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/gulp-build.js:1:21071)
+    at Gulp.Orchestrator.stop (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/orchestrator/index.js:150:9)
+2018-06-21T12:13:06.166Z - normal: i18n多语言化插件安装成功，如果没有自动加载，请重启编辑器
+2018-06-21T12:13:06.814Z - success: i18n loaded
+2018-06-21T12:13:07.994Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-06-21T12:13:11.305Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGames/oneTwoStep/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGames/oneTwoStep/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DuckHunt",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "117c424d-e9a8-4789-bdd9-05fb745695e1"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "goAhead",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "portrait",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/onetwostep",
+    "appid": "wx793199d0ca521154",
+    "orientation": "portrait"
+  },
+  "xxteaKey": "a15e5bec-8ac1-4f",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGames/oneTwoStep",
+  "projectName": "goAhead",
+  "debugBuildWorker": false
+}
+2018-06-21T12:13:11.309Z - normal: Building /Users/mac/MatchVsGames/oneTwoStep
+2018-06-21T12:13:11.309Z - normal: Destination /Users/mac/MatchVsGames/oneTwoStep/build/wechatgame
+2018-06-21T12:13:11.310Z - normal: Delete /Users/mac/MatchVsGames/oneTwoStep/build/wechatgame/**/*
+2018-06-21T12:13:22.926Z - normal: Compiled project javascript file successfully
+2018-06-21T12:13:22.927Z - normal: Start building assets
+2018-06-21T12:13:22.927Z - normal: Start spawn build-worker
+2018-06-21T12:13:23.641Z - normal: Finish spawn build-worker
+2018-06-21T12:13:23.641Z - normal: Start init build-worker
+2018-06-21T12:13:26.087Z - normal: 1.9.2
+2018-06-21T12:13:26.501Z - normal: Finish init build-worker
+2018-06-21T12:13:26.501Z - normal: Start build-assets in worker
+2018-06-21T12:13:27.320Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Used in Component: "cc.Sprite"
+uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+2018-06-21T12:13:27.322Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching1v1/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+2018-06-21T12:13:28.121Z - normal: Finish build-assets in worker
+2018-06-21T12:13:28.125Z - normal: Finish building assets
+2018-06-21T12:13:28.164Z - normal: Start building raw assets
+2018-06-21T12:13:28.165Z - normal: Start building plugin scripts
+2018-06-21T12:13:30.589Z - normal: Finish building plugin scripts
+2018-06-21T12:13:30.895Z - normal: Finish building raw assets
+2018-06-21T12:13:30.902Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-21T12:13:32.130Z - normal: Built to "/Users/mac/MatchVsGames/oneTwoStep/build/wechatgame" successfully
+2018-06-21T12:15:05.668Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-06-21T12:15:05.670Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-21T12:15:06.135Z - normal: Initializing...
+
+2018-06-21T12:15:06.143Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-06-21T12:15:06.162Z - normal: IDE server has started, listening on http://127.0.0.1:54584
+
+2018-06-21T12:15:06.162Z - normal: initialization finished
+
+2018-06-21T12:15:06.856Z - normal: open IDE success
+
+2018-06-21T12:18:02.293Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-06-21T12:18:09.243Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGames/oneTwoStep/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGames/oneTwoStep/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DuckHunt",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "117c424d-e9a8-4789-bdd9-05fb745695e1"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "goAhead",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "portrait",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/onetwostep",
+    "appid": "wx793199d0ca521154",
+    "orientation": "portrait"
+  },
+  "xxteaKey": "a15e5bec-8ac1-4f",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGames/oneTwoStep",
+  "projectName": "goAhead",
+  "debugBuildWorker": false
+}
+2018-06-21T12:18:09.256Z - normal: Building /Users/mac/MatchVsGames/oneTwoStep
+2018-06-21T12:18:09.256Z - normal: Destination /Users/mac/MatchVsGames/oneTwoStep/build/wechatgame
+2018-06-21T12:18:09.257Z - normal: Delete /Users/mac/MatchVsGames/oneTwoStep/build/wechatgame/**/*
+2018-06-21T12:18:22.437Z - normal: Compiled project javascript file successfully
+2018-06-21T12:18:22.438Z - normal: Start building assets
+2018-06-21T12:18:22.438Z - normal: Start spawn build-worker
+2018-06-21T12:18:23.144Z - normal: Finish spawn build-worker
+2018-06-21T12:18:23.144Z - normal: Start init build-worker
+2018-06-21T12:18:25.531Z - normal: 1.9.2
+2018-06-21T12:18:25.959Z - normal: Finish init build-worker
+2018-06-21T12:18:25.959Z - normal: Start build-assets in worker
+2018-06-21T12:18:26.636Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Used in Component: "cc.Sprite"
+uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+2018-06-21T12:18:26.638Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching1v1/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+2018-06-21T12:18:27.499Z - normal: Finish build-assets in worker
+2018-06-21T12:18:27.505Z - normal: Finish building assets
+2018-06-21T12:18:27.539Z - normal: Start building raw assets
+2018-06-21T12:18:27.540Z - normal: Start building plugin scripts
+2018-06-21T12:18:29.633Z - normal: Finish building plugin scripts
+2018-06-21T12:18:29.837Z - normal: Finish building raw assets
+2018-06-21T12:18:29.841Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-21T12:18:31.071Z - normal: Built to "/Users/mac/MatchVsGames/oneTwoStep/build/wechatgame" successfully
+2018-06-21T12:19:24.371Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-06-21T12:19:24.372Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-21T12:19:24.914Z - normal: Initializing...
+
+2018-06-21T12:19:24.922Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-06-21T12:19:24.952Z - normal: IDE server has started, listening on http://127.0.0.1:54584
+
+2018-06-21T12:19:24.952Z - normal: initialization finished
+
+2018-06-21T12:19:25.143Z - normal: open IDE success
+
+2018-06-21T12:22:34.866Z - warn: The Asset used by component "cc.Sprite" in prefab "uiMatching1v1.prefab" is missing. Detailed information:
+Node path: "uiMatching1v1/play-bg"
+Asset url: "db://assets/resources/ui/uiMatching1v1.prefab"
+Missing uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+
+2018-06-21T12:23:24.311Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGames/oneTwoStep/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGames/oneTwoStep/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DuckHunt",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "117c424d-e9a8-4789-bdd9-05fb745695e1"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "goAhead",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "portrait",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/onetwostep",
+    "appid": "wx793199d0ca521154",
+    "orientation": "portrait"
+  },
+  "xxteaKey": "a15e5bec-8ac1-4f",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGames/oneTwoStep",
+  "projectName": "goAhead",
+  "debugBuildWorker": false
+}
+2018-06-21T12:23:24.322Z - normal: Building /Users/mac/MatchVsGames/oneTwoStep
+2018-06-21T12:23:24.323Z - normal: Destination /Users/mac/MatchVsGames/oneTwoStep/build/wechatgame
+2018-06-21T12:23:24.324Z - normal: Delete /Users/mac/MatchVsGames/oneTwoStep/build/wechatgame/**/*
+2018-06-21T12:23:36.991Z - normal: Compiled project javascript file successfully
+2018-06-21T12:23:36.992Z - normal: Start building assets
+2018-06-21T12:23:36.992Z - normal: Start spawn build-worker
+2018-06-21T12:23:37.799Z - normal: Finish spawn build-worker
+2018-06-21T12:23:37.799Z - normal: Start init build-worker
+2018-06-21T12:23:40.208Z - normal: 1.9.2
+2018-06-21T12:23:40.635Z - normal: Finish init build-worker
+2018-06-21T12:23:40.638Z - normal: Start build-assets in worker
+2018-06-21T12:23:41.464Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Used in Component: "cc.Sprite"
+uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+2018-06-21T12:23:41.467Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching1v1/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+2018-06-21T12:23:42.183Z - normal: Finish build-assets in worker
+2018-06-21T12:23:42.186Z - normal: Finish building assets
+2018-06-21T12:23:42.222Z - normal: Start building raw assets
+2018-06-21T12:23:42.223Z - normal: Start building plugin scripts
+2018-06-21T12:23:44.160Z - normal: Finish building plugin scripts
+2018-06-21T12:23:44.298Z - normal: Finish building raw assets
+2018-06-21T12:23:44.301Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-21T12:23:45.570Z - normal: Built to "/Users/mac/MatchVsGames/oneTwoStep/build/wechatgame" successfully
+2018-06-21T12:24:04.531Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-06-21T12:24:04.532Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-21T12:24:05.050Z - normal: Initializing...
+
+2018-06-21T12:24:05.057Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-06-21T12:24:05.096Z - normal: IDE server has started, listening on http://127.0.0.1:54584
+
+2018-06-21T12:24:05.096Z - normal: initialization finished
+
+2018-06-21T12:24:05.304Z - normal: open IDE success
+
+2018-06-21T12:29:05.751Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGames/oneTwoStep/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGames/oneTwoStep/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DuckHunt",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "117c424d-e9a8-4789-bdd9-05fb745695e1"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "goAhead",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "portrait",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/onetwostep",
+    "appid": "wx793199d0ca521154",
+    "orientation": "portrait"
+  },
+  "xxteaKey": "a15e5bec-8ac1-4f",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGames/oneTwoStep",
+  "projectName": "goAhead",
+  "debugBuildWorker": false
+}
+2018-06-21T12:29:05.769Z - normal: Building /Users/mac/MatchVsGames/oneTwoStep
+2018-06-21T12:29:05.769Z - normal: Destination /Users/mac/MatchVsGames/oneTwoStep/build/wechatgame
+2018-06-21T12:29:05.770Z - normal: Delete /Users/mac/MatchVsGames/oneTwoStep/build/wechatgame/**/*
+2018-06-21T12:29:19.906Z - normal: Compiled project javascript file successfully
+2018-06-21T12:29:19.907Z - normal: Start building assets
+2018-06-21T12:29:19.907Z - normal: Start spawn build-worker
+2018-06-21T12:29:20.737Z - normal: Finish spawn build-worker
+2018-06-21T12:29:20.737Z - normal: Start init build-worker
+2018-06-21T12:29:23.754Z - normal: 1.9.2
+2018-06-21T12:29:24.279Z - normal: Finish init build-worker
+2018-06-21T12:29:24.279Z - normal: Start build-assets in worker
+2018-06-21T12:29:25.492Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Used in Component: "cc.Sprite"
+uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+2018-06-21T12:29:25.498Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching1v1/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+2018-06-21T12:29:26.561Z - normal: Finish build-assets in worker
+2018-06-21T12:29:26.574Z - normal: Finish building assets
+2018-06-21T12:29:26.616Z - normal: Start building raw assets
+2018-06-21T12:29:26.617Z - normal: Start building plugin scripts
+2018-06-21T12:29:29.908Z - normal: Finish building plugin scripts
+2018-06-21T12:29:30.170Z - normal: Finish building raw assets
+2018-06-21T12:29:30.187Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-21T12:29:32.107Z - normal: Built to "/Users/mac/MatchVsGames/oneTwoStep/build/wechatgame" successfully
+2018-06-21T12:51:00.506Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-06-21T12:52:50.226Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-06-21T12:53:32.837Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGames/oneTwoStep/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGames/oneTwoStep/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DuckHunt",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "117c424d-e9a8-4789-bdd9-05fb745695e1"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "goAhead",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "portrait",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/onetwostep",
+    "appid": "wx793199d0ca521154",
+    "orientation": "portrait"
+  },
+  "xxteaKey": "a15e5bec-8ac1-4f",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGames/oneTwoStep",
+  "projectName": "goAhead",
+  "debugBuildWorker": false
+}
+2018-06-21T12:53:32.852Z - normal: Building /Users/mac/MatchVsGames/oneTwoStep
+2018-06-21T12:53:32.852Z - normal: Destination /Users/mac/MatchVsGames/oneTwoStep/build/wechatgame
+2018-06-21T12:53:32.853Z - normal: Delete /Users/mac/MatchVsGames/oneTwoStep/build/wechatgame/**/*
+2018-06-21T12:53:45.020Z - normal: Compiled project javascript file successfully
+2018-06-21T12:53:45.021Z - normal: Start building assets
+2018-06-21T12:53:45.021Z - normal: Start spawn build-worker
+2018-06-21T12:53:45.877Z - normal: Finish spawn build-worker
+2018-06-21T12:53:45.877Z - normal: Start init build-worker
+2018-06-21T12:53:48.351Z - normal: 1.9.2
+2018-06-21T12:53:48.726Z - normal: Finish init build-worker
+2018-06-21T12:53:48.726Z - normal: Start build-assets in worker
+2018-06-21T12:53:49.550Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Used in Component: "cc.Sprite"
+uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+2018-06-21T12:53:49.552Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching1v1/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+2018-06-21T12:53:50.454Z - normal: Finish build-assets in worker
+2018-06-21T12:53:50.458Z - normal: Finish building assets
+2018-06-21T12:53:50.496Z - normal: Start building raw assets
+2018-06-21T12:53:50.497Z - normal: Start building plugin scripts
+2018-06-21T12:53:52.616Z - normal: Finish building plugin scripts
+2018-06-21T12:53:52.772Z - normal: Finish building raw assets
+2018-06-21T12:53:52.777Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-06-21T12:53:54.178Z - normal: Built to "/Users/mac/MatchVsGames/oneTwoStep/build/wechatgame" successfully
+2018-06-21T12:54:08.244Z - warn: 找不到微信开发程序版本信息路径 [/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/package.json]。
+2018-06-21T12:54:08.244Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-21T12:54:08.813Z - normal: Initializing...
+
+2018-06-21T12:54:08.831Z - normal: idePortFile: /Users/mac/Library/Application Support/微信web开发者工具/Default/.ide
+
+2018-06-21T12:54:08.871Z - normal: IDE server has started, listening on http://127.0.0.1:54584
+
+2018-06-21T12:54:08.876Z - normal: initialization finished
+
+2018-06-21T12:54:09.264Z - normal: open IDE success
 

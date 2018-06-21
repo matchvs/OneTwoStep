@@ -19,6 +19,12 @@ cc.Class({
         } else {
             this.nodeDict["name"].getComponent(cc.Label).string = GLB.userInfo.id;
         }
+        if (Game.GameManager.avatarUrl) {
+            cc.loader.load({url: Game.GameManager.avatarUrl, type: 'png'}, function(err, texture) {
+                var spriteFrame = new cc.SpriteFrame(texture, cc.Rect(0, 0, texture.width, texture.height));
+                this.nodeDict["userIcon"].getComponent(cc.Sprite).spriteFrame = spriteFrame;
+            }.bind(this));
+        }
         if (!Game.GameManager.network.isConnected()) {
             Game.GameManager.network.connect(GLB.IP, GLB.PORT, function() {
                 Game.GameManager.network.send("connector.entryHandler.login", {
@@ -33,19 +39,17 @@ cc.Class({
 
     rank: function() {
         if (!Game.GameManager.network.isConnected()) {
-            var ip = "123.207.6.72";
-            var port = "3010";
-            Game.GameManager.network.connect(ip, port, function() {
+            Game.GameManager.network.connect(GLB.IP, GLB.PORT, function() {
                     Game.GameManager.network.send("connector.entryHandler.login", {
                         "account": GLB.userInfo.id + "",
                         "channel": "0",
-                        "userName": "name",
-                        "headIcon": "icon"
+                        "userName": Game.GameManager.nickName ? Game.GameManager.nickName : GLB.userInfo.id + "",
+                        "headIcon": Game.GameManager.avatarUrl ? Game.GameManager.avatarUrl : "-"
                     });
                     setTimeout(function() {
                         Game.GameManager.network.send("connector.rankHandler.getRankData", {
                             "account": GLB.userInfo.id + "",
-                            "game": "game3"
+                            "game": "game2"
                         });
                     }, 500);
                 }
@@ -53,7 +57,7 @@ cc.Class({
         } else {
             Game.GameManager.network.send("connector.rankHandler.getRankData", {
                 "account": GLB.userInfo.id + "",
-                "game": "game3"
+                "game": "game2"
             });
         }
     },

@@ -31,6 +31,10 @@ cc.Class({
         kick: {
             default: null,
             type: cc.Node
+        },
+        userIcon: {
+            default: null,
+            type: cc.Sprite
         }
     },
 
@@ -44,6 +48,7 @@ cc.Class({
         this.kick.active = false;
         this.kick.on("click", this.kickPlayer, this);
         this.userId = 0;
+        clientEvent.on(clientEvent.eventType.playerAccountGet, this.userInfoSet, this);
     },
 
     setData: function(userId, ownerId) {
@@ -70,6 +75,26 @@ cc.Class({
         } else {
             this.kick.active = true;
         }
+        Game.GameManager.userInfoReq(this.userId);
+    },
+
+    userInfoSet: function(recvMsg) {
+        console.log("recvMsg:" + recvMsg);
+        if (recvMsg.account == this.userId) {
+            console.log("set user info");
+            console.log(recvMsg);
+            this.userName.string = recvMsg.userName;
+            if (recvMsg.headIcon && recvMsg.headIcon.indexOf("http") >= 0) {
+                cc.loader.load({url: recvMsg.headIcon, type: 'png'}, function(err, texture) {
+                    var spriteFrame = new cc.SpriteFrame(texture, cc.Rect(0, 0, texture.width, texture.height));
+                    this.userIcon.spriteFrame = spriteFrame;
+                }.bind(this));
+            }
+        }
+    },
+
+    onDestroy() {
+        clientEvent.off(clientEvent.eventType.playerAccountGet, this.userInfoSet, this);
     },
 
     kickPlayer: function() {

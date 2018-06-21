@@ -24,7 +24,8 @@ window.clientEvent = {
         getRoomDetailResponse: "getRoomDetailResponse",
         getRoomListExResponse: "getRoomListExResponse",
         kickPlayerResponse: "kickPlayerResponse",
-        kickPlayerNotify: "kickPlayerNotify"
+        kickPlayerNotify: "kickPlayerNotify",
+        playerAccountGet: "playerAccountGet"
     },
     eventListener: null
 }

@@ -20,7 +20,9 @@ cc.Class({
         backWardSpFrame: cc.SpriteFrame,
         stepSpTag: cc.Sprite,
         stepLb: cc.Label,
-        stepThreshold: 0
+        stepThreshold: 0,
+        selfIcon: cc.Node,
+        rivalIcon: cc.Node
     },
 
     onLoad() {
@@ -30,7 +32,8 @@ cc.Class({
         clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
         clientEvent.on(clientEvent.eventType.roundStart, this.roundStart, this);
         clientEvent.on(clientEvent.eventType.leaveRoomNotify, this.leaveRoom, this);
-
+        this.selfIcon.getComponent('playerIcon').setData({id: GLB.playerUserIds[0]});
+        this.rivalIcon.getComponent('playerIcon').setData({id: GLB.playerUserIds[1]});
         this.nodeDict["exit"].on("click", this.exit, this);
     },
 

@@ -20,7 +20,7 @@
                 ],
                 "height": 393,
                 "type": "panel",
-                "width": 543
+                "width": 445
               },
               {
                 "active": 0,
@@ -29,12 +29,12 @@
                 ],
                 "height": 490,
                 "type": "panel",
-                "width": 543
+                "width": 445
               }
             ],
             "height": 886,
             "type": "dock-v",
-            "width": 543
+            "width": 445
           },
           {
             "children": [
@@ -47,7 +47,7 @@
                     ],
                     "height": 617,
                     "type": "panel",
-                    "width": 638
+                    "width": 614
                   },
                   {
                     "active": 0,
@@ -56,27 +56,27 @@
                     ],
                     "height": 617,
                     "type": "panel",
-                    "width": 234
+                    "width": 226
                   }
                 ],
                 "height": 617,
                 "type": "dock-h",
-                "width": 875
+                "width": 843
               },
               {
-                "active": 1,
+                "active": 0,
                 "children": [
                   "console",
                   "timeline"
                 ],
                 "height": 266,
                 "type": "panel",
-                "width": 875
+                "width": 843
               }
             ],
             "height": 886,
             "type": "dock-v",
-            "width": 875
+            "width": 843
           },
           {
             "active": 1,
@@ -86,7 +86,7 @@
             ],
             "height": 886,
             "type": "panel",
-            "width": 490
+            "width": 620
           }
         ],
         "type": "dock-h"
@@ -96,17 +96,18 @@
         "console",
         "timeline",
         "inspector",
+        "builder",
         "hierarchy",
         "assets",
-        "scene",
-        "builder"
+        "scene"
       ]
-    }
+    },
+    "worker": {}
   },
   "panels": {
     "store": {
-      "x": 987,
-      "y": 98,
+      "x": 560,
+      "y": 23,
       "width": 933,
       "height": 779
     },
