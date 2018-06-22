@@ -12,7 +12,7 @@ cc.Class({
         cc.view.enableAutoFullScreen(false);
         clientEvent.on(clientEvent.eventType.leaveRoomNotify, this.leaveRoom, this);
         clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
-        this.network = kf.require("basic.network");
+        this.network = window.network;
         this.network.chooseNetworkMode();
         this.getRankDataListener();
         this.findPlayerByAccountListener();

@@ -673,3 +673,474 @@ uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
 
 2018-06-21T12:54:09.264Z - normal: open IDE success
 
+2018-06-21T13:43:20.057Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-06-21T14:12:13.305Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:96091
+2018-06-21T14:12:22.224Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-06-21T14:12:24.122Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-06-22T02:27:41.917Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-06-22T02:28:39.035Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-06-22T02:53:41.634Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-06-22T03:48:26.949Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:336394
+2018-06-22T03:48:29.607Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-06-22T03:49:24.628Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/basic/network.meta
+2018-06-22T03:49:30.975Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-06-22T03:49:58.396Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-06-22T03:50:17.266Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-06-22T03:50:25.915Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-06-22T03:50:31.106Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-06-22T03:51:45.751Z - success: i18n unloaded
+2018-06-22T03:51:45.824Z - error: Error: EPERM: operation not permitted, unlink '/Users/mac/MatchVsGames/oneTwoStep/assets/resources/i18n'
+    at process.on.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:1068)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2018-06-22T03:51:47.403Z - error: [db-task][sync-changes] Failed to delete asset /Users/mac/MatchVsGames/oneTwoStep/packages/i18n/runtime-scripts/LanguageData.js
+    at s.AssetDB.error (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/utils.js:1:2578)
+    at Tasks.clearImports (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/core/watch.js:1:442)
+    at Object.Tasks.clearImports (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/tasks.js:1:22895)
+    at e (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/core/watch.js:1:398)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:181:20
+    at iterate (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:262:13)
+    at Object.async.forEachOfSeries.async.eachOfSeries (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:281:9)
+    at Object.async.forEachSeries.async.eachSeries (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:214:22)
+    at Async.series.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/core/watch.js:1:1046)
+2018-06-22T03:51:47.419Z - error: [db-task][sync-changes] Failed to delete asset /Users/mac/MatchVsGames/oneTwoStep/packages/i18n/runtime-scripts/LocalizedLabel.js
+    at s.AssetDB.error (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/utils.js:1:2578)
+    at Tasks.clearImports (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/core/watch.js:1:442)
+    at Object.Tasks.clearImports (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/tasks.js:1:22895)
+    at e (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/core/watch.js:1:398)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:181:20
+    at Immediate.iterate (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-06-22T03:51:47.420Z - error: [db-task][sync-changes] Failed to delete asset /Users/mac/MatchVsGames/oneTwoStep/packages/i18n/runtime-scripts/LocalizedSprite.js
+    at s.AssetDB.error (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/utils.js:1:2578)
+    at Tasks.clearImports (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/core/watch.js:1:442)
+    at Object.Tasks.clearImports (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/tasks.js:1:22895)
+    at e (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/core/watch.js:1:398)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:181:20
+    at Immediate.iterate (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-06-22T03:51:47.421Z - error: [db-task][sync-changes] Failed to delete asset /Users/mac/MatchVsGames/oneTwoStep/packages/i18n/runtime-scripts/polyglot.min.js
+    at s.AssetDB.error (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/utils.js:1:2578)
+    at Tasks.clearImports (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/core/watch.js:1:442)
+    at Object.Tasks.clearImports (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/tasks.js:1:22895)
+    at e (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/core/watch.js:1:398)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:181:20
+    at Immediate.iterate (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-06-22T03:51:47.425Z - error: [db-task][sync-changes] Failed to delete asset /Users/mac/MatchVsGames/oneTwoStep/packages/i18n/runtime-scripts/SpriteFrameSet.js
+    at s.AssetDB.error (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/utils.js:1:2578)
+    at Tasks.clearImports (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/core/watch.js:1:442)
+    at Object.Tasks.clearImports (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/tasks.js:1:22895)
+    at e (/Applications/CocosCreator.app/Contents/Resources/app.asar/asset-db/core/watch.js:1:398)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:181:20
+    at Immediate.iterate (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:262:13)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2018-06-22T03:53:43.555Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-06-22T03:53:59.187Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/mac/MatchVsGames/oneTwoStep/build",
+  "debug": false,
+  "dest": "/Users/mac/MatchVsGames/oneTwoStep/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DuckHunt",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "79146b76-f001-46c3-9f85-5e013f21b436",
+    "117c424d-e9a8-4789-bdd9-05fb745695e1"
+  ],
+  "sourceMaps": false,
+  "startScene": "79146b76-f001-46c3-9f85-5e013f21b436",
+  "template": "link",
+  "title": "goAhead",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "portrait",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "https://data.tianziyou.com/matchvsGamesRes/onetwostep",
+    "appid": "wx793199d0ca521154",
+    "orientation": "portrait"
+  },
+  "xxteaKey": "a15e5bec-8ac1-4f",
+  "zipCompressJs": true,
+  "project": "/Users/mac/MatchVsGames/oneTwoStep",
+  "projectName": "goAhead",
+  "debugBuildWorker": false
+}
+2018-06-22T03:53:59.202Z - normal: Building /Users/mac/MatchVsGames/oneTwoStep
+2018-06-22T03:53:59.202Z - normal: Destination /Users/mac/MatchVsGames/oneTwoStep/build/wechatgame
+2018-06-22T03:53:59.203Z - normal: Delete /Users/mac/MatchVsGames/oneTwoStep/build/wechatgame/**/*
+2018-06-22T03:54:17.611Z - normal: Compiled project javascript file successfully
+2018-06-22T03:54:17.612Z - normal: Start building assets
+2018-06-22T03:54:17.612Z - normal: Start spawn build-worker
+2018-06-22T03:54:19.534Z - normal: Finish spawn build-worker
+2018-06-22T03:54:19.535Z - normal: Start init build-worker
+2018-06-22T03:54:22.851Z - normal: 1.9.2
+2018-06-22T03:54:23.562Z - normal: Finish init build-worker
+2018-06-22T03:54:23.563Z - normal: Start build-assets in worker
+2018-06-22T03:54:24.512Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/3b/3b2dc29c-ebfa-4675-8e88-d7ad0e759d6b.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.516Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/30/30fc7c7a-e55a-49cd-a287-b6542bf485fc.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.519Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/df/df4ca5b3-98a4-4d30-940b-8c1c2fe823ed.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.528Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/a9/a99efab5-9c02-4d79-a6a5-7c557e3bc0e7.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.547Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/42/4221eacb-ce03-4fe5-b76d-49d909dd63af.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.551Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/45/451c62e6-39df-4255-9a99-0573c70a1121.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.552Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/44/443b45e5-8a76-4110-ba93-77d24c18e596.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.552Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/31/3180fd20-a29a-4c8f-9b5c-72b152220f18.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.555Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/fa/fababea8-0a93-4a5c-a95a-a37058bc9ed7.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.558Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/ea/ea55f681-dbb9-4af5-b81c-99e1895450ae.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.563Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/ff/ff080891-1833-4901-9d22-952c1a35ec7c.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.564Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/a2/a2ca2476-9fac-4aec-a0f6-6e18f6a1d491.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.566Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/46/465c3083-b127-4001-bdd1-db007a1e35a2.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.568Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/ac/ace7291b-8212-4a8b-8281-f67fde047f5e.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.569Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/74/741a5f1d-2b80-4883-95f8-311f472c8214.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.570Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/8b/8b652357-7df2-4293-bfc0-53c3fb31ee0d.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.571Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/32/32d44047-ba03-493e-b6c5-53da2677216a.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.572Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/2b/2b6d8dab-baca-48f4-bef9-aec6856608e5.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.572Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/93/93aff518-4f7b-4c39-81da-17329a7bcd05.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.573Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/4f/4f06fee2-da9a-4a6a-9d00-7ece78134885.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.573Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/ef/ef317243-bf4e-45b4-b621-faff4f44f517.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.574Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/3a/3a469600-70d0-452e-8cbb-92c87e829c37.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.575Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/dc/dc7b778a-17c0-45ca-9af8-36110ed65989.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.581Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/51/5131f8b6-bc76-432d-b8eb-4a86f9aab45d.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.582Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/a7/a7c9f8fe-bc8d-42a3-9b57-a43a26574ecd.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.586Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/9d/9dcc8c86-48a3-4c5b-9de2-59dc3bf1ec3a.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.586Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/fe/fe6b57e1-1121-4e7d-9908-5990e22f9650.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.587Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/7c/7c3d89da-5055-4e61-9b88-3f0aad25c748.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.588Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/cc/cc341139-38c1-459b-b010-6ba460db4e73.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.588Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/3e/3eb47c6f-b242-44e9-9a20-0d0a9ad1c0b2.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.594Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/81/8130b4ca-73c7-4ebd-a1af-c8e4b98b642d.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.596Z - warn: The referenced asset used in "db://assets/resources/ui/uiLogin.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Used in Component: "cc.Sprite"
+uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+2018-06-22T03:54:24.614Z - warn: The referenced asset used in "db://assets/resources/ui/uiMatching1v1.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "uiMatching1v1/play-bg"
+Used in Component: "cc.Sprite"
+uuid: "5a378d77-4594-49f6-962a-4b0de07c9d82"
+2018-06-22T03:54:24.638Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/73/7370dd8d-378f-47ac-9b16-9a1a466a1ab1.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.652Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/2d/2d316368-cb61-48ea-894f-f333a16822df.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.662Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/69/691d8ac9-298d-4888-a296-0363985beb4f.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:24.667Z - error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/library/imports/ca/ca0a2d76-d040-4fce-aac2-a45fb4461eb2.json'
+    at e.build (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/asset-crawler.js:1:636)
+    at ReadFileContext.Fs.readFile (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-asset.js:1:1938)
+    at ReadFileContext.callback (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/graceful-fs/graceful-fs.js:78:16)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:359:13)
+2018-06-22T03:54:25.434Z - error: Build Failed: Error: Error: ENOENT: no such file or directory, open '/Users/mac/MatchVsGames/oneTwoStep/build/wechatgame/res/import/3b/3b2dc29c-ebfa-4675-8e88-d7ad0e759d6b.json'
+    at EventEmitter.ipcMain.on.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/ipc.js:1:6251)
+    at emitThree (events.js:116:13)
+    at EventEmitter.emit (events.js:197:7)
+    at WebContents.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/electron.asar/browser/api/web-contents.js:247:13)
+    at emitTwo (events.js:106:13)
+    at WebContents.emit (events.js:194:7)
+	--------------------
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/build-worker.js:1:3797
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:52:16
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:696:30
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:167:37
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:1209:30
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:52:16
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:322:29
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:44:16
+    at _packAssets (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/group-manager.js:1:4481)
+    at Async.each.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/build/group-manager.js:1:4218)
+    at Async.series.r (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/builder.js:1:3101)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:726:13
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:52:16
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:264:21
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:44:16
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:723:17
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:167:37
+    at Gulp.doneCallback (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/gulp-build.js:1:21071)
+    at Gulp.Orchestrator.stop (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/orchestrator/index.js:150:9)
+2018-06-22T03:54:25.435Z - normal: Finish build-assets in worker
+2018-06-22T03:57:20.904Z - error: [object Object]
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/uuid-loader.js:147:32
+    at LoadingItems.onComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/CCLoader.js:298:9)
+    at LoadingItems.proto.allComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:527:14)
+    at LoadingItems.proto.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:715:14)
+    at Function.LoadingItems.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:378:15)
+    at CCLoader.proto.flowOut (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:318:18)
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:54:26
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/downloader.js:327:25
+    at XMLHttpRequest.xhr.onerror (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/text-downloader.js:53:17)
+2018-06-22T03:57:20.906Z - error: [object Object]
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/uuid-loader.js:147:32
+    at LoadingItems.onComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/CCLoader.js:298:9)
+    at LoadingItems.proto.allComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:527:14)
+    at LoadingItems.proto.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:715:14)
+    at Function.LoadingItems.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:378:15)
+    at CCLoader.proto.flowOut (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:318:18)
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:54:26
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/downloader.js:327:25
+    at XMLHttpRequest.xhr.onerror (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/text-downloader.js:53:17)
+2018-06-22T03:57:20.906Z - error: [object Object]
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/uuid-loader.js:147:32
+    at LoadingItems.onComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/CCLoader.js:298:9)
+    at LoadingItems.proto.allComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:527:14)
+    at LoadingItems.proto.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:715:14)
+    at Function.LoadingItems.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:378:15)
+    at CCLoader.proto.flowOut (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:318:18)
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:54:26
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/downloader.js:327:25
+    at XMLHttpRequest.xhr.onerror (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/text-downloader.js:53:17)
+2018-06-22T03:57:20.906Z - error: [object Object]
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/uuid-loader.js:147:32
+    at LoadingItems.onComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/CCLoader.js:298:9)
+    at LoadingItems.proto.allComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:527:14)
+    at LoadingItems.proto.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:715:14)
+    at Function.LoadingItems.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:378:15)
+    at CCLoader.proto.flowOut (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:318:18)
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:54:26
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/downloader.js:327:25
+    at XMLHttpRequest.xhr.onerror (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/text-downloader.js:53:17)
+2018-06-22T03:57:20.906Z - error: [object Object]
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/uuid-loader.js:147:32
+    at LoadingItems.onComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/CCLoader.js:298:9)
+    at LoadingItems.proto.allComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:527:14)
+    at LoadingItems.proto.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:715:14)
+    at Function.LoadingItems.itemComplete (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/loading-items.js:378:15)
+    at CCLoader.proto.flowOut (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:318:18)
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/pipeline.js:54:26
+    at /Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/downloader.js:327:25
+    at XMLHttpRequest.xhr.onerror (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/load-pipeline/text-downloader.js:53:17)
+2018-06-22T03:57:21.417Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-06-22T03:57:37.358Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
+2018-06-22T03:57:41.546Z - warn: The Asset used by component "cc.Sprite" in prefab "uiLogin.prefab" is missing. Detailed information:
+Node path: "uiLogin/xiaojilogo"
+Asset url: "db://assets/resources/ui/uiLogin.prefab"
+Missing uuid: "6b1ea273-3343-49d8-82e6-5dd0c40dfb42"
+
