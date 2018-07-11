@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "redforward",
+    "texture": "79f5fc1f-abf4-473a-a293-1d47f1f1c82a",
+    "atlas": "",
+    "rect": [
+      3,
+      0,
+      199,
+      155
+    ],
+    "offset": [
+      1,
+      12
+    ],
+    "originalSize": [
+      203,
+      179
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greenforward",
+    "texture": "23a2c38e-35ff-44f4-b6a2-56130dafb61d",
+    "atlas": "",
+    "rect": [
+      3,
+      0,
+      199,
+      155
+    ],
+    "offset": [
+      1,
+      12
+    ],
+    "originalSize": [
+      203,
+      179
+    ]
+  }
+}

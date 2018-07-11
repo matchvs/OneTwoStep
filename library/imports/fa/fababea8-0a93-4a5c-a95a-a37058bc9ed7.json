@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "shock",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.016666666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "picture": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "8a142d1a-49eb-4e14-be2c-ac80cb95142a"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "events": []
+}

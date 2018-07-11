@@ -9,7 +9,7 @@
   "keystoreAliasPassword": "",
   "keystorePassword": "",
   "keystorePath": "",
-  "platform": "wechatgame",
+  "platform": "web-mobile",
   "previewHeight": "720",
   "previewWidth": "1280",
   "sourceMaps": false,

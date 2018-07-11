@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "reddown",
+    "texture": "3287a696-aa1b-4cc2-a72f-b99fe58a3e82",
+    "atlas": "",
+    "rect": [
+      38,
+      0,
+      155,
+      179
+    ],
+    "offset": [
+      14,
+      0
+    ],
+    "originalSize": [
+      203,
+      179
+    ]
+  }
+}

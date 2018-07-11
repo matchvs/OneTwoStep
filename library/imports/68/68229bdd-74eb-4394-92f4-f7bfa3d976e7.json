@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "redShock",
+    "texture": "ae0fd925-4db8-4f23-bead-df108f2fe4fa",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      203,
+      179
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      203,
+      179
+    ]
+  }
+}

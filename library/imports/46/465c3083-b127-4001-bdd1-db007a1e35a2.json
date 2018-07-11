@@ -1,0 +1,72 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "down",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 2,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "picture": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "2c4c371d-e294-416d-81f7-83ac25a5fcba"
+                }
+              }
+            ]
+          }
+        },
+        "props": {}
+      },
+      "shadow": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "flags": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.5,
+              "value": 10
+            },
+            {
+              "frame": 1,
+              "value": -5
+            },
+            {
+              "frame": 1.5,
+              "value": 5
+            },
+            {
+              "frame": 2,
+              "value": 0
+            }
+          ],
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

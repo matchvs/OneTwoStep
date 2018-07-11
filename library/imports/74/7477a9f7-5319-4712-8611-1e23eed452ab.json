@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jiliulogo",
+    "texture": "56ec5d0b-0260-4d04-88a1-3631944e282b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      600,
+      418
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      600,
+      418
+    ]
+  }
+}

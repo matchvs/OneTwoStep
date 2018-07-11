@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dieLine2",
+    "texture": "3900c8be-ff7c-4e4c-8903-6e7a32571982",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      17,
+      113
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      17,
+      113
+    ]
+  }
+}

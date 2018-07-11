@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hongtouxiangkuang",
+    "texture": "3718bdbf-efe7-4583-8152-82b06cb14884",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      246,
+      125
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      246,
+      125
+    ]
+  }
+}

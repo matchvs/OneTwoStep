@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "backWard",
+    "texture": "4cb37dde-bd98-47a7-86c5-1c600ca1185e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      259,
+      46
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      259,
+      46
+    ]
+  }
+}

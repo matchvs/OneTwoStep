@@ -1,0 +1,304 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "introduct",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 4.483333333333333,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "kuang": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.11666666666666667,
+              "value": 1
+            },
+            {
+              "frame": 0.23333333333333334,
+              "value": 0.95
+            },
+            {
+              "frame": 0.3,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "gameIntroduction": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.3,
+              "value": 0
+            },
+            {
+              "frame": 0.4,
+              "value": 255
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 2.15,
+                "value": {
+                  "__uuid__": "a7c9f8fe-bc8d-42a3-9b57-a43a26574ecd"
+                }
+              },
+              {
+                "frame": 2.3,
+                "value": {
+                  "__uuid__": "691d8ac9-298d-4888-a296-0363985beb4f"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "hand": {
+        "props": {
+          "position": [
+            {
+              "frame": 0.8666666666666667,
+              "value": [
+                247,
+                76
+              ]
+            },
+            {
+              "frame": 1.0833333333333333,
+              "value": [
+                156,
+                139
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 1.0833333333333333,
+              "value": 1
+            },
+            {
+              "frame": 1.2166666666666666,
+              "value": 0.8
+            },
+            {
+              "frame": 1.3666666666666667,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 1.0833333333333333,
+              "value": 1
+            },
+            {
+              "frame": 1.2166666666666666,
+              "value": 0.8
+            },
+            {
+              "frame": 1.3666666666666667,
+              "value": 1
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 1.4166666666666667,
+              "value": 255
+            },
+            {
+              "frame": 1.6333333333333333,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "point": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 1.2,
+              "value": 0
+            },
+            {
+              "frame": 1.3166666666666667,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 1.2,
+              "value": 0
+            },
+            {
+              "frame": 1.3166666666666667,
+              "value": 1
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 1.2833333333333334,
+              "value": 255
+            },
+            {
+              "frame": 1.45,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "red": {
+        "props": {
+          "position": [
+            {
+              "frame": 1.25,
+              "value": [
+                -269,
+                -24
+              ],
+              "motionPath": [
+                [
+                  -180,
+                  71,
+                  -222,
+                  34,
+                  -111,
+                  131
+                ],
+                [
+                  -15,
+                  192,
+                  -90,
+                  156,
+                  24,
+                  211
+                ]
+              ]
+            },
+            {
+              "frame": 1.7833333333333334,
+              "value": [
+                94,
+                240
+              ],
+              "motionPath": []
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 1.2333333333333334,
+                "value": {
+                  "__uuid__": "3a469600-70d0-452e-8cbb-92c87e829c37"
+                }
+              },
+              {
+                "frame": 1.25,
+                "value": {
+                  "__uuid__": "ca0a2d76-d040-4fce-aac2-a45fb4461eb2"
+                }
+              },
+              {
+                "frame": 1.7333333333333334,
+                "value": {
+                  "__uuid__": "3a469600-70d0-452e-8cbb-92c87e829c37"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "shadow": {
+        "props": {
+          "position": [
+            {
+              "frame": 1.2333333333333334,
+              "value": [
+                -271,
+                -96
+              ],
+              "motionPath": []
+            },
+            {
+              "frame": 1.3666666666666667,
+              "value": [
+                -241,
+                -85
+              ],
+              "motionPath": []
+            },
+            {
+              "frame": 1.6333333333333333,
+              "value": [
+                -70,
+                44
+              ],
+              "motionPath": []
+            },
+            {
+              "frame": 1.7833333333333334,
+              "value": [
+                90,
+                167
+              ],
+              "motionPath": []
+            }
+          ]
+        }
+      },
+      "dielight": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 2.5,
+              "value": 0
+            },
+            {
+              "frame": 2.8,
+              "value": 255
+            },
+            {
+              "frame": 3.15,
+              "value": 50
+            },
+            {
+              "frame": 3.45,
+              "value": 255
+            },
+            {
+              "frame": 3.6666666666666665,
+              "value": 0
+            }
+          ]
+        }
+      }
+    },
+    "props": {
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 255
+        },
+        {
+          "frame": 4.416666666666667,
+          "value": 255
+        },
+        {
+          "frame": 4.483333333333333,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "events": []
+}

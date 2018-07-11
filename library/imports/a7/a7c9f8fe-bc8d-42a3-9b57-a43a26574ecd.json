@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gameIntroduction",
+    "texture": "9f6622e3-435e-475e-ba99-d0f40cc3d38f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      363,
+      125
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      363,
+      125
+    ]
+  }
+}

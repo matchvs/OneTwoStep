@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dielight",
+    "texture": "f4f034e1-7d3e-4c29-8877-9a96de080397",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      720,
+      112
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      720,
+      112
+    ]
+  }
+}

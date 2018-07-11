@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "redleft",
+    "texture": "ba09d76d-403a-41ff-ac85-781d70237edb",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      199,
+      167
+    ],
+    "offset": [
+      -2,
+      6
+    ],
+    "originalSize": [
+      203,
+      179
+    ]
+  }
+}

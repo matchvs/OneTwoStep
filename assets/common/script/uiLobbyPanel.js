@@ -30,8 +30,8 @@ cc.Class({
                 Game.GameManager.network.send("connector.entryHandler.login", {
                     "account": GLB.userInfo.id + "",
                     "channel": "0",
-                    "userName": Game.GameManager.nickName ? Game.GameManager.nickName : GLB.userInfo.id,
-                    "headIcon": Game.GameManager.avatarUrl ? Game.GameManager.avatarUrl : "null"
+                    "userName": Game.GameManager.nickName ? Game.GameManager.nickName : GLB.userInfo.id + "",
+                    "headIcon": Game.GameManager.avatarUrl ? Game.GameManager.avatarUrl : "-"
                 });
             });
         }
@@ -138,6 +138,8 @@ cc.Class({
     },
 
     inviteFriend: function() {
-        wx.shareAppMessage();
+        if (wx) {
+            wx.shareAppMessage();
+        }
     }
 });

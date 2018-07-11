@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greendown",
+    "texture": "64f3e70f-d62c-49a6-a42b-199907840463",
+    "atlas": "",
+    "rect": [
+      37,
+      1,
+      155,
+      178
+    ],
+    "offset": [
+      13,
+      -0.5
+    ],
+    "originalSize": [
+      203,
+      179
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "redgameIntroduction",
+    "texture": "aada4599-c9de-4bd5-b12e-ac9f77b68e7b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      363,
+      125
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      363,
+      125
+    ]
+  }
+}

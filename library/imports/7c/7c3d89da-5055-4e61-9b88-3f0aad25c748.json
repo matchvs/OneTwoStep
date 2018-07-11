@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "baikuang",
+    "texture": "419b61ca-5f6a-4e64-b554-dfad3e3323bd",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      720,
+      914
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      720,
+      914
+    ]
+  }
+}

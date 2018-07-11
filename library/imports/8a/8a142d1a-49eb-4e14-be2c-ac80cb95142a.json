@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "greenShock",
+    "texture": "f43122dd-a4e0-451c-a57f-66c7855077de",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      203,
+      172
+    ],
+    "offset": [
+      0,
+      3.5
+    ],
+    "originalSize": [
+      203,
+      179
+    ]
+  }
+}
