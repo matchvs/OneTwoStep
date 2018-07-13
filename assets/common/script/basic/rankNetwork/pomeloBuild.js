@@ -1414,7 +1414,14 @@ pomeloBuild.create = function () {
                 var host = params.host;
                 var port = params.port;
 
-                var url = 'ws://' + host;
+                var wsStr = "ws://";
+
+                if (params.wsStr) {
+                    wsStr = params.wsStr;
+                }
+
+                var url = wsStr + host;
+
                 if (port) {
                     url += ':' + port;
                 }

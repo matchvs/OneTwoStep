@@ -8,7 +8,7 @@
       "x": 0,
       "y": 23,
       "width": 1920,
-      "height": 977,
+      "height": 1057,
       "layout": {
         "children": [
           {
@@ -18,23 +18,23 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 393,
+                "height": 430,
                 "type": "panel",
-                "width": 445
+                "width": 473
               },
               {
                 "active": 0,
                 "children": [
                   "assets"
                 ],
-                "height": 490,
+                "height": 533,
                 "type": "panel",
-                "width": 445
+                "width": 473
               }
             ],
-            "height": 886,
+            "height": 966,
             "type": "dock-v",
-            "width": 445
+            "width": 473
           },
           {
             "children": [
@@ -45,23 +45,23 @@
                     "children": [
                       "scene"
                     ],
-                    "height": 524,
+                    "height": 521,
                     "type": "panel",
-                    "width": 825.984375
+                    "width": 719
                   },
                   {
                     "active": 0,
                     "children": [
                       "node-library"
                     ],
-                    "height": 524,
+                    "height": 521,
                     "type": "panel",
-                    "width": 303.984375
+                    "width": 264
                   }
                 ],
-                "height": 524,
+                "height": 521,
                 "type": "dock-h",
-                "width": 1132.984375
+                "width": 986
               },
               {
                 "active": 0,
@@ -69,14 +69,14 @@
                   "console",
                   "timeline"
                 ],
-                "height": 359,
+                "height": 442,
                 "type": "panel",
-                "width": 1132.984375
+                "width": 986
               }
             ],
-            "height": 886,
+            "height": 966,
             "type": "dock-v",
-            "width": 1132.984375
+            "width": 986
           },
           {
             "active": 1,
@@ -84,9 +84,9 @@
               "inspector",
               "builder"
             ],
-            "height": 886,
+            "height": 966,
             "type": "panel",
-            "width": 330
+            "width": 449
           }
         ],
         "type": "dock-h"
@@ -101,8 +101,7 @@
         "assets",
         "scene"
       ]
-    },
-    "worker": {}
+    }
   },
   "panels": {
     "store": {

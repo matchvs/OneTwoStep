@@ -29,7 +29,7 @@ var obj = {
     appKey: '9a93e36777004e98905a7e66d0808a42',
     secret: 'daf7049c6e3e48e08bfe90abd5b77b0e',
 
-    IP: "123.207.6.72",
+    IP: "wxrank.matchvs.com",
     PORT: "3010",
 
     gameType: 2,

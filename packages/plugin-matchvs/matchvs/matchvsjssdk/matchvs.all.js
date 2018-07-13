@@ -21940,7 +21940,7 @@ try {
 
                 if (socketOpen) {
                     socket.send({
-                        data: msg.buffer,
+                        data: msg.buffer
                     });
                 } else {
 
@@ -22066,6 +22066,8 @@ try {
 
             if (window.WebSocket) {
                 socket = new WebSocket(host);
+                socket.hashcode = new Date().getMilliseconds();
+                MatchvsLog.logI("try to create a socket:"+mHost +" socket is "+socket.hashcode );
                 socket.onmessage = function (event) {
                     var reader = new FileReader();
                     reader.readAsArrayBuffer(event.data);
@@ -22082,6 +22084,7 @@ try {
 
                 };
                 socket.onopen = function (event) {
+                    MatchvsLog.logI("Create the socket is success :"+mHost+" socket is "+socket.hashcode );
                     while (bufQueue.length > 0) {
                         socket.send(bufQueue.pop());
                     }
@@ -23116,6 +23119,7 @@ function MatchvsEngine() {
                     engine.mHotelHeartBeatTimer = null;
                     engine.mEngineState &= ~ENGE_STATE.IN_ROOM;
                     engine.mEngineState |= ENGE_STATE.HAVE_LOGIN;
+                    engine.mHotelNetWork.close();
                 }
                 engine.mRsp.kickPlayerNotify && engine.mRsp.kickPlayerNotify(
                     new MsKickPlayerNotify(packet.payload.getUserid(),
@@ -24199,6 +24203,7 @@ MatchvsEngine.prototype.setRoomProperty = function (roomID, roomProperty) {
     if (ret !== 0) return ret;
     var buf = this.mProtocol.setRoomProperty(this.mGameID, this.mUserID, roomID, roomProperty);
     this.mNetWork.send(buf);
+    return 0;
 };
 
 
