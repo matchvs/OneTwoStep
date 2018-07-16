@@ -26,7 +26,7 @@
 1. 在cocos creator打包输出微信小游戏项目,点击cocos creator上的导航栏中的项目
 2. 在构建发布界面中,发布平台为"Wechat Game",填入appid(如果是你自己的项目,你需要在微信开发者平台中申请).
 ![snipaste20180713_104137.png](./screenshot/snipaste20180713_104137.png)
-3. 点击构建,之后发布.
+3. 点击构建,之后点击运行.
 4. 用微信开发者工具打开.
 ![snipaste20180712_195957.png](./screenshot/snipaste20180712_195957.png)
 5. 就可以愉快的玩耍了 
