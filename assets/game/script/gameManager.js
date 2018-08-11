@@ -16,24 +16,26 @@ cc.Class({
         this.network.chooseNetworkMode();
         this.getRankDataListener();
         this.findPlayerByAccountListener();
-        wx.login({
-            success: function() {
-                wx.getUserInfo({
-                    fail: function(res) {
-                        // iOS 和 Android 对于拒绝授权的回调 errMsg 没有统一，需要做一下兼容处理
-                        if (res.errMsg.indexOf('auth deny') > -1 || res.errMsg.indexOf('auth denied') > -1) {
-                            // 处理用户拒绝授权的情况
-                            console.log("fail");
+        if(window.wx) {
+            wx.login({
+                success: function() {
+                    wx.getUserInfo({
+                        fail: function(res) {
+                            // iOS 和 Android 对于拒绝授权的回调 errMsg 没有统一，需要做一下兼容处理
+                            if (res.errMsg.indexOf('auth deny') > -1 || res.errMsg.indexOf('auth denied') > -1) {
+                                // 处理用户拒绝授权的情况
+                                console.log("fail");
+                            }
+                        },
+                        success: function(res) {
+                            Game.GameManager.nickName = res.userInfo.nickName;
+                            Game.GameManager.avatarUrl = res.userInfo.avatarUrl;
+                            console.log('success', Game.GameManager.nickName);
                         }
-                    },
-                    success: function(res) {
-                        Game.GameManager.nickName = res.userInfo.nickName;
-                        Game.GameManager.avatarUrl = res.userInfo.avatarUrl;
-                        console.log('success', Game.GameManager.nickName);
-                    }
-                });
-            }
-        })
+                    });
+                }
+            })
+        }
     },
 
     gameOver: function() {
@@ -104,6 +106,7 @@ cc.Class({
         mvs.response.loginResponse = this.loginResponse.bind(this); // 用户登录之后的回调
         mvs.response.logoutResponse = this.logoutResponse.bind(this); // 用户登录之后的回调
         mvs.response.sendEventNotify = this.sendEventNotify.bind(this);
+        mvs.response.networkStateNotify = this.networkStateNotify.bind(this);
 
         var result = mvs.engine.init(mvs.response, GLB.channel, GLB.platform, GLB.gameId);
         if (result !== 0) {
@@ -111,6 +114,19 @@ cc.Class({
         }
     },
 
+    networkStateNotify: function(netNotify) {
+        console.log("netNotify");
+        console.log("netNotify.owner:" + netNotify.owner);
+        if (netNotify.userID !== GLB.userInfo.id) {
+            GLB.isRoomOwner = true;
+        }
+        console.log("玩家：" + netNotify.userID + " state:" + netNotify.state);
+        if (netNotify.userID !== GLB.userInfo.id) {
+            this.isRivalLeave = true;
+        }
+        clientEvent.dispatch(clientEvent.eventType.leaveRoomMedNotify, this.leaveRoom, this);
+        this.gameOver();
+    },
 
     kickPlayerNotify: function(kickPlayerNotify) {
         var data = {

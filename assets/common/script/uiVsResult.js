@@ -22,15 +22,17 @@ cc.Class({
         this.rival.setData(Game.PlayerManager.rival.playerId);
         this.nodeDict["vs"].active = false;
         this.nodeDict["score"].active = true;
-        this.nodeDict["lose"].active = !Game.GameManager.result;
-        this.nodeDict["win"].active = Game.GameManager.result;
 
         this.nodeDict["quit"].on("click", this.quit, this);
 
-        if (Game.GameManager.result) {
+        if (Game.GameManager.result || Game.GameManager.isRivalLeave) {
+            this.nodeDict["lose"].active = false;
+            this.nodeDict["win"].active = true;
             cc.audioEngine.play(this.victoryClip, false, 1);
             Game.GameManager.loginServer();
         } else {
+            this.nodeDict["lose"].active = true;
+            this.nodeDict["win"].active = false;
             cc.audioEngine.play(this.loseClip, false, 1);
         }
         if (!Game.GameManager.selfScore || !Game.GameManager.rivalScore) {
