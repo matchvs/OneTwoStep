@@ -14,7 +14,7 @@ cc.Class({
         Game.GameManager.getComponent(cc.BlockInputEvents).enabled = true;
         setTimeout(function () {
             Game.GameManager.node.getComponent(cc.BlockInputEvents).enabled = false;
-        }, 500);
+        }, 1000);
     },
     onLoad: function onLoad() {
         Game.GameManager = this;
