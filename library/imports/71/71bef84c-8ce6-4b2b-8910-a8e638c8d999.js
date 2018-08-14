@@ -9,6 +9,13 @@ var GLB = require("Glb");
 
 cc.Class({
     extends: cc.Component,
+
+    blockInput: function blockInput() {
+        Game.GameManager.getComponent(cc.BlockInputEvents).enabled = true;
+        setTimeout(function () {
+            Game.GameManager.node.getComponent(cc.BlockInputEvents).enabled = false;
+        }, 500);
+    },
     onLoad: function onLoad() {
         Game.GameManager = this;
         cc.game.addPersistRootNode(this.node);
@@ -22,24 +29,26 @@ cc.Class({
         this.network.chooseNetworkMode();
         this.getRankDataListener();
         this.findPlayerByAccountListener();
-        wx.login({
-            success: function success() {
-                wx.getUserInfo({
-                    fail: function fail(res) {
-                        // iOS 和 Android 对于拒绝授权的回调 errMsg 没有统一，需要做一下兼容处理
-                        if (res.errMsg.indexOf('auth deny') > -1 || res.errMsg.indexOf('auth denied') > -1) {
-                            // 处理用户拒绝授权的情况
-                            console.log("fail");
+        if (window.wx) {
+            wx.login({
+                success: function success() {
+                    wx.getUserInfo({
+                        fail: function fail(res) {
+                            // iOS 和 Android 对于拒绝授权的回调 errMsg 没有统一，需要做一下兼容处理
+                            if (res.errMsg.indexOf('auth deny') > -1 || res.errMsg.indexOf('auth denied') > -1) {
+                                // 处理用户拒绝授权的情况
+                                console.log("fail");
+                            }
+                        },
+                        success: function success(res) {
+                            Game.GameManager.nickName = res.userInfo.nickName;
+                            Game.GameManager.avatarUrl = res.userInfo.avatarUrl;
+                            console.log('success', Game.GameManager.nickName);
                         }
-                    },
-                    success: function success(res) {
-                        Game.GameManager.nickName = res.userInfo.nickName;
-                        Game.GameManager.avatarUrl = res.userInfo.avatarUrl;
-                        console.log('success', Game.GameManager.nickName);
-                    }
-                });
-            }
-        });
+                    });
+                }
+            });
+        }
     },
 
 
@@ -110,11 +119,27 @@ cc.Class({
         mvs.response.loginResponse = this.loginResponse.bind(this); // 用户登录之后的回调
         mvs.response.logoutResponse = this.logoutResponse.bind(this); // 用户登录之后的回调
         mvs.response.sendEventNotify = this.sendEventNotify.bind(this);
+        mvs.response.networkStateNotify = this.networkStateNotify.bind(this);
 
         var result = mvs.engine.init(mvs.response, GLB.channel, GLB.platform, GLB.gameId);
         if (result !== 0) {
             console.log('初始化失败,错误码:' + result);
         }
+        Game.GameManager.blockInput();
+    },
+
+    networkStateNotify: function networkStateNotify(netNotify) {
+        console.log("netNotify");
+        console.log("netNotify.owner:" + netNotify.owner);
+        if (netNotify.userID !== GLB.userInfo.id) {
+            GLB.isRoomOwner = true;
+        }
+        console.log("玩家：" + netNotify.userID + " state:" + netNotify.state);
+        if (netNotify.userID !== GLB.userInfo.id) {
+            this.isRivalLeave = true;
+        }
+        clientEvent.dispatch(clientEvent.eventType.leaveRoomMedNotify, this.leaveRoom, this);
+        this.gameOver();
     },
 
     kickPlayerNotify: function kickPlayerNotify(_kickPlayerNotify) {

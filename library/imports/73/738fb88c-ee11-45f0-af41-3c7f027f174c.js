@@ -47,9 +47,7 @@ cc.Class({
             uiFunc.openUI("uiTip", function (obj) {
                 var uiTip = obj.getComponent("uiTip");
                 if (uiTip) {
-                    if (data.leaveRoomInfo.userId !== GLB.userInfo.id) {
-                        uiTip.setData("对手离开了游戏");
-                    }
+                    uiTip.setData("对手离开了游戏");
                 }
             }.bind(this));
         }
