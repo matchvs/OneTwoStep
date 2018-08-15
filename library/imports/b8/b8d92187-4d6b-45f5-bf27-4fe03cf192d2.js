@@ -27,8 +27,10 @@ cc.Class({
 
         this.getRoomList();
         this.roomRqId = setInterval(function () {
-            this.getRoomList();
-        }.bind(this), 20000);
+            if (this.editBox.string === '') {
+                this.getRoomList();
+            }
+        }.bind(this), 5000);
     },
 
 
