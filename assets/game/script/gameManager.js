@@ -250,6 +250,7 @@ cc.Class({
     },
 
     logoutResponse: function(status) {
+        Game.GameManager.network.disconnect();
         cc.game.removePersistRootNode(this.node);
         cc.director.loadScene('lobby');
         console.log("reload lobby");
