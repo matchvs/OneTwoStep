@@ -139,7 +139,8 @@ cc.Class({
             this.isRivalLeave = true;
         }
         clientEvent.dispatch(clientEvent.eventType.leaveRoomMedNotify, netNotify);
-        this.gameOver();
+
+        clientEvent.dispatch(clientEvent.eventType.gameOver);
     },
 
     kickPlayerNotify: function kickPlayerNotify(_kickPlayerNotify) {
@@ -251,17 +252,19 @@ cc.Class({
         var data = {
             leaveRoomInfo: leaveRoomInfo
         };
+        clientEvent.dispatch(clientEvent.eventType.leaveRoomMedNotify);
         clientEvent.dispatch(clientEvent.eventType.leaveRoomNotify, data);
     },
 
     logoutResponse: function logoutResponse(status) {
+        Game.GameManager.network.disconnect();
         cc.game.removePersistRootNode(this.node);
         cc.director.loadScene('lobby');
         console.log("reload lobby");
     },
 
     errorResponse: function errorResponse(error, msg) {
-        if (error === 1001) {
+        if (error === 1001 || error === 0) {
             uiFunc.openUI("uiTip", function (obj) {
                 var uiTip = obj.getComponent("uiTip");
                 if (uiTip) {

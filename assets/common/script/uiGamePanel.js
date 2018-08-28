@@ -32,6 +32,8 @@ cc.Class({
         clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
         clientEvent.on(clientEvent.eventType.roundStart, this.roundStart, this);
         clientEvent.on(clientEvent.eventType.leaveRoomNotify, this.leaveRoom, this);
+        clientEvent.on(clientEvent.eventType.leaveRoomMedNotify, this.leaveRoom, this);
+
         this.selfIcon.getComponent('playerIcon').setData({id: GLB.playerUserIds[0]});
         this.rivalIcon.getComponent('playerIcon').setData({id: GLB.playerUserIds[1]});
         this.nodeDict["exit"].on("click", this.exit, this);
@@ -89,6 +91,8 @@ cc.Class({
         clientEvent.off(clientEvent.eventType.gameOver, this.gameOver, this);
         clientEvent.off(clientEvent.eventType.roundStart, this.roundStart, this);
         clientEvent.off(clientEvent.eventType.leaveRoomNotify, this.leaveRoom, this);
+        clientEvent.off(clientEvent.eventType.leaveRoomMedNotify, this.leaveRoom, this);
+
 
     }
 

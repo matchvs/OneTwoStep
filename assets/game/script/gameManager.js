@@ -134,7 +134,8 @@ cc.Class({
             this.isRivalLeave = true;
         }
         clientEvent.dispatch(clientEvent.eventType.leaveRoomMedNotify, netNotify);
-        this.gameOver();
+
+        clientEvent.dispatch(clientEvent.eventType.gameOver);
     },
 
     kickPlayerNotify: function(kickPlayerNotify) {
@@ -246,6 +247,7 @@ cc.Class({
         var data = {
             leaveRoomInfo: leaveRoomInfo
         }
+        clientEvent.dispatch(clientEvent.eventType.leaveRoomMedNotify);
         clientEvent.dispatch(clientEvent.eventType.leaveRoomNotify, data);
     },
 
