@@ -99,7 +99,9 @@ cc.Class({
             Game.RoadManager.deadSlowdown();
             // 进入复活--
             setTimeout(function() {
-                this.reborn();
+                if (Game.GameManager.gameState !== GameState.Over) {
+                    this.reborn();
+                }
             }.bind(this), 1000);
         }
     },
@@ -115,25 +117,27 @@ cc.Class({
     },
 
     reborn: function() {
-        var data = Game.RoadManager.roadDatas.find(function(temp) {
-            return temp.ID === this.jumpRecordId + 1;
-        }.bind(this));
+        if (Game.RoadManager.roadDatas) {
+            var data = Game.RoadManager.roadDatas.find(function(temp) {
+                return temp.ID === this.jumpRecordId + 1;
+            }.bind(this));
 
-        var x = Game.RoadManager.offsetX * (data.row - 1);
-        var y = Game.RoadManager.offsetY * (data.line - 1);
-        this.node.position = new cc.Vec2(x, y);
+            var x = Game.RoadManager.offsetX * (data.row - 1);
+            var y = Game.RoadManager.offsetY * (data.line - 1);
+            this.node.position = new cc.Vec2(x, y);
 
-        this.playerState = PlayerState.Stand;
-        this.anim.play("reborn");
+            this.playerState = PlayerState.Stand;
+            this.anim.play("reborn");
 
-        setTimeout(function() {
-            if (Game.GameManager.gameState === GameState.Pause) {
-                Game.GameManager.gameState = GameState.Play;
-            }
-        }, 2000);
+            setTimeout(function() {
+                if (Game.GameManager.gameState === GameState.Pause) {
+                    Game.GameManager.gameState = GameState.Play;
+                }
+            }, 2000);
 
-        this.jumpPos = [];
-        this.jumpRecordId += 2;
+            this.jumpPos = [];
+            this.jumpRecordId += 2;
+        }
     },
 
     speedUp: function() {

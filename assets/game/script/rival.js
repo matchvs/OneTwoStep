@@ -112,7 +112,9 @@ cc.Class({
             clientEvent.dispatch(clientEvent.eventType.gameOver);
         } else {
             setTimeout(function() {
-                this.reborn();
+                if (Game.GameManager.gameState !== GameState.Over) {
+                    this.reborn();
+                }
             }.bind(this), 1000);
         }
     },
@@ -128,17 +130,19 @@ cc.Class({
     },
 
     reborn: function() {
-        var data = Game.RoadManager.roadDatas.find(function(temp) {
-            return temp.ID === this.jumpRecordId + 1;
-        }.bind(this));
+        if (Game.RoadManager.roadDatas) {
+            var data = Game.RoadManager.roadDatas.find(function(temp) {
+                return temp.ID === this.jumpRecordId + 1;
+            }.bind(this));
 
-        var x = Game.RoadManager.offsetX * (data.row - 1);
-        var y = Game.RoadManager.offsetY * (data.line - 1);
-        this.node.position = new cc.Vec2(x, y);
-        this.anim.play("reborn");
+            var x = Game.RoadManager.offsetX * (data.row - 1);
+            var y = Game.RoadManager.offsetY * (data.line - 1);
+            this.node.position = new cc.Vec2(x, y);
+            this.anim.play("reborn");
 
-        this.jumpPos = [];
-        this.jumpRecordId += 2;
+            this.jumpPos = [];
+            this.jumpRecordId += 2;
+        }
     },
 
     speedUpNotify: function() {

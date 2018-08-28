@@ -85,7 +85,7 @@ cc.Class({
             line: data.line,
             row: targetRow,
             isDown: true
-        }
+        };
         Game.PlayerManager.player.jumpPos.push(fakeData);
 
         var msg = {

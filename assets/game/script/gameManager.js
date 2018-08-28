@@ -8,9 +8,9 @@ cc.Class({
         Game.GameManager.getComponent(cc.BlockInputEvents).enabled = true;
         setTimeout(function() {
             Game.GameManager.node.getComponent(cc.BlockInputEvents).enabled = false;
-        },1000);
+        }, 1000);
     },
-    
+
     onLoad() {
         Game.GameManager = this;
         cc.game.addPersistRootNode(this.node);
@@ -24,7 +24,7 @@ cc.Class({
         this.network.chooseNetworkMode();
         this.getRankDataListener();
         this.findPlayerByAccountListener();
-        if(window.wx) {
+        if (window.wx) {
             wx.login({
                 success: function() {
                     wx.getUserInfo({
@@ -338,9 +338,13 @@ cc.Class({
 
         if (info.cpProto.indexOf(GLB.PLAYER_STEP_DATA) >= 0) {
             if (info.srcUserId !== GLB.userInfo.id) {
-                Game.PlayerManager.rival.jumpPos.push(cpProto.data);
+                if (Game.PlayerManager.rival && Game.PlayerManager.rival.jumpPos) {
+                    Game.PlayerManager.rival.jumpPos.push(cpProto.data);
+                }
             } else {
-                Game.PlayerManager.player.jumpPos.push(cpProto.data);
+                if (Game.PlayerManager.player && Game.PlayerManager.player.jumpPos) {
+                    Game.PlayerManager.player.jumpPos.push(cpProto.data);
+                }
             }
         }
 
