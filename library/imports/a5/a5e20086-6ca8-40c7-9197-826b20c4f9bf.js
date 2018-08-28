@@ -148,7 +148,7 @@ cc.Class({
 
     inviteFriend: function inviteFriend() {
         if (window.wx) {
-            wx.shareAppMessage({ imageUrl: "https://data.tianziyou.com/matchvsGamesRes/logo/jiliulogo.png" });
+            wx.shareAppMessage({ imageUrl: "https://data.tianziyou.com/matchvsGamesRes/logo/jiliulogo1.png" });
         }
     }
 });

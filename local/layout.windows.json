@@ -79,7 +79,7 @@
             "width": 747
           },
           {
-            "active": 0,
+            "active": 1,
             "children": [
               "inspector",
               "builder"
@@ -101,7 +101,8 @@
         "assets",
         "scene"
       ]
-    }
+    },
+    "worker": {}
   },
   "panels": {
     "store": {
