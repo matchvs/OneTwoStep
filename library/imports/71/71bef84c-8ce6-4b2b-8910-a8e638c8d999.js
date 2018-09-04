@@ -338,9 +338,13 @@ cc.Class({
 
         if (info.cpProto.indexOf(GLB.PLAYER_STEP_DATA) >= 0) {
             if (info.srcUserId !== GLB.userInfo.id) {
-                Game.PlayerManager.rival.jumpPos.push(cpProto.data);
+                if (Game.PlayerManager.rival && Game.PlayerManager.rival.jumpPos) {
+                    Game.PlayerManager.rival.jumpPos.push(cpProto.data);
+                }
             } else {
-                Game.PlayerManager.player.jumpPos.push(cpProto.data);
+                if (Game.PlayerManager.player && Game.PlayerManager.player.jumpPos) {
+                    Game.PlayerManager.player.jumpPos.push(cpProto.data);
+                }
             }
         }
 
