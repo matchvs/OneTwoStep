@@ -5,10 +5,10 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 1131,
-      "y": 306,
+      "x": 10,
+      "y": 23,
       "width": 1879,
-      "height": 1035,
+      "height": 989,
       "layout": {
         "children": [
           {
@@ -18,7 +18,7 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 421,
+                "height": 400,
                 "type": "panel",
                 "width": 496
               },
@@ -27,12 +27,12 @@
                 "children": [
                   "assets"
                 ],
-                "height": 520,
+                "height": 495,
                 "type": "panel",
                 "width": 496
               }
             ],
-            "height": 944,
+            "height": 898,
             "type": "dock-v",
             "width": 496
           },
@@ -45,7 +45,7 @@
                     "children": [
                       "scene"
                     ],
-                    "height": 675,
+                    "height": 629,
                     "type": "panel",
                     "width": 510.984375
                   },
@@ -54,12 +54,12 @@
                     "children": [
                       "node-library"
                     ],
-                    "height": 675,
+                    "height": 629,
                     "type": "panel",
                     "width": 272
                   }
                 ],
-                "height": 675,
+                "height": 629,
                 "type": "dock-h",
                 "width": 786
               },
@@ -74,7 +74,7 @@
                 "width": 786
               }
             ],
-            "height": 944,
+            "height": 898,
             "type": "dock-v",
             "width": 786
           },
@@ -84,7 +84,7 @@
               "inspector",
               "builder"
             ],
-            "height": 944,
+            "height": 898,
             "type": "panel",
             "width": 585
           }

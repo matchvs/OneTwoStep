@@ -85,9 +85,6 @@ cc.Class({
         if (this.anim) {
             this.anim.off('finished', this.showCompleted, this);
         }
-        if (window.wx) {
-            wx.wx.hideKeyboard();
-        }
     }
 });
 

@@ -51,10 +51,8 @@ cc.Class({
     },
 
     getRoomListResponse: function getRoomListResponse(data) {
-        if (this.rooms) {
-            for (var j = 0; j < this.rooms.length; j++) {
-                this.rooms[j].destroy();
-            }
+        for (var j = 0; j < this.rooms.length; j++) {
+            this.rooms[j].destroy();
         }
         this.rooms = [];
         data.roomInfos.sort(function (a, b) {
@@ -152,6 +150,11 @@ cc.Class({
     },
 
     onDestroy: function onDestroy() {
+        if (window.wx) {
+            wx.offKeyboardComplete();
+            wx.offKeyboardInput();
+            wx.hideKeyboard();
+        }
         clearInterval(this.roomRqId);
         clientEvent.off(clientEvent.eventType.getRoomListResponse, this.getRoomListResponse, this);
         clientEvent.off(clientEvent.eventType.joinRoomResponse, this.joinRoomResponse, this);
