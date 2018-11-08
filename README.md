@@ -11,7 +11,7 @@ CC游戏案例之 激流竞速
 ## 源码体验
 ### 准备
 
-1. 下载安装[cocos creator](http://www.cocos.com/download)v1.8.1或以上版本
+1. 下载安装cocos creator(v1.8.1以上,v2.0以下)(http://www.cocos.com/download)
 2. 可以不更新本项目使用的matchvs插件,如果想需要使用最新的插件,可以在cocos creator中下载插件,
 
 
