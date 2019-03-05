@@ -31,7 +31,8 @@ cc.Class({
         accDurTime: 10, // 加速间隔时间--
         speedUpPercent: 1.1, // 加速比
         waterBG: cc.Node,
-        deadLine: cc.Node
+        deadLine: cc.Node,
+        introduction: cc.Node
     },
 
     onLoad: function onLoad() {
@@ -42,6 +43,7 @@ cc.Class({
         this.roadPool = new cc.NodePool();
         this.spawnTriggerDis = 3 * this.offsetY;
         this.stones = [];
+
         this.waterBG.on(cc.Node.EventType.TOUCH_START, this.onClickWater, this);
         this.deadLineAnim = this.deadLine.getComponent(cc.Animation);
     },
