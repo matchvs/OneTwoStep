@@ -129,8 +129,9 @@ cc.Class({
             spNode.color = cc.Color.WHITE;
             btn.enabled = true;
         } else {
-            spNode.color = cc.Color.BLACK;
-            btn.enabled = false;
+            // spNode.color = cc.Color.BLACK;
+            // btn.enabled = false;
+            btn.interactable = false;
         }
     },
 

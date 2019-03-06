@@ -40,6 +40,10 @@ cc.Class({
 
         this.waterBG.on(cc.Node.EventType.TOUCH_START, this.onClickWater, this);
         this.deadLineAnim = this.deadLine.getComponent(cc.Animation);
+        this.introduction.getComponent(cc.Animation).on("finished",function(){
+            this.introduction.removeFromParent();
+        }.bind(this));
+
     },
 
     initRoad() {
