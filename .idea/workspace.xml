@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6a1cd3aa-7409-48b1-a571-bd7dfbcfc44e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assets/common/script/uiRoom.js" afterPath="$PROJECT_DIR$/assets/common/script/uiRoom.js" />
+      <change beforePath="$PROJECT_DIR$/assets/common/script/uiMatching.js" afterPath="$PROJECT_DIR$/assets/common/script/uiMatching.js" />
+      <change beforePath="$PROJECT_DIR$/assets/common/script/uiMatching1v1.js" afterPath="$PROJECT_DIR$/assets/common/script/uiMatching1v1.js" />
+      <change beforePath="$PROJECT_DIR$/assets/common/script/uiMatching1v1Ver.js" afterPath="$PROJECT_DIR$/assets/common/script/uiMatching1v1Ver.js" />
+      <change beforePath="$PROJECT_DIR$/assets/common/script/uiMatching2v2.js" afterPath="$PROJECT_DIR$/assets/common/script/uiMatching2v2.js" />
+      <change beforePath="$PROJECT_DIR$/assets/common/script/uiMatching2v2Ver.js" afterPath="$PROJECT_DIR$/assets/common/script/uiMatching2v2Ver.js" />
       <change beforePath="$PROJECT_DIR$/assets/common/texture/baikuang.png.meta" afterPath="$PROJECT_DIR$/assets/common/texture/baikuang.png.meta" />
       <change beforePath="$PROJECT_DIR$/assets/common/texture/bian.png.meta" afterPath="$PROJECT_DIR$/assets/common/texture/bian.png.meta" />
       <change beforePath="$PROJECT_DIR$/assets/common/texture/di.png.meta" afterPath="$PROJECT_DIR$/assets/common/texture/di.png.meta" />
@@ -23,7 +27,7 @@
       <change beforePath="$PROJECT_DIR$/assets/common/texture/stone.png.meta" afterPath="$PROJECT_DIR$/assets/common/texture/stone.png.meta" />
       <change beforePath="$PROJECT_DIR$/assets/common/texture/tu.png.meta" afterPath="$PROJECT_DIR$/assets/common/texture/tu.png.meta" />
       <change beforePath="$PROJECT_DIR$/assets/game.fire.meta" afterPath="$PROJECT_DIR$/assets/game.fire.meta" />
-      <change beforePath="$PROJECT_DIR$/assets/game/script/roadManager.js" afterPath="$PROJECT_DIR$/assets/game/script/roadManager.js" />
+      <change beforePath="$PROJECT_DIR$/assets/game/script/gameManager.js" afterPath="$PROJECT_DIR$/assets/game/script/gameManager.js" />
       <change beforePath="$PROJECT_DIR$/assets/lobby.fire.meta" afterPath="$PROJECT_DIR$/assets/lobby.fire.meta" />
       <change beforePath="$PROJECT_DIR$/assets/resources/audio/bgm.mp3.meta" afterPath="$PROJECT_DIR$/assets/resources/audio/bgm.mp3.meta" />
       <change beforePath="$PROJECT_DIR$/assets/resources/audio/boyHelp.mp3.meta" afterPath="$PROJECT_DIR$/assets/resources/audio/boyHelp.mp3.meta" />
@@ -151,9 +155,6 @@
       <change beforePath="$PROJECT_DIR$/assets/resources/texture/vs.png.meta" afterPath="$PROJECT_DIR$/assets/resources/texture/vs.png.meta" />
       <change beforePath="$PROJECT_DIR$/assets/resources/texture/worldRanking.png.meta" afterPath="$PROJECT_DIR$/assets/resources/texture/worldRanking.png.meta" />
       <change beforePath="$PROJECT_DIR$/assets/resources/texture/yuan.png.meta" afterPath="$PROJECT_DIR$/assets/resources/texture/yuan.png.meta" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/ui/uiGamePanel.prefab" afterPath="$PROJECT_DIR$/assets/resources/ui/uiGamePanel.prefab" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/ui/uiRoomVer.prefab" afterPath="$PROJECT_DIR$/assets/resources/ui/uiRoomVer.prefab" />
-      <change beforePath="$PROJECT_DIR$/assets/resources/ui/uiRoomVer.prefab.meta" afterPath="$PROJECT_DIR$/assets/resources/ui/uiRoomVer.prefab.meta" />
       <change beforePath="$PROJECT_DIR$/library/imports/00/0004d1cf-a0ad-47d8-ab17-34d3db9d35a3.json" afterPath="$PROJECT_DIR$/library/imports/00/0004d1cf-a0ad-47d8-ab17-34d3db9d35a3.json" />
       <change beforePath="$PROJECT_DIR$/library/imports/00/00918a00-9cce-4268-9fcb-64ddff7b2e2b.json" afterPath="$PROJECT_DIR$/library/imports/00/00918a00-9cce-4268-9fcb-64ddff7b2e2b.json" />
       <change beforePath="$PROJECT_DIR$/library/imports/01/019e10d8-4d3a-4205-a062-61f70fa2e42d.json" afterPath="$PROJECT_DIR$/library/imports/01/019e10d8-4d3a-4205-a062-61f70fa2e42d.json" />
@@ -164,6 +165,8 @@
       <change beforePath="$PROJECT_DIR$/library/imports/08/088d605a-de33-465f-8804-c380f7ed3186.json" afterPath="$PROJECT_DIR$/library/imports/08/088d605a-de33-465f-8804-c380f7ed3186.json" />
       <change beforePath="$PROJECT_DIR$/library/imports/0d/0d784963-d024-4ea6-a7db-03be0ad63010.json" afterPath="$PROJECT_DIR$/library/imports/0d/0d784963-d024-4ea6-a7db-03be0ad63010.json" />
       <change beforePath="$PROJECT_DIR$/library/imports/0d/0d94607c-40f4-4f26-8a0e-44139c1ca4cc.json" afterPath="$PROJECT_DIR$/library/imports/0d/0d94607c-40f4-4f26-8a0e-44139c1ca4cc.json" />
+      <change beforePath="$PROJECT_DIR$/library/imports/0e/0ed97de0-4ba9-4f47-a484-49cee32c507a.js" afterPath="$PROJECT_DIR$/library/imports/0e/0ed97de0-4ba9-4f47-a484-49cee32c507a.js" />
+      <change beforePath="$PROJECT_DIR$/library/imports/0e/0ed97de0-4ba9-4f47-a484-49cee32c507a.js.map" afterPath="$PROJECT_DIR$/library/imports/0e/0ed97de0-4ba9-4f47-a484-49cee32c507a.js.map" />
       <change beforePath="$PROJECT_DIR$/library/imports/10/10abc02e-ba04-45ea-b8d1-7e34c8c988f0.json" afterPath="$PROJECT_DIR$/library/imports/10/10abc02e-ba04-45ea-b8d1-7e34c8c988f0.json" />
       <change beforePath="$PROJECT_DIR$/library/imports/11/11dfd206-6947-4098-b399-f0636e85d50d.json" afterPath="$PROJECT_DIR$/library/imports/11/11dfd206-6947-4098-b399-f0636e85d50d.json" />
       <change beforePath="$PROJECT_DIR$/library/imports/1a/1a32fc76-f0bd-4f66-980f-56929c0ca0b3.json" afterPath="$PROJECT_DIR$/library/imports/1a/1a32fc76-f0bd-4f66-980f-56929c0ca0b3.json" />
@@ -221,13 +224,16 @@
       <change beforePath="$PROJECT_DIR$/library/imports/68/6827ca32-0107-4552-bab2-dfb31799bb44.json" afterPath="$PROJECT_DIR$/library/imports/68/6827ca32-0107-4552-bab2-dfb31799bb44.json" />
       <change beforePath="$PROJECT_DIR$/library/imports/69/691d8ac9-298d-4888-a296-0363985beb4f.json" afterPath="$PROJECT_DIR$/library/imports/69/691d8ac9-298d-4888-a296-0363985beb4f.json" />
       <change beforePath="$PROJECT_DIR$/library/imports/6a/6a80696a-6179-4abe-8a6c-49ef975569be.json" afterPath="$PROJECT_DIR$/library/imports/6a/6a80696a-6179-4abe-8a6c-49ef975569be.json" />
+      <change beforePath="$PROJECT_DIR$/library/imports/6d/6d6c930b-cd48-4766-b6eb-781e2d9817cf.js" afterPath="$PROJECT_DIR$/library/imports/6d/6d6c930b-cd48-4766-b6eb-781e2d9817cf.js" />
+      <change beforePath="$PROJECT_DIR$/library/imports/6d/6d6c930b-cd48-4766-b6eb-781e2d9817cf.js.map" afterPath="$PROJECT_DIR$/library/imports/6d/6d6c930b-cd48-4766-b6eb-781e2d9817cf.js.map" />
       <change beforePath="$PROJECT_DIR$/library/imports/6f/6f7b1592-9b50-41e0-bcfd-9d4de768104c.json" afterPath="$PROJECT_DIR$/library/imports/6f/6f7b1592-9b50-41e0-bcfd-9d4de768104c.json" />
       <change beforePath="$PROJECT_DIR$/library/imports/6f/6fb7a8e0-7282-468c-9d5e-c4fcebda9147.json" afterPath="$PROJECT_DIR$/library/imports/6f/6fb7a8e0-7282-468c-9d5e-c4fcebda9147.json" />
       <change beforePath="$PROJECT_DIR$/library/imports/6f/6fbaee22-4c93-4804-89c4-bc4e2fee99fa.json" afterPath="$PROJECT_DIR$/library/imports/6f/6fbaee22-4c93-4804-89c4-bc4e2fee99fa.json" />
-      <change beforePath="$PROJECT_DIR$/library/imports/70/70af5bb8-bd84-41c8-8a54-dada17240bd0.json" afterPath="$PROJECT_DIR$/library/imports/70/70af5bb8-bd84-41c8-8a54-dada17240bd0.json" />
+      <change beforePath="$PROJECT_DIR$/library/imports/70/70508e5f-73cf-4f21-abc2-a3d09fd646e9.js" afterPath="$PROJECT_DIR$/library/imports/70/70508e5f-73cf-4f21-abc2-a3d09fd646e9.js" />
+      <change beforePath="$PROJECT_DIR$/library/imports/70/70508e5f-73cf-4f21-abc2-a3d09fd646e9.js.map" afterPath="$PROJECT_DIR$/library/imports/70/70508e5f-73cf-4f21-abc2-a3d09fd646e9.js.map" />
       <change beforePath="$PROJECT_DIR$/library/imports/71/7168db62-0edc-42e5-be5d-682cf6c4a165.json" afterPath="$PROJECT_DIR$/library/imports/71/7168db62-0edc-42e5-be5d-682cf6c4a165.json" />
-      <change beforePath="$PROJECT_DIR$/library/imports/72/72f2fd5c-6066-4e84-8672-aaf7affab5b2.js" afterPath="$PROJECT_DIR$/library/imports/72/72f2fd5c-6066-4e84-8672-aaf7affab5b2.js" />
-      <change beforePath="$PROJECT_DIR$/library/imports/72/72f2fd5c-6066-4e84-8672-aaf7affab5b2.js.map" afterPath="$PROJECT_DIR$/library/imports/72/72f2fd5c-6066-4e84-8672-aaf7affab5b2.js.map" />
+      <change beforePath="$PROJECT_DIR$/library/imports/71/71bef84c-8ce6-4b2b-8910-a8e638c8d999.js" afterPath="$PROJECT_DIR$/library/imports/71/71bef84c-8ce6-4b2b-8910-a8e638c8d999.js" />
+      <change beforePath="$PROJECT_DIR$/library/imports/71/71bef84c-8ce6-4b2b-8910-a8e638c8d999.js.map" afterPath="$PROJECT_DIR$/library/imports/71/71bef84c-8ce6-4b2b-8910-a8e638c8d999.js.map" />
       <change beforePath="$PROJECT_DIR$/library/imports/73/7370dd8d-378f-47ac-9b16-9a1a466a1ab1.json" afterPath="$PROJECT_DIR$/library/imports/73/7370dd8d-378f-47ac-9b16-9a1a466a1ab1.json" />
       <change beforePath="$PROJECT_DIR$/library/imports/74/745ee64b-5fb2-4aec-bbc9-c33ce34a3900.json" afterPath="$PROJECT_DIR$/library/imports/74/745ee64b-5fb2-4aec-bbc9-c33ce34a3900.json" />
       <change beforePath="$PROJECT_DIR$/library/imports/74/7477a9f7-5319-4712-8611-1e23eed452ab.json" afterPath="$PROJECT_DIR$/library/imports/74/7477a9f7-5319-4712-8611-1e23eed452ab.json" />
@@ -274,8 +280,12 @@
       <change beforePath="$PROJECT_DIR$/library/imports/a2/a23235d1-15db-4b95-8439-a2e005bfff91.json" afterPath="$PROJECT_DIR$/library/imports/a2/a23235d1-15db-4b95-8439-a2e005bfff91.json" />
       <change beforePath="$PROJECT_DIR$/library/imports/a3/a310f6b0-b1cc-4cb4-b4ee-80ab3a919c14.json" afterPath="$PROJECT_DIR$/library/imports/a3/a310f6b0-b1cc-4cb4-b4ee-80ab3a919c14.json" />
       <change beforePath="$PROJECT_DIR$/library/imports/a3/a338396a-6b5d-4975-8eca-3d42d0e11977.json" afterPath="$PROJECT_DIR$/library/imports/a3/a338396a-6b5d-4975-8eca-3d42d0e11977.json" />
+      <change beforePath="$PROJECT_DIR$/library/imports/a6/a61749d8-1f0d-472f-b2ba-62dc63b30e1c.js" afterPath="$PROJECT_DIR$/library/imports/a6/a61749d8-1f0d-472f-b2ba-62dc63b30e1c.js" />
+      <change beforePath="$PROJECT_DIR$/library/imports/a6/a61749d8-1f0d-472f-b2ba-62dc63b30e1c.js.map" afterPath="$PROJECT_DIR$/library/imports/a6/a61749d8-1f0d-472f-b2ba-62dc63b30e1c.js.map" />
       <change beforePath="$PROJECT_DIR$/library/imports/a7/a7c9f8fe-bc8d-42a3-9b57-a43a26574ecd.json" afterPath="$PROJECT_DIR$/library/imports/a7/a7c9f8fe-bc8d-42a3-9b57-a43a26574ecd.json" />
       <change beforePath="$PROJECT_DIR$/library/imports/a8/a8dcd2fc-c6c8-4316-80f2-f4fc7f35ad82.json" afterPath="$PROJECT_DIR$/library/imports/a8/a8dcd2fc-c6c8-4316-80f2-f4fc7f35ad82.json" />
+      <change beforePath="$PROJECT_DIR$/library/imports/a9/a9812302-2fae-432d-94b4-6b86db93294d.js" afterPath="$PROJECT_DIR$/library/imports/a9/a9812302-2fae-432d-94b4-6b86db93294d.js" />
+      <change beforePath="$PROJECT_DIR$/library/imports/a9/a9812302-2fae-432d-94b4-6b86db93294d.js.map" afterPath="$PROJECT_DIR$/library/imports/a9/a9812302-2fae-432d-94b4-6b86db93294d.js.map" />
       <change beforePath="$PROJECT_DIR$/library/imports/aa/aa727543-f7d1-401e-998e-d923a765d30a.json" afterPath="$PROJECT_DIR$/library/imports/aa/aa727543-f7d1-401e-998e-d923a765d30a.json" />
       <change beforePath="$PROJECT_DIR$/library/imports/b0/b0c4055f-9a1c-486b-bbb7-30b948356d9f.json" afterPath="$PROJECT_DIR$/library/imports/b0/b0c4055f-9a1c-486b-bbb7-30b948356d9f.json" />
       <change beforePath="$PROJECT_DIR$/library/imports/b1/b1212c8a-abee-403f-a510-ef0da39e82f2.json" afterPath="$PROJECT_DIR$/library/imports/b1/b1212c8a-abee-403f-a510-ef0da39e82f2.json" />
@@ -303,7 +313,6 @@
       <change beforePath="$PROJECT_DIR$/library/imports/d1/d1b8be49-b0a0-435c-83b7-552bed4bbe35.json" afterPath="$PROJECT_DIR$/library/imports/d1/d1b8be49-b0a0-435c-83b7-552bed4bbe35.json" />
       <change beforePath="$PROJECT_DIR$/library/imports/d8/d83554b6-b645-4ffc-8860-9cd5e5d3a7b9.json" afterPath="$PROJECT_DIR$/library/imports/d8/d83554b6-b645-4ffc-8860-9cd5e5d3a7b9.json" />
       <change beforePath="$PROJECT_DIR$/library/imports/d9/d9bca40d-6ffd-427d-a91c-d7262667a631.json" afterPath="$PROJECT_DIR$/library/imports/d9/d9bca40d-6ffd-427d-a91c-d7262667a631.json" />
-      <change beforePath="$PROJECT_DIR$/library/imports/db/db29b85e-8a5a-4f1a-8627-d91a699111d8.json" afterPath="$PROJECT_DIR$/library/imports/db/db29b85e-8a5a-4f1a-8627-d91a699111d8.json" />
       <change beforePath="$PROJECT_DIR$/library/imports/dc/dc7b778a-17c0-45ca-9af8-36110ed65989.json" afterPath="$PROJECT_DIR$/library/imports/dc/dc7b778a-17c0-45ca-9af8-36110ed65989.json" />
       <change beforePath="$PROJECT_DIR$/library/imports/e1/e1f440bd-6cfd-4f7f-9f6d-ced0280aa50e.json" afterPath="$PROJECT_DIR$/library/imports/e1/e1f440bd-6cfd-4f7f-9f6d-ced0280aa50e.json" />
       <change beforePath="$PROJECT_DIR$/library/imports/e2/e2138f9f-29ad-4959-8594-6e9154528c98.json" afterPath="$PROJECT_DIR$/library/imports/e2/e2138f9f-29ad-4959-8594-6e9154528c98.json" />
@@ -322,13 +331,17 @@
       <change beforePath="$PROJECT_DIR$/library/imports/f5/f50a50ef-c098-434b-861c-403fac815d32.json" afterPath="$PROJECT_DIR$/library/imports/f5/f50a50ef-c098-434b-861c-403fac815d32.json" />
       <change beforePath="$PROJECT_DIR$/library/imports/f6/f6961d04-95be-4754-8a3b-79034f3e499b.json" afterPath="$PROJECT_DIR$/library/imports/f6/f6961d04-95be-4754-8a3b-79034f3e499b.json" />
       <change beforePath="$PROJECT_DIR$/library/imports/f6/f6f22241-3cf3-4550-8e82-2c6829326c74.json" afterPath="$PROJECT_DIR$/library/imports/f6/f6f22241-3cf3-4550-8e82-2c6829326c74.json" />
+      <change beforePath="$PROJECT_DIR$/library/imports/f7/f772d4ee-8495-4ea8-874e-82335e1613d7.js" afterPath="$PROJECT_DIR$/library/imports/f7/f772d4ee-8495-4ea8-874e-82335e1613d7.js" />
+      <change beforePath="$PROJECT_DIR$/library/imports/f7/f772d4ee-8495-4ea8-874e-82335e1613d7.js.map" afterPath="$PROJECT_DIR$/library/imports/f7/f772d4ee-8495-4ea8-874e-82335e1613d7.js.map" />
       <change beforePath="$PROJECT_DIR$/library/imports/f8/f856a195-a09f-4338-9836-7f4766407b09.json" afterPath="$PROJECT_DIR$/library/imports/f8/f856a195-a09f-4338-9836-7f4766407b09.json" />
       <change beforePath="$PROJECT_DIR$/library/imports/fe/fe6b57e1-1121-4e7d-9908-5990e22f9650.json" afterPath="$PROJECT_DIR$/library/imports/fe/fe6b57e1-1121-4e7d-9908-5990e22f9650.json" />
       <change beforePath="$PROJECT_DIR$/library/uuid-to-mtime.json" afterPath="$PROJECT_DIR$/library/uuid-to-mtime.json" />
+      <change beforePath="$PROJECT_DIR$/local/assets.json" afterPath="$PROJECT_DIR$/local/assets.json" />
       <change beforePath="$PROJECT_DIR$/local/builder.json" afterPath="$PROJECT_DIR$/local/builder.json" />
       <change beforePath="$PROJECT_DIR$/local/hierarchy.json" afterPath="$PROJECT_DIR$/local/hierarchy.json" />
       <change beforePath="$PROJECT_DIR$/local/layout.windows.json" afterPath="$PROJECT_DIR$/local/layout.windows.json" />
       <change beforePath="$PROJECT_DIR$/local/logs/project.log" afterPath="$PROJECT_DIR$/local/logs/project.log" />
+      <change beforePath="$PROJECT_DIR$/packages/plugin-matchvs/matchvs/matchvsjssdk/matchvs.all.js" afterPath="$PROJECT_DIR$/packages/plugin-matchvs/matchvs/matchvsjssdk/matchvs.all.js" />
       <change beforePath="$PROJECT_DIR$/settings/builder.json" afterPath="$PROJECT_DIR$/settings/builder.json" />
       <change beforePath="$PROJECT_DIR$/settings/project.json" afterPath="$PROJECT_DIR$/settings/project.json" />
     </list>
@@ -347,18 +360,28 @@
       <file leaf-file-name="uiGamePanel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/common/script/uiGamePanel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="789">
-              <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+            <state relative-caret-position="0">
+              <caret line="45" column="28" lean-forward="false" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="roadManager.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gameManager.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/turnip/carrots/assets/basic/gameManager.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="roadManager.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/game/script/roadManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="380">
+              <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -367,18 +390,18 @@
       <file leaf-file-name="uiRoom.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/common/script/uiRoom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2508">
-              <caret line="132" column="35" lean-forward="true" selection-start-line="132" selection-start-column="35" selection-end-line="132" selection-end-column="35" />
+            <state relative-caret-position="803">
+              <caret line="132" column="35" lean-forward="false" selection-start-line="132" selection-start-column="35" selection-end-line="132" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gameManager.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/game/script/gameManager.js">
+      <file leaf-file-name="gameManager.js" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/AnimalChecker/assets/common/script/gameManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6968">
-              <caret line="407" column="0" lean-forward="true" selection-start-line="407" selection-start-column="0" selection-end-line="407" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="75" column="28" lean-forward="true" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -388,9 +411,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>playDurationTime</find>
-      <find>spawnDur</find>
-      <find>spawnStone</find>
       <find>selfScore</find>
       <find>offsetY</find>
       <find>result</find>
@@ -418,6 +438,9 @@
       <find>Game.PlayerManager.player.</find>
       <find>jumpPos</find>
       <find>sendEvent</find>
+      <find>login</find>
+      <find>init</find>
+      <find>mvs.engine.leaveRoom</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -426,8 +449,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/EduGames/write/assets/basic/gameManager.js" />
-        <option value="$PROJECT_DIR$/assets/basic/messenger/clientEvent.js" />
         <option value="$PROJECT_DIR$/assets/common/script/uiMatching.js" />
         <option value="$PROJECT_DIR$/assets/common/script/uiMatchingVer.js" />
         <option value="$USER_HOME$/TzUIFramework/assets/common/script/uiMatchingVer.js" />
@@ -473,10 +494,12 @@
         <option value="$PROJECT_DIR$/assets/common/script/uiLobbyPanel.js" />
         <option value="$PROJECT_DIR$/assets/game/script/player.js" />
         <option value="$PROJECT_DIR$/assets/game/script/rival.js" />
-        <option value="$PROJECT_DIR$/assets/game/script/gameManager.js" />
         <option value="$PROJECT_DIR$/assets/common/script/uiGamePanel.js" />
         <option value="$PROJECT_DIR$/assets/common/script/uiRoom.js" />
         <option value="$PROJECT_DIR$/assets/game/script/roadManager.js" />
+        <option value="$USER_HOME$/turnip/carrots/assets/basic/gameManager.js" />
+        <option value="$PROJECT_DIR$/assets/game/script/gameManager.js" />
+        <option value="$USER_HOME$/AnimalChecker/assets/common/script/gameManager.js" />
       </list>
     </option>
   </component>
@@ -507,6 +530,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -519,7 +543,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -596,12 +619,13 @@
       <workItem from="1535438670086" duration="1354000" />
       <workItem from="1535447054794" duration="807000" />
       <workItem from="1540524524096" duration="32000" />
-      <workItem from="1551834032125" duration="681000" />
+      <workItem from="1551834032125" duration="1287000" />
+      <workItem from="1551856997295" duration="1015000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138262000" />
+    <option name="totallyTimeSpent" value="139883000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="545" y="23" width="1349" height="983" extended-state="0" />
@@ -611,6 +635,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -623,7 +648,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -660,21 +684,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/common/script/uiMatching1v1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2812">
-          <caret line="148" column="0" lean-forward="false" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/common/script/uiMatching1v1Ver.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="61" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/basic/messenger/clientEvent.js" />
     <entry file="file://$USER_HOME$/duckHunt/assets/common/script/uiGamePanel.js" />
     <entry file="file://$USER_HOME$/BirdWar/assets/common/script/uiExit.js" />
     <entry file="file://$PROJECT_DIR$/assets/common/script/uiRoomList.js">
@@ -810,7 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,34 +836,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/game/script/gameManager.js">
+    <entry file="file://$PROJECT_DIR$/assets/game/script/roadManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6968">
-          <caret line="407" column="0" lean-forward="true" selection-start-line="407" selection-start-column="0" selection-end-line="407" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/common/script/uiRoom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2508">
-          <caret line="132" column="35" lean-forward="true" selection-start-line="132" selection-start-column="35" selection-end-line="132" selection-end-column="35" />
+        <state relative-caret-position="380">
+          <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/common/script/uiGamePanel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="789">
-          <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        <state relative-caret-position="0">
+          <caret line="45" column="28" lean-forward="false" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/game/script/roadManager.js">
+    <entry file="file://$USER_HOME$/turnip/carrots/assets/basic/gameManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="342">
+          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/BirdWar/assets/common/script/basic/rankNetwork/gameManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="350" column="47" lean-forward="true" selection-start-line="350" selection-start-column="47" selection-end-line="350" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/game/script/gameManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="124" column="9" lean-forward="true" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/common/script/uiRoom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="803">
+          <caret line="132" column="35" lean-forward="false" selection-start-line="132" selection-start-column="35" selection-end-line="132" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AnimalChecker/assets/common/script/gameManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="75" column="28" lean-forward="true" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
           <folding />
         </state>
       </provider>
